@@ -33,11 +33,10 @@ async function readJsonBody(request) {
     return JSON.parse(request.body || "{}");
   }
 
-  const chunks = [];
+  let text = "";
   for await (const chunk of request) {
-    chunks.push(Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk));
+    text += typeof chunk === "string" ? chunk : new TextDecoder().decode(chunk);
   }
 
-  const text = Buffer.concat(chunks).toString("utf8");
   return text ? JSON.parse(text) : {};
 }
