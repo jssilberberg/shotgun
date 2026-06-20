@@ -1,3 +1,3 @@
-import app from "../server/src/app.ts";
-
-export default app;
+export default function handler(_request, response) {
+  response.status(404).json({ error: "API route not found" });
+}
