@@ -131,6 +131,15 @@ Use npm workspaces from the repo root.
 - API keys are server-side only and must never be shipped to the client.
 - The correct answer is fixed before grading. The grader receives ground truth; it does not invent or re-derive the answer during grading.
 
+## Questions
+
+- All question sources implement `QuestionProvider`. The server selects one through `createQuestionProvider` and `QUESTION_SOURCE`; never instantiate a provider directly in `server.ts`.
+- Data-grounded answers must come from structured source data and must never be re-derived by a model. The grader checks against the provided ground-truth answer.
+- Difficulty stays a data-derived `TriviaQuestion` attribute, not a model judgment.
+- The server loads the repo-root `.env` from `server/src/config/env.ts`; keep `TMDB_API_KEY`, `QUESTION_SOURCE`, and `SHOTGUN_GRADER` server-side only and git-ignored.
+- `SHOTGUN_GRADER` selects the answer grader: `local` (default) uses `LocalDemoGrader`, an exact-match demo grader that emits no host banter; `llm` uses `LlmHostGrader` for semantic grading and Dash's spoken lines, and requires `OPENAI_API_KEY`. The active grader is logged at startup.
+- The static vetted bank is the guaranteed fallback. Missing keys or provider preload failures fall back; they do not crash the server.
+
 ## API Shape
 
 MVP communication should be REST:

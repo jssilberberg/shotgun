@@ -1,0 +1,11 @@
+{
+  "name": "@shotgun/shared",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "node --check src/index.ts",
+    "lint": "node --check src/index.ts",
+    "test": "node --test"
+  }
+}

@@ -10,6 +10,13 @@
   --color-buzzer:     #F5294E; /* RESERVED: buzz-in, steal, wrong answers only */
   --color-headlight:  #CDE8FF; /* highlights, glow, secondary text on dark */
 
+  --rgb-ink:        12 11 36;
+  --rgb-night:      20 18 58;
+  --rgb-indigo:     75 71 214;
+  --rgb-gold:       246 197 68;
+  --rgb-buzzer:     245 41 78;
+  --rgb-headlight:  205 232 255;
+
   /* Type roles */
   --font-display: 'Anton', 'Arial Narrow', 'Arial Black', Impact, sans-serif; /* logo, scores */
   --font-body:    'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif; /* everything else */

@@ -1,0 +1,32 @@
+[
+  {
+    "prompt": "What is the capital of France?",
+    "answer": "Paris",
+    "category": "Geography",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "Who wrote the play Hamlet?",
+    "answer": "William Shakespeare",
+    "category": "Literature",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "What planet is known as the Red Planet?",
+    "answer": "Mars",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "prompt": "How many days are in a leap year?",
+    "answer": "366",
+    "category": "General",
+    "difficulty": "medium"
+  },
+  {
+    "prompt": "In Greek mythology, who flew too close to the sun?",
+    "answer": "Icarus",
+    "category": "Mythology",
+    "difficulty": "medium"
+  }
+]
