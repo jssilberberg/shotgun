@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Shotgun app icon">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#241F5E"/>
+      <stop offset="1" stop-color="#0C0B24"/>
+    </linearGradient>
+    <radialGradient id="dome" cx="0.38" cy="0.32" r="0.85">
+      <stop offset="0" stop-color="#FF7E97"/>
+      <stop offset="0.45" stop-color="#F5294E"/>
+      <stop offset="1" stop-color="#B3102F"/>
+    </radialGradient>
+    <radialGradient id="hot" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="20" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#tile)"/>
+
+  <!-- radiating ticks -->
+  <g stroke="#F6C544" stroke-width="11" stroke-linecap="round" opacity="0.9">
+    <line x1="256" y1="80"  x2="256" y2="54"/>
+    <line x1="256" y1="432" x2="256" y2="458"/>
+    <line x1="80"  y1="256" x2="54"  y2="256"/>
+    <line x1="432" y1="256" x2="458" y2="256"/>
+    <line x1="132" y1="132" x2="113" y2="113"/>
+    <line x1="380" y1="380" x2="399" y2="399"/>
+    <line x1="380" y1="132" x2="399" y2="113"/>
+    <line x1="132" y1="380" x2="113" y2="399"/>
+  </g>
+
+  <!-- buzzer -->
+  <g filter="url(#glow)">
+    <circle cx="256" cy="256" r="150" fill="none" stroke="#F6C544" stroke-width="18"/>
+    <circle cx="256" cy="256" r="120" fill="url(#dome)"/>
+    <ellipse cx="224" cy="216" rx="46" ry="30" fill="url(#hot)"/>
+  </g>
+</svg>

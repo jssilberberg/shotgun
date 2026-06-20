@@ -1,0 +1,27 @@
+/* Shotgun design tokens — single source of truth for color & type.
+   Import once at the app root. Do not hard-code hex values elsewhere. */
+
+:root {
+  /* Color roles (not just colors — each has ONE job) */
+  --color-ink:        #0C0B24; /* deepest background / vignette */
+  --color-night:      #14123A; /* app background (the night drive) */
+  --color-indigo:     #4B47D6; /* interactive: buttons, ACTIVE TURN highlight */
+  --color-gold:       #F6C544; /* hero: logo, scores, wins, prizes */
+  --color-buzzer:     #F5294E; /* RESERVED: buzz-in, steal, wrong answers only */
+  --color-headlight:  #CDE8FF; /* highlights, glow, secondary text on dark */
+
+  /* Type roles */
+  --font-display: 'Anton', 'Arial Narrow', 'Arial Black', Impact, sans-serif; /* logo, scores */
+  --font-body:    'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif; /* everything else */
+
+  /* Radii / surfaces */
+  --radius-tile:  28px;
+  --radius-card:  16px;
+}
+
+/* USAGE RULES (enforce in review):
+   - buzzer red ONLY for buzz-in, the steal banner, and wrong states. Never ordinary buttons.
+   - active turn + primary actions use indigo.
+   - scores, the winner, and the logo use gold.
+   - body text in --font-body; only the logotype and the scoreboard numerals use --font-display.
+   - gold is a hero/accent color, NOT a body-text color (fails contrast at small sizes on light bg). */
