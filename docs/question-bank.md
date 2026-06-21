@@ -17,9 +17,17 @@ QUESTION_BANK_TARGET=1500 \
 TMDB_DISCOVER_PAGES=40 \
 TMDB_MIN_VOTE_COUNT=300 \
 TMDB_REQUEST_DELAY_MS=300 \
+TMDB_RELEASE_YEAR_MIN=1990 \
+TMDB_RELEASE_YEAR_MAX=2025 \
 TMDB_API_KEY=your_key_here \
 node scripts/generate-tmdb-question-bank.mjs
 ```
+
+Movies are restricted to a release-year range via `TMDB_RELEASE_YEAR_MIN` /
+`TMDB_RELEASE_YEAR_MAX` (defaults `1990`–`2025`).
+
+On Windows PowerShell, set each variable with `$env:` on its own line instead of the
+`KEY=value \` prefix syntax, e.g. `$env:QUESTION_BANK_TARGET = "1500"`.
 
 The generator writes a TypeScript module at:
 

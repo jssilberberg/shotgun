@@ -8,83 +8,6 @@ export type GeneratedQuestion = TriviaQuestion & {
 
 export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
   {
-    "id": "tmdb-1007757-actor-character",
-    "prompt": "In Swapped, which actor plays Ollie?",
-    "answer": "Michael B. Jordan",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1007757,
-      "title": "Swapped",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 135651
-    }
-  },
-  {
-    "id": "tmdb-1007757-actor-character",
-    "prompt": "In Swapped, which actor plays Ivy?",
-    "answer": "Juno Temple",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1007757,
-      "title": "Swapped",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 36594
-    }
-  },
-  {
-    "id": "tmdb-1007757-cast-pair-title",
-    "prompt": "Which 2026 film stars Michael B. Jordan and Juno Temple?",
-    "answer": "Swapped",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1007757,
-      "title": "Swapped",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1007757-director",
-    "prompt": "Who directed the 2026 film Swapped?",
-    "answer": "Nathan Greno",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1007757,
-      "title": "Swapped",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1007757-release-year",
-    "prompt": "What year was Swapped released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1007757,
-      "title": "Swapped",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
     "id": "tmdb-1011985-actor-character",
     "prompt": "In Kung Fu Panda 4, which actor plays Po?",
     "answer": "Jack Black",
@@ -408,6 +331,83 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-102382-actor-character",
+    "prompt": "In The Amazing Spider-Man 2, which actor plays Spider-Man?",
+    "answer": "Andrew Garfield",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 102382,
+      "title": "The Amazing Spider-Man 2",
+      "releaseYear": 2014,
+      "field": "credits.cast.character",
+      "personId": 37625
+    }
+  },
+  {
+    "id": "tmdb-102382-actor-character",
+    "prompt": "In The Amazing Spider-Man 2, which actor plays Gwen Stacy?",
+    "answer": "Emma Stone",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 102382,
+      "title": "The Amazing Spider-Man 2",
+      "releaseYear": 2014,
+      "field": "credits.cast.character",
+      "personId": 54693
+    }
+  },
+  {
+    "id": "tmdb-102382-cast-pair-title",
+    "prompt": "Which 2014 film stars Andrew Garfield and Emma Stone?",
+    "answer": "The Amazing Spider-Man 2",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 102382,
+      "title": "The Amazing Spider-Man 2",
+      "releaseYear": 2014,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-102382-director",
+    "prompt": "Who directed the 2014 film The Amazing Spider-Man 2?",
+    "answer": "Marc Webb",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 102382,
+      "title": "The Amazing Spider-Man 2",
+      "releaseYear": 2014,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-102382-release-year",
+    "prompt": "What year was The Amazing Spider-Man 2 released?",
+    "answer": "2014",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 102382,
+      "title": "The Amazing Spider-Man 2",
+      "releaseYear": 2014,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-1038392-actor-character",
     "prompt": "In The Conjuring: Last Rites, which actor plays Ed Warren?",
     "answer": "Patrick Wilson",
@@ -500,79 +500,310 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-106-actor-character",
-    "prompt": "In Predator, which actor plays Major Alan \"Dutch\" Schaefer?",
-    "answer": "Arnold Schwarzenegger",
+    "id": "tmdb-1054867-actor-character",
+    "prompt": "In One Battle After Another, which actor plays Bob?",
+    "answer": "Leonardo DiCaprio",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 106,
-      "title": "Predator",
-      "releaseYear": 1987,
+      "movieId": 1054867,
+      "title": "One Battle After Another",
+      "releaseYear": 2025,
       "field": "credits.cast.character",
-      "personId": 1100
+      "personId": 6193
     }
   },
   {
-    "id": "tmdb-106-actor-character",
-    "prompt": "In Predator, which actor plays Al Dillon?",
-    "answer": "Carl Weathers",
+    "id": "tmdb-1054867-actor-character",
+    "prompt": "In One Battle After Another, which actor plays Col. Steven J. Lockjaw?",
+    "answer": "Sean Penn",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 106,
-      "title": "Predator",
-      "releaseYear": 1987,
+      "movieId": 1054867,
+      "title": "One Battle After Another",
+      "releaseYear": 2025,
       "field": "credits.cast.character",
-      "personId": 1101
+      "personId": 2228
     }
   },
   {
-    "id": "tmdb-106-cast-pair-title",
-    "prompt": "Which 1987 film stars Arnold Schwarzenegger and Carl Weathers?",
-    "answer": "Predator",
+    "id": "tmdb-1054867-cast-pair-title",
+    "prompt": "Which 2025 film stars Leonardo DiCaprio and Sean Penn?",
+    "answer": "One Battle After Another",
     "category": "Movies",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 106,
-      "title": "Predator",
-      "releaseYear": 1987,
+      "movieId": 1054867,
+      "title": "One Battle After Another",
+      "releaseYear": 2025,
       "field": "credits.cast"
     }
   },
   {
-    "id": "tmdb-106-director",
-    "prompt": "Who directed the 1987 film Predator?",
-    "answer": "John McTiernan",
+    "id": "tmdb-1054867-composer",
+    "prompt": "Who composed the music for One Battle After Another?",
+    "answer": "Jonny Greenwood",
     "category": "Movies",
-    "difficulty": "easy",
+    "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 106,
-      "title": "Predator",
-      "releaseYear": 1987,
+      "movieId": 1054867,
+      "title": "One Battle After Another",
+      "releaseYear": 2025,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-1054867-director",
+    "prompt": "Who directed the 2025 film One Battle After Another?",
+    "answer": "Paul Thomas Anderson",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1054867,
+      "title": "One Battle After Another",
+      "releaseYear": 2025,
       "field": "credits.crew.Director"
     }
   },
   {
-    "id": "tmdb-106-release-year",
-    "prompt": "What year was Predator released?",
-    "answer": "1987",
+    "id": "tmdb-1054867-release-year",
+    "prompt": "What year was One Battle After Another released?",
+    "answer": "2025",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1054867,
+      "title": "One Battle After Another",
+      "releaseYear": 2025,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-1061474-actor-character",
+    "prompt": "In Superman, which actor plays Superman?",
+    "answer": "David Corenswet",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1061474,
+      "title": "Superman",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 1785590
+    }
+  },
+  {
+    "id": "tmdb-1061474-actor-character",
+    "prompt": "In Superman, which actor plays Lois Lane?",
+    "answer": "Rachel Brosnahan",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1061474,
+      "title": "Superman",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 993774
+    }
+  },
+  {
+    "id": "tmdb-1061474-cast-pair-title",
+    "prompt": "Which 2025 film stars David Corenswet and Rachel Brosnahan?",
+    "answer": "Superman",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1061474,
+      "title": "Superman",
+      "releaseYear": 2025,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-1061474-director",
+    "prompt": "Who directed the 2025 film Superman?",
+    "answer": "James Gunn",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1061474,
+      "title": "Superman",
+      "releaseYear": 2025,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-1061474-release-year",
+    "prompt": "What year was Superman released?",
+    "answer": "2025",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1061474,
+      "title": "Superman",
+      "releaseYear": 2025,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-106646-actor-character",
+    "prompt": "In The Wolf of Wall Street, which actor plays Jordan Belfort?",
+    "answer": "Leonardo DiCaprio",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 106646,
+      "title": "The Wolf of Wall Street",
+      "releaseYear": 2013,
+      "field": "credits.cast.character",
+      "personId": 6193
+    }
+  },
+  {
+    "id": "tmdb-106646-actor-character",
+    "prompt": "In The Wolf of Wall Street, which actor plays Donnie Azoff?",
+    "answer": "Jonah Hill",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 106646,
+      "title": "The Wolf of Wall Street",
+      "releaseYear": 2013,
+      "field": "credits.cast.character",
+      "personId": 21007
+    }
+  },
+  {
+    "id": "tmdb-106646-cast-pair-title",
+    "prompt": "Which 2013 film stars Leonardo DiCaprio and Jonah Hill?",
+    "answer": "The Wolf of Wall Street",
     "category": "Movies",
     "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 106,
-      "title": "Predator",
-      "releaseYear": 1987,
+      "movieId": 106646,
+      "title": "The Wolf of Wall Street",
+      "releaseYear": 2013,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-106646-director",
+    "prompt": "Who directed the 2013 film The Wolf of Wall Street?",
+    "answer": "Martin Scorsese",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 106646,
+      "title": "The Wolf of Wall Street",
+      "releaseYear": 2013,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-106646-release-year",
+    "prompt": "What year was The Wolf of Wall Street released?",
+    "answer": "2013",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 106646,
+      "title": "The Wolf of Wall Street",
+      "releaseYear": 2013,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-10674-actor-character",
+    "prompt": "In Mulan, which actor plays Mulan?",
+    "answer": "Ming-Na Wen",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 10674,
+      "title": "Mulan",
+      "releaseYear": 1998,
+      "field": "credits.cast.character",
+      "personId": 21702
+    }
+  },
+  {
+    "id": "tmdb-10674-actor-character",
+    "prompt": "In Mulan, which actor plays Mushu?",
+    "answer": "Eddie Murphy",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 10674,
+      "title": "Mulan",
+      "releaseYear": 1998,
+      "field": "credits.cast.character",
+      "personId": 776
+    }
+  },
+  {
+    "id": "tmdb-10674-cast-pair-title",
+    "prompt": "Which 1998 film stars Ming-Na Wen and Eddie Murphy?",
+    "answer": "Mulan",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 10674,
+      "title": "Mulan",
+      "releaseYear": 1998,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-10674-release-year",
+    "prompt": "What year was Mulan released?",
+    "answer": "1998",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 10674,
+      "title": "Mulan",
+      "releaseYear": 1998,
       "field": "release_date"
     }
   },
@@ -654,79 +885,171 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-1083381-actor-character",
-    "prompt": "In Backrooms, which actor plays Clark?",
-    "answer": "Chiwetel Ejiofor",
+    "id": "tmdb-1075175-actor-character",
+    "prompt": "In How to Have Sex, which actor plays Tara?",
+    "answer": "Mia McKenna-Bruce",
     "category": "Movies",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1083381,
-      "title": "Backrooms",
-      "releaseYear": 2026,
+      "movieId": 1075175,
+      "title": "How to Have Sex",
+      "releaseYear": 2023,
       "field": "credits.cast.character",
-      "personId": 5294
+      "personId": 113236
     }
   },
   {
-    "id": "tmdb-1083381-actor-character",
-    "prompt": "In Backrooms, which actor plays Mary?",
-    "answer": "Renate Reinsve",
+    "id": "tmdb-1075175-actor-character",
+    "prompt": "In How to Have Sex, which actor plays Skye?",
+    "answer": "Lara Peake",
     "category": "Movies",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1083381,
-      "title": "Backrooms",
-      "releaseYear": 2026,
+      "movieId": 1075175,
+      "title": "How to Have Sex",
+      "releaseYear": 2023,
       "field": "credits.cast.character",
-      "personId": 1576786
+      "personId": 1269683
     }
   },
   {
-    "id": "tmdb-1083381-cast-pair-title",
-    "prompt": "Which 2026 film stars Chiwetel Ejiofor and Renate Reinsve?",
-    "answer": "Backrooms",
+    "id": "tmdb-1075175-cast-pair-title",
+    "prompt": "Which 2023 film stars Mia McKenna-Bruce and Lara Peake?",
+    "answer": "How to Have Sex",
     "category": "Movies",
-    "difficulty": "easy",
+    "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1083381,
-      "title": "Backrooms",
-      "releaseYear": 2026,
+      "movieId": 1075175,
+      "title": "How to Have Sex",
+      "releaseYear": 2023,
       "field": "credits.cast"
     }
   },
   {
-    "id": "tmdb-1083381-director",
-    "prompt": "Who directed the 2026 film Backrooms?",
-    "answer": "Kane Parsons",
+    "id": "tmdb-1075175-composer",
+    "prompt": "Who composed the music for How to Have Sex?",
+    "answer": "James Jacob",
     "category": "Movies",
-    "difficulty": "easy",
+    "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1083381,
-      "title": "Backrooms",
-      "releaseYear": 2026,
+      "movieId": 1075175,
+      "title": "How to Have Sex",
+      "releaseYear": 2023,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-1075175-director",
+    "prompt": "Who directed the 2023 film How to Have Sex?",
+    "answer": "Molly Manning Walker",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1075175,
+      "title": "How to Have Sex",
+      "releaseYear": 2023,
       "field": "credits.crew.Director"
     }
   },
   {
-    "id": "tmdb-1083381-release-year",
-    "prompt": "What year was Backrooms released?",
-    "answer": "2026",
+    "id": "tmdb-1075175-release-year",
+    "prompt": "What year was How to Have Sex released?",
+    "answer": "2023",
     "category": "Movies",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1083381,
-      "title": "Backrooms",
-      "releaseYear": 2026,
+      "movieId": 1075175,
+      "title": "How to Have Sex",
+      "releaseYear": 2023,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-1078605-actor-character",
+    "prompt": "In Weapons, which actor plays Justine?",
+    "answer": "Julia Garner",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1078605,
+      "title": "Weapons",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 936970
+    }
+  },
+  {
+    "id": "tmdb-1078605-actor-character",
+    "prompt": "In Weapons, which actor plays Archer?",
+    "answer": "Josh Brolin",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1078605,
+      "title": "Weapons",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 16851
+    }
+  },
+  {
+    "id": "tmdb-1078605-cast-pair-title",
+    "prompt": "Which 2025 film stars Julia Garner and Josh Brolin?",
+    "answer": "Weapons",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1078605,
+      "title": "Weapons",
+      "releaseYear": 2025,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-1078605-director",
+    "prompt": "Who directed the 2025 film Weapons?",
+    "answer": "Zach Cregger",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1078605,
+      "title": "Weapons",
+      "releaseYear": 2025,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-1078605-release-year",
+    "prompt": "What year was Weapons released?",
+    "answer": "2025",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1078605,
+      "title": "Weapons",
+      "releaseYear": 2025,
       "field": "release_date"
     }
   },
@@ -900,79 +1223,64 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-11-actor-character",
-    "prompt": "In Star Wars, which actor plays Luke Skywalker?",
-    "answer": "Mark Hamill",
+    "id": "tmdb-109445-actor-character",
+    "prompt": "In Frozen, which actor plays Elsa?",
+    "answer": "Idina Menzel",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 11,
-      "title": "Star Wars",
-      "releaseYear": 1977,
+      "movieId": 109445,
+      "title": "Frozen",
+      "releaseYear": 2013,
       "field": "credits.cast.character",
-      "personId": 2
+      "personId": 19394
     }
   },
   {
-    "id": "tmdb-11-actor-character",
-    "prompt": "In Star Wars, which actor plays Han Solo?",
-    "answer": "Harrison Ford",
+    "id": "tmdb-109445-actor-character",
+    "prompt": "In Frozen, which actor plays Anna?",
+    "answer": "Kristen Bell",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 11,
-      "title": "Star Wars",
-      "releaseYear": 1977,
+      "movieId": 109445,
+      "title": "Frozen",
+      "releaseYear": 2013,
       "field": "credits.cast.character",
-      "personId": 3
+      "personId": 40462
     }
   },
   {
-    "id": "tmdb-11-cast-pair-title",
-    "prompt": "Which 1977 film stars Mark Hamill and Harrison Ford?",
-    "answer": "Star Wars",
+    "id": "tmdb-109445-cast-pair-title",
+    "prompt": "Which 2013 film stars Idina Menzel and Kristen Bell?",
+    "answer": "Frozen",
     "category": "Movies",
     "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 11,
-      "title": "Star Wars",
-      "releaseYear": 1977,
+      "movieId": 109445,
+      "title": "Frozen",
+      "releaseYear": 2013,
       "field": "credits.cast"
     }
   },
   {
-    "id": "tmdb-11-director",
-    "prompt": "Who directed the 1977 film Star Wars?",
-    "answer": "George Lucas",
+    "id": "tmdb-109445-release-year",
+    "prompt": "What year was Frozen released?",
+    "answer": "2013",
     "category": "Movies",
     "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 11,
-      "title": "Star Wars",
-      "releaseYear": 1977,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-11-release-year",
-    "prompt": "What year was Star Wars released?",
-    "answer": "1977",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 11,
-      "title": "Star Wars",
-      "releaseYear": 1977,
+      "movieId": 109445,
+      "title": "Frozen",
+      "releaseYear": 2013,
       "field": "release_date"
     }
   },
@@ -1131,374 +1439,6 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-1119449-actor-character",
-    "prompt": "In Good Luck, Have Fun, Don't Die, which actor plays The Man From The Future?",
-    "answer": "Sam Rockwell",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1119449,
-      "title": "Good Luck, Have Fun, Don't Die",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 6807
-    }
-  },
-  {
-    "id": "tmdb-1119449-actor-character",
-    "prompt": "In Good Luck, Have Fun, Don't Die, which actor plays Susan?",
-    "answer": "Juno Temple",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1119449,
-      "title": "Good Luck, Have Fun, Don't Die",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 36594
-    }
-  },
-  {
-    "id": "tmdb-1119449-cast-pair-title",
-    "prompt": "Which 2026 film stars Sam Rockwell and Juno Temple?",
-    "answer": "Good Luck, Have Fun, Don't Die",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1119449,
-      "title": "Good Luck, Have Fun, Don't Die",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1119449-composer",
-    "prompt": "Who composed the music for Good Luck, Have Fun, Don't Die?",
-    "answer": "Geoff Zanelli",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1119449,
-      "title": "Good Luck, Have Fun, Don't Die",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-1119449-director",
-    "prompt": "Who directed the 2026 film Good Luck, Have Fun, Don't Die?",
-    "answer": "Gore Verbinski",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1119449,
-      "title": "Good Luck, Have Fun, Don't Die",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1119449-release-year",
-    "prompt": "What year was Good Luck, Have Fun, Don't Die released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1119449,
-      "title": "Good Luck, Have Fun, Don't Die",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1159559-actor-character",
-    "prompt": "In Scream 7, which actor plays Sidney Evans?",
-    "answer": "Neve Campbell",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1159559,
-      "title": "Scream 7",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 9206
-    }
-  },
-  {
-    "id": "tmdb-1159559-actor-character",
-    "prompt": "In Scream 7, which actor plays Gale Weathers?",
-    "answer": "Courteney Cox",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1159559,
-      "title": "Scream 7",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 14405
-    }
-  },
-  {
-    "id": "tmdb-1159559-cast-pair-title",
-    "prompt": "Which 2026 film stars Neve Campbell and Courteney Cox?",
-    "answer": "Scream 7",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1159559,
-      "title": "Scream 7",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1159559-composer",
-    "prompt": "Who composed the music for Scream 7?",
-    "answer": "Marco Beltrami",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1159559,
-      "title": "Scream 7",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-1159559-director",
-    "prompt": "Who directed the 2026 film Scream 7?",
-    "answer": "Kevin Williamson",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1159559,
-      "title": "Scream 7",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1159559-release-year",
-    "prompt": "What year was Scream 7 released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1159559,
-      "title": "Scream 7",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1168190-actor-character",
-    "prompt": "In The Wrecking Crew, which actor plays James Hale?",
-    "answer": "Dave Bautista",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1168190,
-      "title": "The Wrecking Crew",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 543530
-    }
-  },
-  {
-    "id": "tmdb-1168190-actor-character",
-    "prompt": "In The Wrecking Crew, which actor plays Jonny Hale?",
-    "answer": "Jason Momoa",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1168190,
-      "title": "The Wrecking Crew",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 117642
-    }
-  },
-  {
-    "id": "tmdb-1168190-cast-pair-title",
-    "prompt": "Which 2026 film stars Dave Bautista and Jason Momoa?",
-    "answer": "The Wrecking Crew",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1168190,
-      "title": "The Wrecking Crew",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1168190-composer",
-    "prompt": "Who composed the music for The Wrecking Crew?",
-    "answer": "Bobby Krlic",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1168190,
-      "title": "The Wrecking Crew",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-1168190-director",
-    "prompt": "Who directed the 2026 film The Wrecking Crew?",
-    "answer": "Ángel Manuel Soto",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1168190,
-      "title": "The Wrecking Crew",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1168190-release-year",
-    "prompt": "What year was The Wrecking Crew released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1168190,
-      "title": "The Wrecking Crew",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1171145-actor-character",
-    "prompt": "In Crime 101, which actor plays Davis?",
-    "answer": "Chris Hemsworth",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1171145,
-      "title": "Crime 101",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 74568
-    }
-  },
-  {
-    "id": "tmdb-1171145-actor-character",
-    "prompt": "In Crime 101, which actor plays Lou?",
-    "answer": "Mark Ruffalo",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1171145,
-      "title": "Crime 101",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 103
-    }
-  },
-  {
-    "id": "tmdb-1171145-cast-pair-title",
-    "prompt": "Which 2026 film stars Chris Hemsworth and Mark Ruffalo?",
-    "answer": "Crime 101",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1171145,
-      "title": "Crime 101",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1171145-composer",
-    "prompt": "Who composed the music for Crime 101?",
-    "answer": "Benjamin John Power",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1171145,
-      "title": "Crime 101",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-1171145-director",
-    "prompt": "Who directed the 2026 film Crime 101?",
-    "answer": "Bart Layton",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1171145,
-      "title": "Crime 101",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1171145-release-year",
-    "prompt": "What year was Crime 101 released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1171145,
-      "title": "Crime 101",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
     "id": "tmdb-1184918-actor-character",
     "prompt": "In The Wild Robot, which actor plays Roz?",
     "answer": "Lupita Nyong'o",
@@ -1591,94 +1531,171 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-1198994-actor-character",
-    "prompt": "In Send Help, which actor plays Linda Liddle?",
-    "answer": "Rachel McAdams",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1198994,
-      "title": "Send Help",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 53714
-    }
-  },
-  {
-    "id": "tmdb-1198994-actor-character",
-    "prompt": "In Send Help, which actor plays Bradley Preston?",
-    "answer": "Dylan O'Brien",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1198994,
-      "title": "Send Help",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 527393
-    }
-  },
-  {
-    "id": "tmdb-1198994-cast-pair-title",
-    "prompt": "Which 2026 film stars Rachel McAdams and Dylan O'Brien?",
-    "answer": "Send Help",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1198994,
-      "title": "Send Help",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1198994-composer",
-    "prompt": "Who composed the music for Send Help?",
-    "answer": "Danny Elfman",
+    "id": "tmdb-1197306-actor-character",
+    "prompt": "In A Working Man, which actor plays Levon Cade?",
+    "answer": "Jason Statham",
     "category": "Movies",
     "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1198994,
-      "title": "Send Help",
-      "releaseYear": 2026,
+      "movieId": 1197306,
+      "title": "A Working Man",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 976
+    }
+  },
+  {
+    "id": "tmdb-1197306-actor-character",
+    "prompt": "In A Working Man, which actor plays Wolo Kolisnyk?",
+    "answer": "Jason Flemyng",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1197306,
+      "title": "A Working Man",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 973
+    }
+  },
+  {
+    "id": "tmdb-1197306-cast-pair-title",
+    "prompt": "Which 2025 film stars Jason Statham and Jason Flemyng?",
+    "answer": "A Working Man",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1197306,
+      "title": "A Working Man",
+      "releaseYear": 2025,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-1197306-composer",
+    "prompt": "Who composed the music for A Working Man?",
+    "answer": "Jared Michael Fry",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1197306,
+      "title": "A Working Man",
+      "releaseYear": 2025,
       "field": "credits.crew.Original Music Composer"
     }
   },
   {
-    "id": "tmdb-1198994-director",
-    "prompt": "Who directed the 2026 film Send Help?",
-    "answer": "Sam Raimi",
+    "id": "tmdb-1197306-director",
+    "prompt": "Who directed the 2025 film A Working Man?",
+    "answer": "David Ayer",
     "category": "Movies",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1198994,
-      "title": "Send Help",
-      "releaseYear": 2026,
+      "movieId": 1197306,
+      "title": "A Working Man",
+      "releaseYear": 2025,
       "field": "credits.crew.Director"
     }
   },
   {
-    "id": "tmdb-1198994-release-year",
-    "prompt": "What year was Send Help released?",
-    "answer": "2026",
+    "id": "tmdb-1197306-release-year",
+    "prompt": "What year was A Working Man released?",
+    "answer": "2025",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1198994,
-      "title": "Send Help",
-      "releaseYear": 2026,
+      "movieId": 1197306,
+      "title": "A Working Man",
+      "releaseYear": 2025,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-12-actor-character",
+    "prompt": "In Finding Nemo, which actor plays Marlin?",
+    "answer": "Albert Brooks",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 12,
+      "title": "Finding Nemo",
+      "releaseYear": 2003,
+      "field": "credits.cast.character",
+      "personId": 13
+    }
+  },
+  {
+    "id": "tmdb-12-actor-character",
+    "prompt": "In Finding Nemo, which actor plays Dory?",
+    "answer": "Ellen DeGeneres",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 12,
+      "title": "Finding Nemo",
+      "releaseYear": 2003,
+      "field": "credits.cast.character",
+      "personId": 14
+    }
+  },
+  {
+    "id": "tmdb-12-cast-pair-title",
+    "prompt": "Which 2003 film stars Albert Brooks and Ellen DeGeneres?",
+    "answer": "Finding Nemo",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 12,
+      "title": "Finding Nemo",
+      "releaseYear": 2003,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-12-director",
+    "prompt": "Who directed the 2003 film Finding Nemo?",
+    "answer": "Andrew Stanton",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 12,
+      "title": "Finding Nemo",
+      "releaseYear": 2003,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-12-release-year",
+    "prompt": "What year was Finding Nemo released?",
+    "answer": "2003",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 12,
+      "title": "Finding Nemo",
+      "releaseYear": 2003,
       "field": "release_date"
     }
   },
@@ -1837,83 +1854,6 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-12104-actor-character",
-    "prompt": "In Pink Floyd: The Wall, which actor plays Pink?",
-    "answer": "Bob Geldof",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 12104,
-      "title": "Pink Floyd: The Wall",
-      "releaseYear": 1982,
-      "field": "credits.cast.character",
-      "personId": 47991
-    }
-  },
-  {
-    "id": "tmdb-12104-actor-character",
-    "prompt": "In Pink Floyd: The Wall, which actor plays Pink's Mother?",
-    "answer": "Christine Hargreaves",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 12104,
-      "title": "Pink Floyd: The Wall",
-      "releaseYear": 1982,
-      "field": "credits.cast.character",
-      "personId": 71247
-    }
-  },
-  {
-    "id": "tmdb-12104-cast-pair-title",
-    "prompt": "Which 1982 film stars Bob Geldof and Christine Hargreaves?",
-    "answer": "Pink Floyd: The Wall",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 12104,
-      "title": "Pink Floyd: The Wall",
-      "releaseYear": 1982,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-12104-director",
-    "prompt": "Who directed the 1982 film Pink Floyd: The Wall?",
-    "answer": "Alan Parker",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 12104,
-      "title": "Pink Floyd: The Wall",
-      "releaseYear": 1982,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-12104-release-year",
-    "prompt": "What year was Pink Floyd: The Wall released?",
-    "answer": "1982",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 12104,
-      "title": "Pink Floyd: The Wall",
-      "releaseYear": 1982,
-      "field": "release_date"
-    }
-  },
-  {
     "id": "tmdb-12153-actor-character",
     "prompt": "In White Chicks, which actor plays Kevin Copeland?",
     "answer": "Shawn Wayans",
@@ -2068,64 +2008,156 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-1226863-actor-character",
-    "prompt": "In The Super Mario Galaxy Movie, which actor plays Mario?",
-    "answer": "Chris Pratt",
+    "id": "tmdb-1228246-actor-character",
+    "prompt": "In Five Nights at Freddy's 2, which actor plays Mike?",
+    "answer": "Josh Hutcherson",
     "category": "Movies",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1226863,
-      "title": "The Super Mario Galaxy Movie",
-      "releaseYear": 2026,
+      "movieId": 1228246,
+      "title": "Five Nights at Freddy's 2",
+      "releaseYear": 2025,
       "field": "credits.cast.character",
-      "personId": 73457
+      "personId": 27972
     }
   },
   {
-    "id": "tmdb-1226863-actor-character",
-    "prompt": "In The Super Mario Galaxy Movie, which actor plays Princess Peach?",
-    "answer": "Anya Taylor-Joy",
+    "id": "tmdb-1228246-actor-character",
+    "prompt": "In Five Nights at Freddy's 2, which actor plays Abby?",
+    "answer": "Piper Rubio",
     "category": "Movies",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1226863,
-      "title": "The Super Mario Galaxy Movie",
-      "releaseYear": 2026,
+      "movieId": 1228246,
+      "title": "Five Nights at Freddy's 2",
+      "releaseYear": 2025,
       "field": "credits.cast.character",
-      "personId": 1397778
+      "personId": 2283930
     }
   },
   {
-    "id": "tmdb-1226863-cast-pair-title",
-    "prompt": "Which 2026 film stars Chris Pratt and Anya Taylor-Joy?",
-    "answer": "The Super Mario Galaxy Movie",
+    "id": "tmdb-1228246-cast-pair-title",
+    "prompt": "Which 2025 film stars Josh Hutcherson and Piper Rubio?",
+    "answer": "Five Nights at Freddy's 2",
     "category": "Movies",
-    "difficulty": "easy",
+    "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1226863,
-      "title": "The Super Mario Galaxy Movie",
-      "releaseYear": 2026,
+      "movieId": 1228246,
+      "title": "Five Nights at Freddy's 2",
+      "releaseYear": 2025,
       "field": "credits.cast"
     }
   },
   {
-    "id": "tmdb-1226863-release-year",
-    "prompt": "What year was The Super Mario Galaxy Movie released?",
-    "answer": "2026",
+    "id": "tmdb-1228246-director",
+    "prompt": "Who directed the 2025 film Five Nights at Freddy's 2?",
+    "answer": "Emma Tammi",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1228246,
+      "title": "Five Nights at Freddy's 2",
+      "releaseYear": 2025,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-1228246-release-year",
+    "prompt": "What year was Five Nights at Freddy's 2 released?",
+    "answer": "2025",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1228246,
+      "title": "Five Nights at Freddy's 2",
+      "releaseYear": 2025,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-122917-actor-character",
+    "prompt": "In The Hobbit: The Battle of the Five Armies, which actor plays Gandalf the Grey?",
+    "answer": "Ian McKellen",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 122917,
+      "title": "The Hobbit: The Battle of the Five Armies",
+      "releaseYear": 2014,
+      "field": "credits.cast.character",
+      "personId": 1327
+    }
+  },
+  {
+    "id": "tmdb-122917-actor-character",
+    "prompt": "In The Hobbit: The Battle of the Five Armies, which actor plays Bilbo Baggins?",
+    "answer": "Martin Freeman",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 122917,
+      "title": "The Hobbit: The Battle of the Five Armies",
+      "releaseYear": 2014,
+      "field": "credits.cast.character",
+      "personId": 7060
+    }
+  },
+  {
+    "id": "tmdb-122917-cast-pair-title",
+    "prompt": "Which 2014 film stars Ian McKellen and Martin Freeman?",
+    "answer": "The Hobbit: The Battle of the Five Armies",
     "category": "Movies",
     "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1226863,
-      "title": "The Super Mario Galaxy Movie",
-      "releaseYear": 2026,
+      "movieId": 122917,
+      "title": "The Hobbit: The Battle of the Five Armies",
+      "releaseYear": 2014,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-122917-director",
+    "prompt": "Who directed the 2014 film The Hobbit: The Battle of the Five Armies?",
+    "answer": "Peter Jackson",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 122917,
+      "title": "The Hobbit: The Battle of the Five Armies",
+      "releaseYear": 2014,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-122917-release-year",
+    "prompt": "What year was The Hobbit: The Battle of the Five Armies released?",
+    "answer": "2014",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 122917,
+      "title": "The Hobbit: The Battle of the Five Armies",
+      "releaseYear": 2014,
       "field": "release_date"
     }
   },
@@ -2222,6 +2254,98 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-1234731-actor-character",
+    "prompt": "In Anaconda, which actor plays Doug McCallister?",
+    "answer": "Jack Black",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1234731,
+      "title": "Anaconda",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 70851
+    }
+  },
+  {
+    "id": "tmdb-1234731-actor-character",
+    "prompt": "In Anaconda, which actor plays Ronald Griffin Jr.?",
+    "answer": "Paul Rudd",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1234731,
+      "title": "Anaconda",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 22226
+    }
+  },
+  {
+    "id": "tmdb-1234731-cast-pair-title",
+    "prompt": "Which 2025 film stars Jack Black and Paul Rudd?",
+    "answer": "Anaconda",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1234731,
+      "title": "Anaconda",
+      "releaseYear": 2025,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-1234731-composer",
+    "prompt": "Who composed the music for Anaconda?",
+    "answer": "David Fleming",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1234731,
+      "title": "Anaconda",
+      "releaseYear": 2025,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-1234731-director",
+    "prompt": "Who directed the 2025 film Anaconda?",
+    "answer": "Tom Gormican",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1234731,
+      "title": "Anaconda",
+      "releaseYear": 2025,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-1234731-release-year",
+    "prompt": "What year was Anaconda released?",
+    "answer": "2025",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1234731,
+      "title": "Anaconda",
+      "releaseYear": 2025,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-1234821-actor-character",
     "prompt": "In Jurassic World Rebirth, which actor plays Zora Bennett?",
     "answer": "Scarlett Johansson",
@@ -2310,98 +2434,6 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 1234821,
       "title": "Jurassic World Rebirth",
       "releaseYear": 2025,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1236153-actor-character",
-    "prompt": "In Mercy, which actor plays Chris Raven?",
-    "answer": "Chris Pratt",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1236153,
-      "title": "Mercy",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 73457
-    }
-  },
-  {
-    "id": "tmdb-1236153-actor-character",
-    "prompt": "In Mercy, which actor plays Judge Maddox?",
-    "answer": "Rebecca Ferguson",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1236153,
-      "title": "Mercy",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 933238
-    }
-  },
-  {
-    "id": "tmdb-1236153-cast-pair-title",
-    "prompt": "Which 2026 film stars Chris Pratt and Rebecca Ferguson?",
-    "answer": "Mercy",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1236153,
-      "title": "Mercy",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1236153-composer",
-    "prompt": "Who composed the music for Mercy?",
-    "answer": "Ramin Djawadi",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1236153,
-      "title": "Mercy",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-1236153-director",
-    "prompt": "Who directed the 2026 film Mercy?",
-    "answer": "Timur Bekmambetov",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1236153,
-      "title": "Mercy",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1236153-release-year",
-    "prompt": "What year was Mercy released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1236153,
-      "title": "Mercy",
-      "releaseYear": 2026,
       "field": "release_date"
     }
   },
@@ -2545,6 +2577,83 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-12444-actor-character",
+    "prompt": "In Harry Potter and the Deathly Hallows: Part 1, which actor plays Harry Potter?",
+    "answer": "Daniel Radcliffe",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 12444,
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
+      "releaseYear": 2010,
+      "field": "credits.cast.character",
+      "personId": 10980
+    }
+  },
+  {
+    "id": "tmdb-12444-actor-character",
+    "prompt": "In Harry Potter and the Deathly Hallows: Part 1, which actor plays Hermione Granger?",
+    "answer": "Emma Watson",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 12444,
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
+      "releaseYear": 2010,
+      "field": "credits.cast.character",
+      "personId": 10990
+    }
+  },
+  {
+    "id": "tmdb-12444-cast-pair-title",
+    "prompt": "Which 2010 film stars Daniel Radcliffe and Emma Watson?",
+    "answer": "Harry Potter and the Deathly Hallows: Part 1",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 12444,
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
+      "releaseYear": 2010,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-12444-director",
+    "prompt": "Who directed the 2010 film Harry Potter and the Deathly Hallows: Part 1?",
+    "answer": "David Yates",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 12444,
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
+      "releaseYear": 2010,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-12444-release-year",
+    "prompt": "What year was Harry Potter and the Deathly Hallows: Part 1 released?",
+    "answer": "2010",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 12444,
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
+      "releaseYear": 2010,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-12445-actor-character",
     "prompt": "In Harry Potter and the Deathly Hallows: Part 2, which actor plays Harry Potter?",
     "answer": "Daniel Radcliffe",
@@ -2577,6 +2686,21 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-12445-cast-pair-title",
+    "prompt": "Which 2011 film stars Daniel Radcliffe and Emma Watson?",
+    "answer": "Harry Potter and the Deathly Hallows: Part 2",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 12445,
+      "title": "Harry Potter and the Deathly Hallows: Part 2",
+      "releaseYear": 2011,
+      "field": "credits.cast"
+    }
+  },
+  {
     "id": "tmdb-12445-director",
     "prompt": "Who directed the 2011 film Harry Potter and the Deathly Hallows: Part 2?",
     "answer": "David Yates",
@@ -2603,436 +2727,6 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 12445,
       "title": "Harry Potter and the Deathly Hallows: Part 2",
       "releaseYear": 2011,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1265609-actor-character",
-    "prompt": "In War Machine, which actor plays 81?",
-    "answer": "Alan Ritchson",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1265609,
-      "title": "War Machine",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 64295
-    }
-  },
-  {
-    "id": "tmdb-1265609-actor-character",
-    "prompt": "In War Machine, which actor plays Army Sgt Maj Sheridan?",
-    "answer": "Dennis Quaid",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1265609,
-      "title": "War Machine",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 6065
-    }
-  },
-  {
-    "id": "tmdb-1265609-cast-pair-title",
-    "prompt": "Which 2026 film stars Alan Ritchson and Dennis Quaid?",
-    "answer": "War Machine",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1265609,
-      "title": "War Machine",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1265609-composer",
-    "prompt": "Who composed the music for War Machine?",
-    "answer": "Dmitri Golovko",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1265609,
-      "title": "War Machine",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-1265609-director",
-    "prompt": "Who directed the 2026 film War Machine?",
-    "answer": "Patrick Hughes",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1265609,
-      "title": "War Machine",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1265609-release-year",
-    "prompt": "What year was War Machine released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1265609,
-      "title": "War Machine",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1266127-actor-character",
-    "prompt": "In Ready or Not: Here I Come, which actor plays Grace MacCaullay?",
-    "answer": "Samara Weaving",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1266127,
-      "title": "Ready or Not: Here I Come",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 1372369
-    }
-  },
-  {
-    "id": "tmdb-1266127-actor-character",
-    "prompt": "In Ready or Not: Here I Come, which actor plays Faith MacCaullay?",
-    "answer": "Kathryn Newton",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1266127,
-      "title": "Ready or Not: Here I Come",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 221192
-    }
-  },
-  {
-    "id": "tmdb-1266127-cast-pair-title",
-    "prompt": "Which 2026 film stars Samara Weaving and Kathryn Newton?",
-    "answer": "Ready or Not: Here I Come",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1266127,
-      "title": "Ready or Not: Here I Come",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1266127-composer",
-    "prompt": "Who composed the music for Ready or Not: Here I Come?",
-    "answer": "Sven Faulconer",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1266127,
-      "title": "Ready or Not: Here I Come",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-1266127-release-year",
-    "prompt": "What year was Ready or Not: Here I Come released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1266127,
-      "title": "Ready or Not: Here I Come",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1275779-actor-character",
-    "prompt": "In Disclosure Day, which actor plays Margaret Fairchild?",
-    "answer": "Emily Blunt",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1275779,
-      "title": "Disclosure Day",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 5081
-    }
-  },
-  {
-    "id": "tmdb-1275779-actor-character",
-    "prompt": "In Disclosure Day, which actor plays Daniel Kellner?",
-    "answer": "Josh O'Connor",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1275779,
-      "title": "Disclosure Day",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 1206334
-    }
-  },
-  {
-    "id": "tmdb-1275779-cast-pair-title",
-    "prompt": "Which 2026 film stars Emily Blunt and Josh O'Connor?",
-    "answer": "Disclosure Day",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1275779,
-      "title": "Disclosure Day",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1275779-director",
-    "prompt": "Who directed the 2026 film Disclosure Day?",
-    "answer": "Steven Spielberg",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1275779,
-      "title": "Disclosure Day",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1275779-release-year",
-    "prompt": "What year was Disclosure Day released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1275779,
-      "title": "Disclosure Day",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1290821-actor-character",
-    "prompt": "In Shelter, which actor plays Mason?",
-    "answer": "Jason Statham",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1290821,
-      "title": "Shelter",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 976
-    }
-  },
-  {
-    "id": "tmdb-1290821-actor-character",
-    "prompt": "In Shelter, which actor plays Jesse?",
-    "answer": "Bodhi Rae Breathnach",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1290821,
-      "title": "Shelter",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 4088089
-    }
-  },
-  {
-    "id": "tmdb-1290821-cast-pair-title",
-    "prompt": "Which 2026 film stars Jason Statham and Bodhi Rae Breathnach?",
-    "answer": "Shelter",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1290821,
-      "title": "Shelter",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1290821-composer",
-    "prompt": "Who composed the music for Shelter?",
-    "answer": "David Buckley",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1290821,
-      "title": "Shelter",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-1290821-director",
-    "prompt": "Who directed the 2026 film Shelter?",
-    "answer": "Ric Roman Waugh",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1290821,
-      "title": "Shelter",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1290821-release-year",
-    "prompt": "What year was Shelter released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1290821,
-      "title": "Shelter",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1292695-actor-character",
-    "prompt": "In They Will Kill You, which actor plays Asia Reaves?",
-    "answer": "Zazie Beetz",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1292695,
-      "title": "They Will Kill You",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 1545693
-    }
-  },
-  {
-    "id": "tmdb-1292695-actor-character",
-    "prompt": "In They Will Kill You, which actor plays Maria Reaves?",
-    "answer": "Myha'la",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1292695,
-      "title": "They Will Kill You",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 2673750
-    }
-  },
-  {
-    "id": "tmdb-1292695-cast-pair-title",
-    "prompt": "Which 2026 film stars Zazie Beetz and Myha'la?",
-    "answer": "They Will Kill You",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1292695,
-      "title": "They Will Kill You",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1292695-composer",
-    "prompt": "Who composed the music for They Will Kill You?",
-    "answer": "Carlos Rafael Rivera",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1292695,
-      "title": "They Will Kill You",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-1292695-director",
-    "prompt": "Who directed the 2026 film They Will Kill You?",
-    "answer": "Kirill Sokolov",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1292695,
-      "title": "They Will Kill You",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1292695-release-year",
-    "prompt": "What year was They Will Kill You released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1292695,
-      "title": "They Will Kill You",
-      "releaseYear": 2026,
       "field": "release_date"
     }
   },
@@ -3114,263 +2808,79 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-1297842-actor-character",
-    "prompt": "In GOAT, which actor plays Will Harris?",
-    "answer": "Caleb McLaughlin",
+    "id": "tmdb-13-actor-character",
+    "prompt": "In Forrest Gump, which actor plays Forrest Gump?",
+    "answer": "Tom Hanks",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1297842,
-      "title": "GOAT",
-      "releaseYear": 2026,
+      "movieId": 13,
+      "title": "Forrest Gump",
+      "releaseYear": 1994,
       "field": "credits.cast.character",
-      "personId": 1474123
+      "personId": 31
     }
   },
   {
-    "id": "tmdb-1297842-actor-character",
-    "prompt": "In GOAT, which actor plays Jett Fillmore?",
-    "answer": "Gabrielle Union",
+    "id": "tmdb-13-actor-character",
+    "prompt": "In Forrest Gump, which actor plays Jenny Curran?",
+    "answer": "Robin Wright",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1297842,
-      "title": "GOAT",
-      "releaseYear": 2026,
+      "movieId": 13,
+      "title": "Forrest Gump",
+      "releaseYear": 1994,
       "field": "credits.cast.character",
-      "personId": 17773
+      "personId": 32
     }
   },
   {
-    "id": "tmdb-1297842-cast-pair-title",
-    "prompt": "Which 2026 film stars Caleb McLaughlin and Gabrielle Union?",
-    "answer": "GOAT",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1297842,
-      "title": "GOAT",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1297842-composer",
-    "prompt": "Who composed the music for GOAT?",
-    "answer": "Kris Bowers",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1297842,
-      "title": "GOAT",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-1297842-director",
-    "prompt": "Who directed the 2026 film GOAT?",
-    "answer": "Tyree Dillihay",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1297842,
-      "title": "GOAT",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1297842-release-year",
-    "prompt": "What year was GOAT released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1297842,
-      "title": "GOAT",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1304313-actor-character",
-    "prompt": "In Lee Cronin's The Mummy, which actor plays Charlie Cannon?",
-    "answer": "Jack Reynor",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1304313,
-      "title": "Lee Cronin's The Mummy",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 1007683
-    }
-  },
-  {
-    "id": "tmdb-1304313-actor-character",
-    "prompt": "In Lee Cronin's The Mummy, which actor plays Larissa Cannon?",
-    "answer": "Laia Costa",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1304313,
-      "title": "Lee Cronin's The Mummy",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 1425019
-    }
-  },
-  {
-    "id": "tmdb-1304313-cast-pair-title",
-    "prompt": "Which 2026 film stars Jack Reynor and Laia Costa?",
-    "answer": "Lee Cronin's The Mummy",
+    "id": "tmdb-13-cast-pair-title",
+    "prompt": "Which 1994 film stars Tom Hanks and Robin Wright?",
+    "answer": "Forrest Gump",
     "category": "Movies",
     "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1304313,
-      "title": "Lee Cronin's The Mummy",
-      "releaseYear": 2026,
+      "movieId": 13,
+      "title": "Forrest Gump",
+      "releaseYear": 1994,
       "field": "credits.cast"
     }
   },
   {
-    "id": "tmdb-1304313-director",
-    "prompt": "Who directed the 2026 film Lee Cronin's The Mummy?",
-    "answer": "Lee Cronin",
+    "id": "tmdb-13-director",
+    "prompt": "Who directed the 1994 film Forrest Gump?",
+    "answer": "Robert Zemeckis",
     "category": "Movies",
     "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1304313,
-      "title": "Lee Cronin's The Mummy",
-      "releaseYear": 2026,
+      "movieId": 13,
+      "title": "Forrest Gump",
+      "releaseYear": 1994,
       "field": "credits.crew.Director"
     }
   },
   {
-    "id": "tmdb-1304313-release-year",
-    "prompt": "What year was Lee Cronin's The Mummy released?",
-    "answer": "2026",
+    "id": "tmdb-13-release-year",
+    "prompt": "What year was Forrest Gump released?",
+    "answer": "1994",
     "category": "Movies",
     "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1304313,
-      "title": "Lee Cronin's The Mummy",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1306368-actor-character",
-    "prompt": "In The Rip, which actor plays Lieutenant Dane Dumars?",
-    "answer": "Matt Damon",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1306368,
-      "title": "The Rip",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 1892
-    }
-  },
-  {
-    "id": "tmdb-1306368-actor-character",
-    "prompt": "In The Rip, which actor plays Detective Sergeant J.D. Byrne?",
-    "answer": "Ben Affleck",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1306368,
-      "title": "The Rip",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 880
-    }
-  },
-  {
-    "id": "tmdb-1306368-cast-pair-title",
-    "prompt": "Which 2026 film stars Matt Damon and Ben Affleck?",
-    "answer": "The Rip",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1306368,
-      "title": "The Rip",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1306368-composer",
-    "prompt": "Who composed the music for The Rip?",
-    "answer": "Clinton Shorter",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1306368,
-      "title": "The Rip",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-1306368-director",
-    "prompt": "Who directed the 2026 film The Rip?",
-    "answer": "Joe Carnahan",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1306368,
-      "title": "The Rip",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1306368-release-year",
-    "prompt": "What year was The Rip released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1306368,
-      "title": "The Rip",
-      "releaseYear": 2026,
+      "movieId": 13,
+      "title": "Forrest Gump",
+      "releaseYear": 1994,
       "field": "release_date"
     }
   },
@@ -3467,620 +2977,6 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-1314481-actor-character",
-    "prompt": "In The Devil Wears Prada 2, which actor plays Miranda Priestly?",
-    "answer": "Meryl Streep",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1314481,
-      "title": "The Devil Wears Prada 2",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 5064
-    }
-  },
-  {
-    "id": "tmdb-1314481-actor-character",
-    "prompt": "In The Devil Wears Prada 2, which actor plays Andy Sachs?",
-    "answer": "Anne Hathaway",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1314481,
-      "title": "The Devil Wears Prada 2",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 1813
-    }
-  },
-  {
-    "id": "tmdb-1314481-cast-pair-title",
-    "prompt": "Which 2026 film stars Meryl Streep and Anne Hathaway?",
-    "answer": "The Devil Wears Prada 2",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1314481,
-      "title": "The Devil Wears Prada 2",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1314481-composer",
-    "prompt": "Who composed the music for The Devil Wears Prada 2?",
-    "answer": "Theodore Shapiro",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1314481,
-      "title": "The Devil Wears Prada 2",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-1314481-director",
-    "prompt": "Who directed the 2026 film The Devil Wears Prada 2?",
-    "answer": "David Frankel",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1314481,
-      "title": "The Devil Wears Prada 2",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1314481-release-year",
-    "prompt": "What year was The Devil Wears Prada 2 released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1314481,
-      "title": "The Devil Wears Prada 2",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1316092-actor-character",
-    "prompt": "In \"Wuthering Heights\", which actor plays Cathy?",
-    "answer": "Margot Robbie",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1316092,
-      "title": "\"Wuthering Heights\"",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 234352
-    }
-  },
-  {
-    "id": "tmdb-1316092-actor-character",
-    "prompt": "In \"Wuthering Heights\", which actor plays Heathcliff?",
-    "answer": "Jacob Elordi",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1316092,
-      "title": "\"Wuthering Heights\"",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 2034418
-    }
-  },
-  {
-    "id": "tmdb-1316092-cast-pair-title",
-    "prompt": "Which 2026 film stars Margot Robbie and Jacob Elordi?",
-    "answer": "\"Wuthering Heights\"",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1316092,
-      "title": "\"Wuthering Heights\"",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1316092-composer",
-    "prompt": "Who composed the music for \"Wuthering Heights\"?",
-    "answer": "Anthony B. Willis",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1316092,
-      "title": "\"Wuthering Heights\"",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-1316092-director",
-    "prompt": "Who directed the 2026 film \"Wuthering Heights\"?",
-    "answer": "Emerald Fennell",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1316092,
-      "title": "\"Wuthering Heights\"",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1316092-release-year",
-    "prompt": "What year was \"Wuthering Heights\" released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1316092,
-      "title": "\"Wuthering Heights\"",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1318447-actor-character",
-    "prompt": "In Apex, which actor plays Sasha?",
-    "answer": "Charlize Theron",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1318447,
-      "title": "Apex",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 6885
-    }
-  },
-  {
-    "id": "tmdb-1318447-actor-character",
-    "prompt": "In Apex, which actor plays Ben?",
-    "answer": "Taron Egerton",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1318447,
-      "title": "Apex",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 1303037
-    }
-  },
-  {
-    "id": "tmdb-1318447-cast-pair-title",
-    "prompt": "Which 2026 film stars Charlize Theron and Taron Egerton?",
-    "answer": "Apex",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1318447,
-      "title": "Apex",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1318447-composer",
-    "prompt": "Who composed the music for Apex?",
-    "answer": "Högni Egilsson",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1318447,
-      "title": "Apex",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-1318447-director",
-    "prompt": "Who directed the 2026 film Apex?",
-    "answer": "Baltasar Kormákur",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1318447,
-      "title": "Apex",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1318447-release-year",
-    "prompt": "What year was Apex released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1318447,
-      "title": "Apex",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1325734-actor-character",
-    "prompt": "In The Drama, which actor plays Emma Harwood?",
-    "answer": "Zendaya",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1325734,
-      "title": "The Drama",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 505710
-    }
-  },
-  {
-    "id": "tmdb-1325734-actor-character",
-    "prompt": "In The Drama, which actor plays Charlie Thompson?",
-    "answer": "Robert Pattinson",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1325734,
-      "title": "The Drama",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 11288
-    }
-  },
-  {
-    "id": "tmdb-1325734-cast-pair-title",
-    "prompt": "Which 2026 film stars Zendaya and Robert Pattinson?",
-    "answer": "The Drama",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1325734,
-      "title": "The Drama",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1325734-composer",
-    "prompt": "Who composed the music for The Drama?",
-    "answer": "Daniel Pemberton",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1325734,
-      "title": "The Drama",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-1325734-director",
-    "prompt": "Who directed the 2026 film The Drama?",
-    "answer": "Kristoffer Borgli",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1325734,
-      "title": "The Drama",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1325734-release-year",
-    "prompt": "What year was The Drama released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1325734,
-      "title": "The Drama",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1327819-actor-character",
-    "prompt": "In Hoppers, which actor plays Mabel?",
-    "answer": "Piper Curda",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1327819,
-      "title": "Hoppers",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 1308818
-    }
-  },
-  {
-    "id": "tmdb-1327819-actor-character",
-    "prompt": "In Hoppers, which actor plays King George?",
-    "answer": "Bobby Moynihan",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1327819,
-      "title": "Hoppers",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 452205
-    }
-  },
-  {
-    "id": "tmdb-1327819-cast-pair-title",
-    "prompt": "Which 2026 film stars Piper Curda and Bobby Moynihan?",
-    "answer": "Hoppers",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1327819,
-      "title": "Hoppers",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1327819-director",
-    "prompt": "Who directed the 2026 film Hoppers?",
-    "answer": "Daniel Chong",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1327819,
-      "title": "Hoppers",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1327819-release-year",
-    "prompt": "What year was Hoppers released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1327819,
-      "title": "Hoppers",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1330021-actor-character",
-    "prompt": "In Remarkably Bright Creatures, which actor plays Tova Sullivan?",
-    "answer": "Sally Field",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1330021,
-      "title": "Remarkably Bright Creatures",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 35
-    }
-  },
-  {
-    "id": "tmdb-1330021-actor-character",
-    "prompt": "In Remarkably Bright Creatures, which actor plays Cameron Cassmore?",
-    "answer": "Lewis Pullman",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1330021,
-      "title": "Remarkably Bright Creatures",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 1700685
-    }
-  },
-  {
-    "id": "tmdb-1330021-cast-pair-title",
-    "prompt": "Which 2026 film stars Sally Field and Lewis Pullman?",
-    "answer": "Remarkably Bright Creatures",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1330021,
-      "title": "Remarkably Bright Creatures",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1330021-composer",
-    "prompt": "Who composed the music for Remarkably Bright Creatures?",
-    "answer": "Dickon Hinchliffe",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1330021,
-      "title": "Remarkably Bright Creatures",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-1330021-director",
-    "prompt": "Who directed the 2026 film Remarkably Bright Creatures?",
-    "answer": "Olivia Newman",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1330021,
-      "title": "Remarkably Bright Creatures",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1330021-release-year",
-    "prompt": "What year was Remarkably Bright Creatures released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1330021,
-      "title": "Remarkably Bright Creatures",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-1339713-actor-character",
-    "prompt": "In Obsession, which actor plays Baron 'Bear' Bailey?",
-    "answer": "Michael Johnston",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1339713,
-      "title": "Obsession",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 1561370
-    }
-  },
-  {
-    "id": "tmdb-1339713-actor-character",
-    "prompt": "In Obsession, which actor plays Nikki Freeman?",
-    "answer": "Inde Navarrette",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1339713,
-      "title": "Obsession",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 2638587
-    }
-  },
-  {
-    "id": "tmdb-1339713-cast-pair-title",
-    "prompt": "Which 2026 film stars Michael Johnston and Inde Navarrette?",
-    "answer": "Obsession",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1339713,
-      "title": "Obsession",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-1339713-director",
-    "prompt": "Who directed the 2026 film Obsession?",
-    "answer": "Curry Barker",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1339713,
-      "title": "Obsession",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-1339713-release-year",
-    "prompt": "What year was Obsession released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 1339713,
-      "title": "Obsession",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
     "id": "tmdb-1368166-actor-character",
     "prompt": "In The Housemaid, which actor plays Millie Calloway?",
     "answer": "Sydney Sweeney",
@@ -4173,156 +3069,248 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-1380291-actor-character",
-    "prompt": "In Tom Clancy's Jack Ryan: Ghost War, which actor plays Jack Ryan?",
-    "answer": "John Krasinski",
+    "id": "tmdb-1372-actor-character",
+    "prompt": "In Blood Diamond, which actor plays Danny Archer?",
+    "answer": "Leonardo DiCaprio",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1380291,
-      "title": "Tom Clancy's Jack Ryan: Ghost War",
-      "releaseYear": 2026,
+      "movieId": 1372,
+      "title": "Blood Diamond",
+      "releaseYear": 2006,
       "field": "credits.cast.character",
-      "personId": 17697
+      "personId": 6193
     }
   },
   {
-    "id": "tmdb-1380291-actor-character",
-    "prompt": "In Tom Clancy's Jack Ryan: Ghost War, which actor plays James Greer?",
-    "answer": "Wendell Pierce",
+    "id": "tmdb-1372-actor-character",
+    "prompt": "In Blood Diamond, which actor plays Solomon Vandy?",
+    "answer": "Djimon Hounsou",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1380291,
-      "title": "Tom Clancy's Jack Ryan: Ghost War",
-      "releaseYear": 2026,
+      "movieId": 1372,
+      "title": "Blood Diamond",
+      "releaseYear": 2006,
       "field": "credits.cast.character",
-      "personId": 17859
+      "personId": 938
     }
   },
   {
-    "id": "tmdb-1380291-cast-pair-title",
-    "prompt": "Which 2026 film stars John Krasinski and Wendell Pierce?",
-    "answer": "Tom Clancy's Jack Ryan: Ghost War",
+    "id": "tmdb-1372-cast-pair-title",
+    "prompt": "Which 2006 film stars Leonardo DiCaprio and Djimon Hounsou?",
+    "answer": "Blood Diamond",
     "category": "Movies",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1380291,
-      "title": "Tom Clancy's Jack Ryan: Ghost War",
-      "releaseYear": 2026,
+      "movieId": 1372,
+      "title": "Blood Diamond",
+      "releaseYear": 2006,
       "field": "credits.cast"
     }
   },
   {
-    "id": "tmdb-1380291-director",
-    "prompt": "Who directed the 2026 film Tom Clancy's Jack Ryan: Ghost War?",
-    "answer": "Andrew Bernstein",
+    "id": "tmdb-1372-composer",
+    "prompt": "Who composed the music for Blood Diamond?",
+    "answer": "James Newton Howard",
     "category": "Movies",
-    "difficulty": "easy",
+    "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1380291,
-      "title": "Tom Clancy's Jack Ryan: Ghost War",
-      "releaseYear": 2026,
+      "movieId": 1372,
+      "title": "Blood Diamond",
+      "releaseYear": 2006,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-1372-director",
+    "prompt": "Who directed the 2006 film Blood Diamond?",
+    "answer": "Edward Zwick",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1372,
+      "title": "Blood Diamond",
+      "releaseYear": 2006,
       "field": "credits.crew.Director"
     }
   },
   {
-    "id": "tmdb-1380291-release-year",
-    "prompt": "What year was Tom Clancy's Jack Ryan: Ghost War released?",
-    "answer": "2026",
+    "id": "tmdb-1372-release-year",
+    "prompt": "What year was Blood Diamond released?",
+    "answer": "2006",
     "category": "Movies",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1380291,
-      "title": "Tom Clancy's Jack Ryan: Ghost War",
-      "releaseYear": 2026,
+      "movieId": 1372,
+      "title": "Blood Diamond",
+      "releaseYear": 2006,
       "field": "release_date"
     }
   },
   {
-    "id": "tmdb-1439930-actor-character",
-    "prompt": "In The Punisher: One Last Kill, which actor plays Frank Castle?",
-    "answer": "Jon Bernthal",
+    "id": "tmdb-138843-actor-character",
+    "prompt": "In The Conjuring, which actor plays Lorraine Warren?",
+    "answer": "Vera Farmiga",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1439930,
-      "title": "The Punisher: One Last Kill",
-      "releaseYear": 2026,
+      "movieId": 138843,
+      "title": "The Conjuring",
+      "releaseYear": 2013,
       "field": "credits.cast.character",
-      "personId": 19498
+      "personId": 21657
     }
   },
   {
-    "id": "tmdb-1439930-actor-character",
-    "prompt": "In The Punisher: One Last Kill, which actor plays Karen Page?",
-    "answer": "Deborah Ann Woll",
+    "id": "tmdb-138843-actor-character",
+    "prompt": "In The Conjuring, which actor plays Ed Warren?",
+    "answer": "Patrick Wilson",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1439930,
-      "title": "The Punisher: One Last Kill",
-      "releaseYear": 2026,
+      "movieId": 138843,
+      "title": "The Conjuring",
+      "releaseYear": 2013,
       "field": "credits.cast.character",
-      "personId": 212154
+      "personId": 17178
     }
   },
   {
-    "id": "tmdb-1439930-cast-pair-title",
-    "prompt": "Which 2026 film stars Jon Bernthal and Deborah Ann Woll?",
-    "answer": "The Punisher: One Last Kill",
+    "id": "tmdb-138843-cast-pair-title",
+    "prompt": "Which 2013 film stars Vera Farmiga and Patrick Wilson?",
+    "answer": "The Conjuring",
     "category": "Movies",
     "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1439930,
-      "title": "The Punisher: One Last Kill",
-      "releaseYear": 2026,
+      "movieId": 138843,
+      "title": "The Conjuring",
+      "releaseYear": 2013,
       "field": "credits.cast"
     }
   },
   {
-    "id": "tmdb-1439930-director",
-    "prompt": "Who directed the 2026 film The Punisher: One Last Kill?",
-    "answer": "Reinaldo Marcus Green",
+    "id": "tmdb-138843-director",
+    "prompt": "Who directed the 2013 film The Conjuring?",
+    "answer": "James Wan",
     "category": "Movies",
     "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1439930,
-      "title": "The Punisher: One Last Kill",
-      "releaseYear": 2026,
+      "movieId": 138843,
+      "title": "The Conjuring",
+      "releaseYear": 2013,
       "field": "credits.crew.Director"
     }
   },
   {
-    "id": "tmdb-1439930-release-year",
-    "prompt": "What year was The Punisher: One Last Kill released?",
-    "answer": "2026",
+    "id": "tmdb-138843-release-year",
+    "prompt": "What year was The Conjuring released?",
+    "answer": "2013",
     "category": "Movies",
     "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 1439930,
-      "title": "The Punisher: One Last Kill",
-      "releaseYear": 2026,
+      "movieId": 138843,
+      "title": "The Conjuring",
+      "releaseYear": 2013,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-14160-actor-character",
+    "prompt": "In Up, which actor plays Carl Fredricksen?",
+    "answer": "Ed Asner",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 14160,
+      "title": "Up",
+      "releaseYear": 2009,
+      "field": "credits.cast.character",
+      "personId": 68812
+    }
+  },
+  {
+    "id": "tmdb-14160-actor-character",
+    "prompt": "In Up, which actor plays Charles Muntz?",
+    "answer": "Christopher Plummer",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 14160,
+      "title": "Up",
+      "releaseYear": 2009,
+      "field": "credits.cast.character",
+      "personId": 290
+    }
+  },
+  {
+    "id": "tmdb-14160-cast-pair-title",
+    "prompt": "Which 2009 film stars Ed Asner and Christopher Plummer?",
+    "answer": "Up",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 14160,
+      "title": "Up",
+      "releaseYear": 2009,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-14160-director",
+    "prompt": "Who directed the 2009 film Up?",
+    "answer": "Pete Docter",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 14160,
+      "title": "Up",
+      "releaseYear": 2009,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-14160-release-year",
+    "prompt": "What year was Up released?",
+    "answer": "2009",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 14160,
+      "title": "Up",
+      "releaseYear": 2009,
       "field": "release_date"
     }
   },
@@ -4415,6 +3403,190 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 14442,
       "title": "Ella Enchanted",
       "releaseYear": 2004,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-14836-actor-character",
+    "prompt": "In Coraline, which actor plays Coraline Jones?",
+    "answer": "Dakota Fanning",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 14836,
+      "title": "Coraline",
+      "releaseYear": 2009,
+      "field": "credits.cast.character",
+      "personId": 501
+    }
+  },
+  {
+    "id": "tmdb-14836-actor-character",
+    "prompt": "In Coraline, which actor plays Mel Jones?",
+    "answer": "Teri Hatcher",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 14836,
+      "title": "Coraline",
+      "releaseYear": 2009,
+      "field": "credits.cast.character",
+      "personId": 10742
+    }
+  },
+  {
+    "id": "tmdb-14836-cast-pair-title",
+    "prompt": "Which 2009 film stars Dakota Fanning and Teri Hatcher?",
+    "answer": "Coraline",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 14836,
+      "title": "Coraline",
+      "releaseYear": 2009,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-14836-composer",
+    "prompt": "Who composed the music for Coraline?",
+    "answer": "Bruno Coulais",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 14836,
+      "title": "Coraline",
+      "releaseYear": 2009,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-14836-director",
+    "prompt": "Who directed the 2009 film Coraline?",
+    "answer": "Henry Selick",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 14836,
+      "title": "Coraline",
+      "releaseYear": 2009,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-14836-release-year",
+    "prompt": "What year was Coraline released?",
+    "answer": "2009",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 14836,
+      "title": "Coraline",
+      "releaseYear": 2009,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-1495-actor-character",
+    "prompt": "In Kingdom of Heaven, which actor plays Balian de Ibelin?",
+    "answer": "Orlando Bloom",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1495,
+      "title": "Kingdom of Heaven",
+      "releaseYear": 2005,
+      "field": "credits.cast.character",
+      "personId": 114
+    }
+  },
+  {
+    "id": "tmdb-1495-actor-character",
+    "prompt": "In Kingdom of Heaven, which actor plays Sibylla?",
+    "answer": "Eva Green",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1495,
+      "title": "Kingdom of Heaven",
+      "releaseYear": 2005,
+      "field": "credits.cast.character",
+      "personId": 10912
+    }
+  },
+  {
+    "id": "tmdb-1495-cast-pair-title",
+    "prompt": "Which 2005 film stars Orlando Bloom and Eva Green?",
+    "answer": "Kingdom of Heaven",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1495,
+      "title": "Kingdom of Heaven",
+      "releaseYear": 2005,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-1495-composer",
+    "prompt": "Who composed the music for Kingdom of Heaven?",
+    "answer": "Harry Gregson-Williams",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1495,
+      "title": "Kingdom of Heaven",
+      "releaseYear": 2005,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-1495-director",
+    "prompt": "Who directed the 2005 film Kingdom of Heaven?",
+    "answer": "Ridley Scott",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1495,
+      "title": "Kingdom of Heaven",
+      "releaseYear": 2005,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-1495-release-year",
+    "prompt": "What year was Kingdom of Heaven released?",
+    "answer": "2005",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1495,
+      "title": "Kingdom of Heaven",
+      "releaseYear": 2005,
       "field": "release_date"
     }
   },
@@ -4881,6 +4053,299 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-177572-actor-character",
+    "prompt": "In Big Hero 6, which actor plays Baymax?",
+    "answer": "Scott Adsit",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 177572,
+      "title": "Big Hero 6",
+      "releaseYear": 2014,
+      "field": "credits.cast.character",
+      "personId": 66580
+    }
+  },
+  {
+    "id": "tmdb-177572-actor-character",
+    "prompt": "In Big Hero 6, which actor plays Hiro Hamada?",
+    "answer": "Ryan Potter",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 177572,
+      "title": "Big Hero 6",
+      "releaseYear": 2014,
+      "field": "credits.cast.character",
+      "personId": 515510
+    }
+  },
+  {
+    "id": "tmdb-177572-cast-pair-title",
+    "prompt": "Which 2014 film stars Scott Adsit and Ryan Potter?",
+    "answer": "Big Hero 6",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 177572,
+      "title": "Big Hero 6",
+      "releaseYear": 2014,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-177572-release-year",
+    "prompt": "What year was Big Hero 6 released?",
+    "answer": "2014",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 177572,
+      "title": "Big Hero 6",
+      "releaseYear": 2014,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-181808-actor-character",
+    "prompt": "In Star Wars: The Last Jedi, which actor plays Luke Skywalker?",
+    "answer": "Mark Hamill",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 181808,
+      "title": "Star Wars: The Last Jedi",
+      "releaseYear": 2017,
+      "field": "credits.cast.character",
+      "personId": 2
+    }
+  },
+  {
+    "id": "tmdb-181808-actor-character",
+    "prompt": "In Star Wars: The Last Jedi, which actor plays Leia Organa?",
+    "answer": "Carrie Fisher",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 181808,
+      "title": "Star Wars: The Last Jedi",
+      "releaseYear": 2017,
+      "field": "credits.cast.character",
+      "personId": 4
+    }
+  },
+  {
+    "id": "tmdb-181808-cast-pair-title",
+    "prompt": "Which 2017 film stars Mark Hamill and Carrie Fisher?",
+    "answer": "Star Wars: The Last Jedi",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 181808,
+      "title": "Star Wars: The Last Jedi",
+      "releaseYear": 2017,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-181808-director",
+    "prompt": "Who directed the 2017 film Star Wars: The Last Jedi?",
+    "answer": "Rian Johnson",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 181808,
+      "title": "Star Wars: The Last Jedi",
+      "releaseYear": 2017,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-181808-release-year",
+    "prompt": "What year was Star Wars: The Last Jedi released?",
+    "answer": "2017",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 181808,
+      "title": "Star Wars: The Last Jedi",
+      "releaseYear": 2017,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-1930-actor-character",
+    "prompt": "In The Amazing Spider-Man, which actor plays Spider-Man?",
+    "answer": "Andrew Garfield",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1930,
+      "title": "The Amazing Spider-Man",
+      "releaseYear": 2012,
+      "field": "credits.cast.character",
+      "personId": 37625
+    }
+  },
+  {
+    "id": "tmdb-1930-actor-character",
+    "prompt": "In The Amazing Spider-Man, which actor plays Gwen Stacy?",
+    "answer": "Emma Stone",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1930,
+      "title": "The Amazing Spider-Man",
+      "releaseYear": 2012,
+      "field": "credits.cast.character",
+      "personId": 54693
+    }
+  },
+  {
+    "id": "tmdb-1930-cast-pair-title",
+    "prompt": "Which 2012 film stars Andrew Garfield and Emma Stone?",
+    "answer": "The Amazing Spider-Man",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1930,
+      "title": "The Amazing Spider-Man",
+      "releaseYear": 2012,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-1930-director",
+    "prompt": "Who directed the 2012 film The Amazing Spider-Man?",
+    "answer": "Marc Webb",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1930,
+      "title": "The Amazing Spider-Man",
+      "releaseYear": 2012,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-1930-release-year",
+    "prompt": "What year was The Amazing Spider-Man released?",
+    "answer": "2012",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 1930,
+      "title": "The Amazing Spider-Man",
+      "releaseYear": 2012,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-198663-actor-character",
+    "prompt": "In The Maze Runner, which actor plays Thomas?",
+    "answer": "Dylan O'Brien",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 198663,
+      "title": "The Maze Runner",
+      "releaseYear": 2014,
+      "field": "credits.cast.character",
+      "personId": 527393
+    }
+  },
+  {
+    "id": "tmdb-198663-actor-character",
+    "prompt": "In The Maze Runner, which actor plays Teresa Agnes?",
+    "answer": "Kaya Scodelario",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 198663,
+      "title": "The Maze Runner",
+      "releaseYear": 2014,
+      "field": "credits.cast.character",
+      "personId": 115150
+    }
+  },
+  {
+    "id": "tmdb-198663-cast-pair-title",
+    "prompt": "Which 2014 film stars Dylan O'Brien and Kaya Scodelario?",
+    "answer": "The Maze Runner",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 198663,
+      "title": "The Maze Runner",
+      "releaseYear": 2014,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-198663-director",
+    "prompt": "Who directed the 2014 film The Maze Runner?",
+    "answer": "Wes Ball",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 198663,
+      "title": "The Maze Runner",
+      "releaseYear": 2014,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-198663-release-year",
+    "prompt": "What year was The Maze Runner released?",
+    "answer": "2014",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 198663,
+      "title": "The Maze Runner",
+      "releaseYear": 2014,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-19995-actor-character",
     "prompt": "In Avatar, which actor plays Jake Sully?",
     "answer": "Sam Worthington",
@@ -4958,6 +4423,145 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-20352-actor-character",
+    "prompt": "In Despicable Me, which actor plays Gru?",
+    "answer": "Steve Carell",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 20352,
+      "title": "Despicable Me",
+      "releaseYear": 2010,
+      "field": "credits.cast.character",
+      "personId": 4495
+    }
+  },
+  {
+    "id": "tmdb-20352-actor-character",
+    "prompt": "In Despicable Me, which actor plays Vector?",
+    "answer": "Jason Segel",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 20352,
+      "title": "Despicable Me",
+      "releaseYear": 2010,
+      "field": "credits.cast.character",
+      "personId": 41088
+    }
+  },
+  {
+    "id": "tmdb-20352-cast-pair-title",
+    "prompt": "Which 2010 film stars Steve Carell and Jason Segel?",
+    "answer": "Despicable Me",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 20352,
+      "title": "Despicable Me",
+      "releaseYear": 2010,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-20352-release-year",
+    "prompt": "What year was Despicable Me released?",
+    "answer": "2010",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 20352,
+      "title": "Despicable Me",
+      "releaseYear": 2010,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-2062-actor-character",
+    "prompt": "In Ratatouille, which actor plays Remy?",
+    "answer": "Patton Oswalt",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 2062,
+      "title": "Ratatouille",
+      "releaseYear": 2007,
+      "field": "credits.cast.character",
+      "personId": 10872
+    }
+  },
+  {
+    "id": "tmdb-2062-actor-character",
+    "prompt": "In Ratatouille, which actor plays Skinner?",
+    "answer": "Ian Holm",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 2062,
+      "title": "Ratatouille",
+      "releaseYear": 2007,
+      "field": "credits.cast.character",
+      "personId": 65
+    }
+  },
+  {
+    "id": "tmdb-2062-cast-pair-title",
+    "prompt": "Which 2007 film stars Patton Oswalt and Ian Holm?",
+    "answer": "Ratatouille",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 2062,
+      "title": "Ratatouille",
+      "releaseYear": 2007,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-2062-director",
+    "prompt": "Who directed the 2007 film Ratatouille?",
+    "answer": "Brad Bird",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 2062,
+      "title": "Ratatouille",
+      "releaseYear": 2007,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-2062-release-year",
+    "prompt": "What year was Ratatouille released?",
+    "answer": "2007",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 2062,
+      "title": "Ratatouille",
+      "releaseYear": 2007,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-209112-actor-character",
     "prompt": "In Batman v Superman: Dawn of Justice, which actor plays Bruce Wayne?",
     "answer": "Ben Affleck",
@@ -5031,6 +4635,175 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 209112,
       "title": "Batman v Superman: Dawn of Justice",
       "releaseYear": 2016,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-2105-actor-character",
+    "prompt": "In American Pie, which actor plays Jim Levenstein?",
+    "answer": "Jason Biggs",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 2105,
+      "title": "American Pie",
+      "releaseYear": 1999,
+      "field": "credits.cast.character",
+      "personId": 21593
+    }
+  },
+  {
+    "id": "tmdb-2105-actor-character",
+    "prompt": "In American Pie, which actor plays Chris 'Oz' Ostreicher?",
+    "answer": "Chris Klein",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 2105,
+      "title": "American Pie",
+      "releaseYear": 1999,
+      "field": "credits.cast.character",
+      "personId": 21594
+    }
+  },
+  {
+    "id": "tmdb-2105-cast-pair-title",
+    "prompt": "Which 1999 film stars Jason Biggs and Chris Klein?",
+    "answer": "American Pie",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 2105,
+      "title": "American Pie",
+      "releaseYear": 1999,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-2105-composer",
+    "prompt": "Who composed the music for American Pie?",
+    "answer": "David Lawrence",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 2105,
+      "title": "American Pie",
+      "releaseYear": 1999,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-2105-director",
+    "prompt": "Who directed the 1999 film American Pie?",
+    "answer": "Paul Weitz",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 2105,
+      "title": "American Pie",
+      "releaseYear": 1999,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-2105-release-year",
+    "prompt": "What year was American Pie released?",
+    "answer": "1999",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 2105,
+      "title": "American Pie",
+      "releaseYear": 1999,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-210577-actor-character",
+    "prompt": "In Gone Girl, which actor plays Nick Dunne?",
+    "answer": "Ben Affleck",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 210577,
+      "title": "Gone Girl",
+      "releaseYear": 2014,
+      "field": "credits.cast.character",
+      "personId": 880
+    }
+  },
+  {
+    "id": "tmdb-210577-actor-character",
+    "prompt": "In Gone Girl, which actor plays Amy Dunne?",
+    "answer": "Rosamund Pike",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 210577,
+      "title": "Gone Girl",
+      "releaseYear": 2014,
+      "field": "credits.cast.character",
+      "personId": 10882
+    }
+  },
+  {
+    "id": "tmdb-210577-cast-pair-title",
+    "prompt": "Which 2014 film stars Ben Affleck and Rosamund Pike?",
+    "answer": "Gone Girl",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 210577,
+      "title": "Gone Girl",
+      "releaseYear": 2014,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-210577-director",
+    "prompt": "Who directed the 2014 film Gone Girl?",
+    "answer": "David Fincher",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 210577,
+      "title": "Gone Girl",
+      "releaseYear": 2014,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-210577-release-year",
+    "prompt": "What year was Gone Girl released?",
+    "answer": "2014",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 210577,
+      "title": "Gone Girl",
+      "releaseYear": 2014,
       "field": "release_date"
     }
   },
@@ -5189,156 +4962,94 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-238-actor-character",
-    "prompt": "In The Godfather, which actor plays Don Vito Corleone?",
-    "answer": "Marlon Brando",
+    "id": "tmdb-2251-actor-character",
+    "prompt": "In Unfaithful, which actor plays Constance Sumner?",
+    "answer": "Diane Lane",
     "category": "Movies",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 238,
-      "title": "The Godfather",
-      "releaseYear": 1972,
+      "movieId": 2251,
+      "title": "Unfaithful",
+      "releaseYear": 2002,
       "field": "credits.cast.character",
-      "personId": 3084
+      "personId": 2882
     }
   },
   {
-    "id": "tmdb-238-actor-character",
-    "prompt": "In The Godfather, which actor plays Michael Corleone?",
-    "answer": "Al Pacino",
+    "id": "tmdb-2251-actor-character",
+    "prompt": "In Unfaithful, which actor plays Edward Sumner?",
+    "answer": "Richard Gere",
     "category": "Movies",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 238,
-      "title": "The Godfather",
-      "releaseYear": 1972,
+      "movieId": 2251,
+      "title": "Unfaithful",
+      "releaseYear": 2002,
       "field": "credits.cast.character",
-      "personId": 1158
+      "personId": 1205
     }
   },
   {
-    "id": "tmdb-238-cast-pair-title",
-    "prompt": "Which 1972 film stars Marlon Brando and Al Pacino?",
-    "answer": "The Godfather",
+    "id": "tmdb-2251-cast-pair-title",
+    "prompt": "Which 2002 film stars Diane Lane and Richard Gere?",
+    "answer": "Unfaithful",
     "category": "Movies",
-    "difficulty": "easy",
+    "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 238,
-      "title": "The Godfather",
-      "releaseYear": 1972,
+      "movieId": 2251,
+      "title": "Unfaithful",
+      "releaseYear": 2002,
       "field": "credits.cast"
     }
   },
   {
-    "id": "tmdb-238-director",
-    "prompt": "Who directed the 1972 film The Godfather?",
-    "answer": "Francis Ford Coppola",
+    "id": "tmdb-2251-composer",
+    "prompt": "Who composed the music for Unfaithful?",
+    "answer": "Jan A. P. Kaczmarek",
     "category": "Movies",
-    "difficulty": "easy",
+    "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 238,
-      "title": "The Godfather",
-      "releaseYear": 1972,
+      "movieId": 2251,
+      "title": "Unfaithful",
+      "releaseYear": 2002,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-2251-director",
+    "prompt": "Who directed the 2002 film Unfaithful?",
+    "answer": "Adrian Lyne",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 2251,
+      "title": "Unfaithful",
+      "releaseYear": 2002,
       "field": "credits.crew.Director"
     }
   },
   {
-    "id": "tmdb-238-release-year",
-    "prompt": "What year was The Godfather released?",
-    "answer": "1972",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 238,
-      "title": "The Godfather",
-      "releaseYear": 1972,
-      "field": "release_date"
-    }
-  },
-  {
-    "id": "tmdb-240-actor-character",
-    "prompt": "In The Godfather Part II, which actor plays Don Michael Corleone?",
-    "answer": "Al Pacino",
+    "id": "tmdb-2251-release-year",
+    "prompt": "What year was Unfaithful released?",
+    "answer": "2002",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 240,
-      "title": "The Godfather Part II",
-      "releaseYear": 1974,
-      "field": "credits.cast.character",
-      "personId": 1158
-    }
-  },
-  {
-    "id": "tmdb-240-actor-character",
-    "prompt": "In The Godfather Part II, which actor plays Tom Hagen?",
-    "answer": "Robert Duvall",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 240,
-      "title": "The Godfather Part II",
-      "releaseYear": 1974,
-      "field": "credits.cast.character",
-      "personId": 3087
-    }
-  },
-  {
-    "id": "tmdb-240-cast-pair-title",
-    "prompt": "Which 1974 film stars Al Pacino and Robert Duvall?",
-    "answer": "The Godfather Part II",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 240,
-      "title": "The Godfather Part II",
-      "releaseYear": 1974,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-240-director",
-    "prompt": "Who directed the 1974 film The Godfather Part II?",
-    "answer": "Francis Ford Coppola",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 240,
-      "title": "The Godfather Part II",
-      "releaseYear": 1974,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-240-release-year",
-    "prompt": "What year was The Godfather Part II released?",
-    "answer": "1974",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 240,
-      "title": "The Godfather Part II",
-      "releaseYear": 1974,
+      "movieId": 2251,
+      "title": "Unfaithful",
+      "releaseYear": 2002,
       "field": "release_date"
     }
   },
@@ -5574,6 +5285,314 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-256835-actor-character",
+    "prompt": "In Toy Story That Time Forgot, which actor plays Trixie?",
+    "answer": "Kristen Schaal",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 256835,
+      "title": "Toy Story That Time Forgot",
+      "releaseYear": 2014,
+      "field": "credits.cast.character",
+      "personId": 109869
+    }
+  },
+  {
+    "id": "tmdb-256835-actor-character",
+    "prompt": "In Toy Story That Time Forgot, which actor plays Reptillus Maximus?",
+    "answer": "Kevin McKidd",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 256835,
+      "title": "Toy Story That Time Forgot",
+      "releaseYear": 2014,
+      "field": "credits.cast.character",
+      "personId": 9013
+    }
+  },
+  {
+    "id": "tmdb-256835-cast-pair-title",
+    "prompt": "Which 2014 film stars Kristen Schaal and Kevin McKidd?",
+    "answer": "Toy Story That Time Forgot",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 256835,
+      "title": "Toy Story That Time Forgot",
+      "releaseYear": 2014,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-256835-composer",
+    "prompt": "Who composed the music for Toy Story That Time Forgot?",
+    "answer": "Michael Giacchino",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 256835,
+      "title": "Toy Story That Time Forgot",
+      "releaseYear": 2014,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-256835-director",
+    "prompt": "Who directed the 2014 film Toy Story That Time Forgot?",
+    "answer": "Steve Purcell",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 256835,
+      "title": "Toy Story That Time Forgot",
+      "releaseYear": 2014,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-256835-release-year",
+    "prompt": "What year was Toy Story That Time Forgot released?",
+    "answer": "2014",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 256835,
+      "title": "Toy Story That Time Forgot",
+      "releaseYear": 2014,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-259316-actor-character",
+    "prompt": "In Fantastic Beasts and Where to Find Them, which actor plays Newt Scamander?",
+    "answer": "Eddie Redmayne",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 259316,
+      "title": "Fantastic Beasts and Where to Find Them",
+      "releaseYear": 2016,
+      "field": "credits.cast.character",
+      "personId": 37632
+    }
+  },
+  {
+    "id": "tmdb-259316-actor-character",
+    "prompt": "In Fantastic Beasts and Where to Find Them, which actor plays Porpentina 'Tina' Goldstein?",
+    "answer": "Katherine Waterston",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 259316,
+      "title": "Fantastic Beasts and Where to Find Them",
+      "releaseYear": 2016,
+      "field": "credits.cast.character",
+      "personId": 77795
+    }
+  },
+  {
+    "id": "tmdb-259316-cast-pair-title",
+    "prompt": "Which 2016 film stars Eddie Redmayne and Katherine Waterston?",
+    "answer": "Fantastic Beasts and Where to Find Them",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 259316,
+      "title": "Fantastic Beasts and Where to Find Them",
+      "releaseYear": 2016,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-259316-director",
+    "prompt": "Who directed the 2016 film Fantastic Beasts and Where to Find Them?",
+    "answer": "David Yates",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 259316,
+      "title": "Fantastic Beasts and Where to Find Them",
+      "releaseYear": 2016,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-259316-release-year",
+    "prompt": "What year was Fantastic Beasts and Where to Find Them released?",
+    "answer": "2016",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 259316,
+      "title": "Fantastic Beasts and Where to Find Them",
+      "releaseYear": 2016,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-263115-actor-character",
+    "prompt": "In Logan, which actor plays Logan?",
+    "answer": "Hugh Jackman",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 263115,
+      "title": "Logan",
+      "releaseYear": 2017,
+      "field": "credits.cast.character",
+      "personId": 6968
+    }
+  },
+  {
+    "id": "tmdb-263115-actor-character",
+    "prompt": "In Logan, which actor plays Laura?",
+    "answer": "Dafne Keen",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 263115,
+      "title": "Logan",
+      "releaseYear": 2017,
+      "field": "credits.cast.character",
+      "personId": 1464650
+    }
+  },
+  {
+    "id": "tmdb-263115-cast-pair-title",
+    "prompt": "Which 2017 film stars Hugh Jackman and Dafne Keen?",
+    "answer": "Logan",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 263115,
+      "title": "Logan",
+      "releaseYear": 2017,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-263115-director",
+    "prompt": "Who directed the 2017 film Logan?",
+    "answer": "James Mangold",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 263115,
+      "title": "Logan",
+      "releaseYear": 2017,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-263115-release-year",
+    "prompt": "What year was Logan released?",
+    "answer": "2017",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 263115,
+      "title": "Logan",
+      "releaseYear": 2017,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-269149-actor-character",
+    "prompt": "In Zootopia, which actor plays Judy Hopps?",
+    "answer": "Ginnifer Goodwin",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 269149,
+      "title": "Zootopia",
+      "releaseYear": 2016,
+      "field": "credits.cast.character",
+      "personId": 417
+    }
+  },
+  {
+    "id": "tmdb-269149-actor-character",
+    "prompt": "In Zootopia, which actor plays Nick Wilde?",
+    "answer": "Jason Bateman",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 269149,
+      "title": "Zootopia",
+      "releaseYear": 2016,
+      "field": "credits.cast.character",
+      "personId": 23532
+    }
+  },
+  {
+    "id": "tmdb-269149-cast-pair-title",
+    "prompt": "Which 2016 film stars Ginnifer Goodwin and Jason Bateman?",
+    "answer": "Zootopia",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 269149,
+      "title": "Zootopia",
+      "releaseYear": 2016,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-269149-release-year",
+    "prompt": "What year was Zootopia released?",
+    "answer": "2016",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 269149,
+      "title": "Zootopia",
+      "releaseYear": 2016,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-27-actor-character",
     "prompt": "In 9 Songs, which actor plays Matt?",
     "answer": "Kieran O'Brien",
@@ -5647,6 +5666,145 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 27,
       "title": "9 Songs",
       "releaseYear": 2004,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-271110-actor-character",
+    "prompt": "In Captain America: Civil War, which actor plays Steve Rogers?",
+    "answer": "Chris Evans",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 271110,
+      "title": "Captain America: Civil War",
+      "releaseYear": 2016,
+      "field": "credits.cast.character",
+      "personId": 16828
+    }
+  },
+  {
+    "id": "tmdb-271110-actor-character",
+    "prompt": "In Captain America: Civil War, which actor plays Tony Stark?",
+    "answer": "Robert Downey Jr.",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 271110,
+      "title": "Captain America: Civil War",
+      "releaseYear": 2016,
+      "field": "credits.cast.character",
+      "personId": 3223
+    }
+  },
+  {
+    "id": "tmdb-271110-cast-pair-title",
+    "prompt": "Which 2016 film stars Chris Evans and Robert Downey Jr.?",
+    "answer": "Captain America: Civil War",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 271110,
+      "title": "Captain America: Civil War",
+      "releaseYear": 2016,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-271110-release-year",
+    "prompt": "What year was Captain America: Civil War released?",
+    "answer": "2016",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 271110,
+      "title": "Captain America: Civil War",
+      "releaseYear": 2016,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-272-actor-character",
+    "prompt": "In Batman Begins, which actor plays Bruce Wayne?",
+    "answer": "Christian Bale",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 272,
+      "title": "Batman Begins",
+      "releaseYear": 2005,
+      "field": "credits.cast.character",
+      "personId": 3894
+    }
+  },
+  {
+    "id": "tmdb-272-actor-character",
+    "prompt": "In Batman Begins, which actor plays Alfred?",
+    "answer": "Michael Caine",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 272,
+      "title": "Batman Begins",
+      "releaseYear": 2005,
+      "field": "credits.cast.character",
+      "personId": 3895
+    }
+  },
+  {
+    "id": "tmdb-272-cast-pair-title",
+    "prompt": "Which 2005 film stars Christian Bale and Michael Caine?",
+    "answer": "Batman Begins",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 272,
+      "title": "Batman Begins",
+      "releaseYear": 2005,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-272-director",
+    "prompt": "Who directed the 2005 film Batman Begins?",
+    "answer": "Christopher Nolan",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 272,
+      "title": "Batman Begins",
+      "releaseYear": 2005,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-272-release-year",
+    "prompt": "What year was Batman Begins released?",
+    "answer": "2005",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 272,
+      "title": "Batman Begins",
+      "releaseYear": 2005,
       "field": "release_date"
     }
   },
@@ -5805,6 +5963,83 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-280-actor-character",
+    "prompt": "In Terminator 2: Judgment Day, which actor plays The Terminator?",
+    "answer": "Arnold Schwarzenegger",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 280,
+      "title": "Terminator 2: Judgment Day",
+      "releaseYear": 1991,
+      "field": "credits.cast.character",
+      "personId": 1100
+    }
+  },
+  {
+    "id": "tmdb-280-actor-character",
+    "prompt": "In Terminator 2: Judgment Day, which actor plays Sarah Connor?",
+    "answer": "Linda Hamilton",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 280,
+      "title": "Terminator 2: Judgment Day",
+      "releaseYear": 1991,
+      "field": "credits.cast.character",
+      "personId": 2713
+    }
+  },
+  {
+    "id": "tmdb-280-cast-pair-title",
+    "prompt": "Which 1991 film stars Arnold Schwarzenegger and Linda Hamilton?",
+    "answer": "Terminator 2: Judgment Day",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 280,
+      "title": "Terminator 2: Judgment Day",
+      "releaseYear": 1991,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-280-director",
+    "prompt": "Who directed the 1991 film Terminator 2: Judgment Day?",
+    "answer": "James Cameron",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 280,
+      "title": "Terminator 2: Judgment Day",
+      "releaseYear": 1991,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-280-release-year",
+    "prompt": "What year was Terminator 2: Judgment Day released?",
+    "answer": "1991",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 280,
+      "title": "Terminator 2: Judgment Day",
+      "releaseYear": 1991,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-284054-actor-character",
     "prompt": "In Black Panther, which actor plays T'Challa?",
     "answer": "Chadwick Boseman",
@@ -5878,6 +6113,83 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 284054,
       "title": "Black Panther",
       "releaseYear": 2018,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-285-actor-character",
+    "prompt": "In Pirates of the Caribbean: At World's End, which actor plays Jack Sparrow?",
+    "answer": "Johnny Depp",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 285,
+      "title": "Pirates of the Caribbean: At World's End",
+      "releaseYear": 2007,
+      "field": "credits.cast.character",
+      "personId": 85
+    }
+  },
+  {
+    "id": "tmdb-285-actor-character",
+    "prompt": "In Pirates of the Caribbean: At World's End, which actor plays Barbossa?",
+    "answer": "Geoffrey Rush",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 285,
+      "title": "Pirates of the Caribbean: At World's End",
+      "releaseYear": 2007,
+      "field": "credits.cast.character",
+      "personId": 118
+    }
+  },
+  {
+    "id": "tmdb-285-cast-pair-title",
+    "prompt": "Which 2007 film stars Johnny Depp and Geoffrey Rush?",
+    "answer": "Pirates of the Caribbean: At World's End",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 285,
+      "title": "Pirates of the Caribbean: At World's End",
+      "releaseYear": 2007,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-285-director",
+    "prompt": "Who directed the 2007 film Pirates of the Caribbean: At World's End?",
+    "answer": "Gore Verbinski",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 285,
+      "title": "Pirates of the Caribbean: At World's End",
+      "releaseYear": 2007,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-285-release-year",
+    "prompt": "What year was Pirates of the Caribbean: At World's End released?",
+    "answer": "2007",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 285,
+      "title": "Pirates of the Caribbean: At World's End",
+      "releaseYear": 2007,
       "field": "release_date"
     }
   },
@@ -6006,6 +6318,175 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-301528-actor-character",
+    "prompt": "In Toy Story 4, which actor plays Woody?",
+    "answer": "Tom Hanks",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 301528,
+      "title": "Toy Story 4",
+      "releaseYear": 2019,
+      "field": "credits.cast.character",
+      "personId": 31
+    }
+  },
+  {
+    "id": "tmdb-301528-actor-character",
+    "prompt": "In Toy Story 4, which actor plays Buzz Lightyear?",
+    "answer": "Tim Allen",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 301528,
+      "title": "Toy Story 4",
+      "releaseYear": 2019,
+      "field": "credits.cast.character",
+      "personId": 12898
+    }
+  },
+  {
+    "id": "tmdb-301528-cast-pair-title",
+    "prompt": "Which 2019 film stars Tom Hanks and Tim Allen?",
+    "answer": "Toy Story 4",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 301528,
+      "title": "Toy Story 4",
+      "releaseYear": 2019,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-301528-director",
+    "prompt": "Who directed the 2019 film Toy Story 4?",
+    "answer": "Josh Cooley",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 301528,
+      "title": "Toy Story 4",
+      "releaseYear": 2019,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-301528-release-year",
+    "prompt": "What year was Toy Story 4 released?",
+    "answer": "2019",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 301528,
+      "title": "Toy Story 4",
+      "releaseYear": 2019,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-315162-actor-character",
+    "prompt": "In Puss in Boots: The Last Wish, which actor plays Puss in Boots?",
+    "answer": "Antonio Banderas",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 315162,
+      "title": "Puss in Boots: The Last Wish",
+      "releaseYear": 2022,
+      "field": "credits.cast.character",
+      "personId": 3131
+    }
+  },
+  {
+    "id": "tmdb-315162-actor-character",
+    "prompt": "In Puss in Boots: The Last Wish, which actor plays Kitty Softpaws?",
+    "answer": "Salma Hayek Pinault",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 315162,
+      "title": "Puss in Boots: The Last Wish",
+      "releaseYear": 2022,
+      "field": "credits.cast.character",
+      "personId": 3136
+    }
+  },
+  {
+    "id": "tmdb-315162-cast-pair-title",
+    "prompt": "Which 2022 film stars Antonio Banderas and Salma Hayek Pinault?",
+    "answer": "Puss in Boots: The Last Wish",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 315162,
+      "title": "Puss in Boots: The Last Wish",
+      "releaseYear": 2022,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-315162-composer",
+    "prompt": "Who composed the music for Puss in Boots: The Last Wish?",
+    "answer": "Heitor Pereira",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 315162,
+      "title": "Puss in Boots: The Last Wish",
+      "releaseYear": 2022,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-315162-director",
+    "prompt": "Who directed the 2022 film Puss in Boots: The Last Wish?",
+    "answer": "Joel Crawford",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 315162,
+      "title": "Puss in Boots: The Last Wish",
+      "releaseYear": 2022,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-315162-release-year",
+    "prompt": "What year was Puss in Boots: The Last Wish released?",
+    "answer": "2022",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 315162,
+      "title": "Puss in Boots: The Last Wish",
+      "releaseYear": 2022,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-315635-actor-character",
     "prompt": "In Spider-Man: Homecoming, which actor plays Peter Parker?",
     "answer": "Tom Holland",
@@ -6079,6 +6560,160 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 315635,
       "title": "Spider-Man: Homecoming",
       "releaseYear": 2017,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-321612-actor-character",
+    "prompt": "In Beauty and the Beast, which actor plays Belle?",
+    "answer": "Emma Watson",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 321612,
+      "title": "Beauty and the Beast",
+      "releaseYear": 2017,
+      "field": "credits.cast.character",
+      "personId": 10990
+    }
+  },
+  {
+    "id": "tmdb-321612-actor-character",
+    "prompt": "In Beauty and the Beast, which actor plays Beast?",
+    "answer": "Dan Stevens",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 321612,
+      "title": "Beauty and the Beast",
+      "releaseYear": 2017,
+      "field": "credits.cast.character",
+      "personId": 221018
+    }
+  },
+  {
+    "id": "tmdb-321612-cast-pair-title",
+    "prompt": "Which 2017 film stars Emma Watson and Dan Stevens?",
+    "answer": "Beauty and the Beast",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 321612,
+      "title": "Beauty and the Beast",
+      "releaseYear": 2017,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-321612-director",
+    "prompt": "Who directed the 2017 film Beauty and the Beast?",
+    "answer": "Bill Condon",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 321612,
+      "title": "Beauty and the Beast",
+      "releaseYear": 2017,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-321612-release-year",
+    "prompt": "What year was Beauty and the Beast released?",
+    "answer": "2017",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 321612,
+      "title": "Beauty and the Beast",
+      "releaseYear": 2017,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-324786-actor-character",
+    "prompt": "In Hacksaw Ridge, which actor plays Desmond T. Doss?",
+    "answer": "Andrew Garfield",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 324786,
+      "title": "Hacksaw Ridge",
+      "releaseYear": 2016,
+      "field": "credits.cast.character",
+      "personId": 37625
+    }
+  },
+  {
+    "id": "tmdb-324786-actor-character",
+    "prompt": "In Hacksaw Ridge, which actor plays Captain Glover?",
+    "answer": "Sam Worthington",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 324786,
+      "title": "Hacksaw Ridge",
+      "releaseYear": 2016,
+      "field": "credits.cast.character",
+      "personId": 65731
+    }
+  },
+  {
+    "id": "tmdb-324786-cast-pair-title",
+    "prompt": "Which 2016 film stars Andrew Garfield and Sam Worthington?",
+    "answer": "Hacksaw Ridge",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 324786,
+      "title": "Hacksaw Ridge",
+      "releaseYear": 2016,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-324786-director",
+    "prompt": "Who directed the 2016 film Hacksaw Ridge?",
+    "answer": "Mel Gibson",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 324786,
+      "title": "Hacksaw Ridge",
+      "releaseYear": 2016,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-324786-release-year",
+    "prompt": "What year was Hacksaw Ridge released?",
+    "answer": "2016",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 324786,
+      "title": "Hacksaw Ridge",
+      "releaseYear": 2016,
       "field": "release_date"
     }
   },
@@ -6372,6 +7007,83 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 337167,
       "title": "Fifty Shades Freed",
       "releaseYear": 2018,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-346698-actor-character",
+    "prompt": "In Barbie, which actor plays Barbie?",
+    "answer": "Margot Robbie",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 346698,
+      "title": "Barbie",
+      "releaseYear": 2023,
+      "field": "credits.cast.character",
+      "personId": 234352
+    }
+  },
+  {
+    "id": "tmdb-346698-actor-character",
+    "prompt": "In Barbie, which actor plays Ken?",
+    "answer": "Ryan Gosling",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 346698,
+      "title": "Barbie",
+      "releaseYear": 2023,
+      "field": "credits.cast.character",
+      "personId": 30614
+    }
+  },
+  {
+    "id": "tmdb-346698-cast-pair-title",
+    "prompt": "Which 2023 film stars Margot Robbie and Ryan Gosling?",
+    "answer": "Barbie",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 346698,
+      "title": "Barbie",
+      "releaseYear": 2023,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-346698-director",
+    "prompt": "Who directed the 2023 film Barbie?",
+    "answer": "Greta Gerwig",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 346698,
+      "title": "Barbie",
+      "releaseYear": 2023,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-346698-release-year",
+    "prompt": "What year was Barbie released?",
+    "answer": "2023",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 346698,
+      "title": "Barbie",
+      "releaseYear": 2023,
       "field": "release_date"
     }
   },
@@ -6838,6 +7550,160 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-385687-actor-character",
+    "prompt": "In Fast X, which actor plays Dominic Toretto?",
+    "answer": "Vin Diesel",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 385687,
+      "title": "Fast X",
+      "releaseYear": 2023,
+      "field": "credits.cast.character",
+      "personId": 12835
+    }
+  },
+  {
+    "id": "tmdb-385687-actor-character",
+    "prompt": "In Fast X, which actor plays Letty?",
+    "answer": "Michelle Rodriguez",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 385687,
+      "title": "Fast X",
+      "releaseYear": 2023,
+      "field": "credits.cast.character",
+      "personId": 17647
+    }
+  },
+  {
+    "id": "tmdb-385687-cast-pair-title",
+    "prompt": "Which 2023 film stars Vin Diesel and Michelle Rodriguez?",
+    "answer": "Fast X",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 385687,
+      "title": "Fast X",
+      "releaseYear": 2023,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-385687-composer",
+    "prompt": "Who composed the music for Fast X?",
+    "answer": "Brian Tyler",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 385687,
+      "title": "Fast X",
+      "releaseYear": 2023,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-385687-director",
+    "prompt": "Who directed the 2023 film Fast X?",
+    "answer": "Louis Leterrier",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 385687,
+      "title": "Fast X",
+      "releaseYear": 2023,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-385687-release-year",
+    "prompt": "What year was Fast X released?",
+    "answer": "2023",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 385687,
+      "title": "Fast X",
+      "releaseYear": 2023,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-38757-actor-character",
+    "prompt": "In Tangled, which actor plays Rapunzel?",
+    "answer": "Mandy Moore",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 38757,
+      "title": "Tangled",
+      "releaseYear": 2010,
+      "field": "credits.cast.character",
+      "personId": 16855
+    }
+  },
+  {
+    "id": "tmdb-38757-actor-character",
+    "prompt": "In Tangled, which actor plays Flynn Rider?",
+    "answer": "Zachary Levi",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 38757,
+      "title": "Tangled",
+      "releaseYear": 2010,
+      "field": "credits.cast.character",
+      "personId": 69899
+    }
+  },
+  {
+    "id": "tmdb-38757-cast-pair-title",
+    "prompt": "Which 2010 film stars Mandy Moore and Zachary Levi?",
+    "answer": "Tangled",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 38757,
+      "title": "Tangled",
+      "releaseYear": 2010,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-38757-release-year",
+    "prompt": "What year was Tangled released?",
+    "answer": "2010",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 38757,
+      "title": "Tangled",
+      "releaseYear": 2010,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-39254-actor-character",
     "prompt": "In Real Steel, which actor plays Charlie Kenton?",
     "answer": "Hugh Jackman",
@@ -6930,94 +7796,141 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-406997-actor-character",
-    "prompt": "In Wonder, which actor plays Auggie?",
-    "answer": "Jacob Tremblay",
+    "id": "tmdb-3933-actor-character",
+    "prompt": "In Corpse Bride, which actor plays Victor Van Dort?",
+    "answer": "Johnny Depp",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 406997,
-      "title": "Wonder",
-      "releaseYear": 2017,
+      "movieId": 3933,
+      "title": "Corpse Bride",
+      "releaseYear": 2005,
       "field": "credits.cast.character",
-      "personId": 1277188
+      "personId": 85
     }
   },
   {
-    "id": "tmdb-406997-actor-character",
-    "prompt": "In Wonder, which actor plays Isabel?",
-    "answer": "Julia Roberts",
+    "id": "tmdb-3933-actor-character",
+    "prompt": "In Corpse Bride, which actor plays Corpse Bride?",
+    "answer": "Helena Bonham Carter",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 406997,
-      "title": "Wonder",
-      "releaseYear": 2017,
+      "movieId": 3933,
+      "title": "Corpse Bride",
+      "releaseYear": 2005,
       "field": "credits.cast.character",
-      "personId": 1204
+      "personId": 1283
     }
   },
   {
-    "id": "tmdb-406997-cast-pair-title",
-    "prompt": "Which 2017 film stars Jacob Tremblay and Julia Roberts?",
-    "answer": "Wonder",
+    "id": "tmdb-3933-cast-pair-title",
+    "prompt": "Which 2005 film stars Johnny Depp and Helena Bonham Carter?",
+    "answer": "Corpse Bride",
     "category": "Movies",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 406997,
-      "title": "Wonder",
-      "releaseYear": 2017,
+      "movieId": 3933,
+      "title": "Corpse Bride",
+      "releaseYear": 2005,
       "field": "credits.cast"
     }
   },
   {
-    "id": "tmdb-406997-composer",
-    "prompt": "Who composed the music for Wonder?",
-    "answer": "Marcelo Zarvos",
+    "id": "tmdb-3933-release-year",
+    "prompt": "What year was Corpse Bride released?",
+    "answer": "2005",
     "category": "Movies",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 406997,
-      "title": "Wonder",
-      "releaseYear": 2017,
-      "field": "credits.crew.Original Music Composer"
+      "movieId": 3933,
+      "title": "Corpse Bride",
+      "releaseYear": 2005,
+      "field": "release_date"
     }
   },
   {
-    "id": "tmdb-406997-director",
-    "prompt": "Who directed the 2017 film Wonder?",
-    "answer": "Stephen Chbosky",
+    "id": "tmdb-402431-actor-character",
+    "prompt": "In Wicked, which actor plays Elphaba?",
+    "answer": "Cynthia Erivo",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 406997,
-      "title": "Wonder",
-      "releaseYear": 2017,
+      "movieId": 402431,
+      "title": "Wicked",
+      "releaseYear": 2024,
+      "field": "credits.cast.character",
+      "personId": 1765068
+    }
+  },
+  {
+    "id": "tmdb-402431-actor-character",
+    "prompt": "In Wicked, which actor plays Galinda?",
+    "answer": "Ariana Grande",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 402431,
+      "title": "Wicked",
+      "releaseYear": 2024,
+      "field": "credits.cast.character",
+      "personId": 226001
+    }
+  },
+  {
+    "id": "tmdb-402431-cast-pair-title",
+    "prompt": "Which 2024 film stars Cynthia Erivo and Ariana Grande?",
+    "answer": "Wicked",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 402431,
+      "title": "Wicked",
+      "releaseYear": 2024,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-402431-director",
+    "prompt": "Who directed the 2024 film Wicked?",
+    "answer": "Jon M. Chu",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 402431,
+      "title": "Wicked",
+      "releaseYear": 2024,
       "field": "credits.crew.Director"
     }
   },
   {
-    "id": "tmdb-406997-release-year",
-    "prompt": "What year was Wonder released?",
-    "answer": "2017",
+    "id": "tmdb-402431-release-year",
+    "prompt": "What year was Wicked released?",
+    "answer": "2024",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 406997,
-      "title": "Wonder",
-      "releaseYear": 2017,
+      "movieId": 402431,
+      "title": "Wicked",
+      "releaseYear": 2024,
       "field": "release_date"
     }
   },
@@ -7172,6 +8085,175 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 414906,
       "title": "The Batman",
       "releaseYear": 2022,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-4232-actor-character",
+    "prompt": "In Scream, which actor plays Sidney Prescott?",
+    "answer": "Neve Campbell",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 4232,
+      "title": "Scream",
+      "releaseYear": 1996,
+      "field": "credits.cast.character",
+      "personId": 9206
+    }
+  },
+  {
+    "id": "tmdb-4232-actor-character",
+    "prompt": "In Scream, which actor plays Dewey Riley?",
+    "answer": "David Arquette",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 4232,
+      "title": "Scream",
+      "releaseYear": 1996,
+      "field": "credits.cast.character",
+      "personId": 15234
+    }
+  },
+  {
+    "id": "tmdb-4232-cast-pair-title",
+    "prompt": "Which 1996 film stars Neve Campbell and David Arquette?",
+    "answer": "Scream",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 4232,
+      "title": "Scream",
+      "releaseYear": 1996,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-4232-composer",
+    "prompt": "Who composed the music for Scream?",
+    "answer": "Marco Beltrami",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 4232,
+      "title": "Scream",
+      "releaseYear": 1996,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-4232-director",
+    "prompt": "Who directed the 1996 film Scream?",
+    "answer": "Wes Craven",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 4232,
+      "title": "Scream",
+      "releaseYear": 1996,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-4232-release-year",
+    "prompt": "What year was Scream released?",
+    "answer": "1996",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 4232,
+      "title": "Scream",
+      "releaseYear": 1996,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-424-actor-character",
+    "prompt": "In Schindler's List, which actor plays Oskar Schindler?",
+    "answer": "Liam Neeson",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 424,
+      "title": "Schindler's List",
+      "releaseYear": 1993,
+      "field": "credits.cast.character",
+      "personId": 3896
+    }
+  },
+  {
+    "id": "tmdb-424-actor-character",
+    "prompt": "In Schindler's List, which actor plays Itzhak Stern?",
+    "answer": "Ben Kingsley",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 424,
+      "title": "Schindler's List",
+      "releaseYear": 1993,
+      "field": "credits.cast.character",
+      "personId": 2282
+    }
+  },
+  {
+    "id": "tmdb-424-cast-pair-title",
+    "prompt": "Which 1993 film stars Liam Neeson and Ben Kingsley?",
+    "answer": "Schindler's List",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 424,
+      "title": "Schindler's List",
+      "releaseYear": 1993,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-424-director",
+    "prompt": "Who directed the 1993 film Schindler's List?",
+    "answer": "Steven Spielberg",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 424,
+      "title": "Schindler's List",
+      "releaseYear": 1993,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-424-release-year",
+    "prompt": "What year was Schindler's List released?",
+    "answer": "1993",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 424,
+      "title": "Schindler's List",
+      "releaseYear": 1993,
       "field": "release_date"
     }
   },
@@ -7356,6 +8438,83 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 4248,
       "title": "Scary Movie 2",
       "releaseYear": 2001,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-425-actor-character",
+    "prompt": "In Ice Age, which actor plays Manfred 'Manny'?",
+    "answer": "Ray Romano",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 425,
+      "title": "Ice Age",
+      "releaseYear": 2002,
+      "field": "credits.cast.character",
+      "personId": 15757
+    }
+  },
+  {
+    "id": "tmdb-425-actor-character",
+    "prompt": "In Ice Age, which actor plays Sid?",
+    "answer": "John Leguizamo",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 425,
+      "title": "Ice Age",
+      "releaseYear": 2002,
+      "field": "credits.cast.character",
+      "personId": 5723
+    }
+  },
+  {
+    "id": "tmdb-425-cast-pair-title",
+    "prompt": "Which 2002 film stars Ray Romano and John Leguizamo?",
+    "answer": "Ice Age",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 425,
+      "title": "Ice Age",
+      "releaseYear": 2002,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-425-director",
+    "prompt": "Who directed the 2002 film Ice Age?",
+    "answer": "Chris Wedge",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 425,
+      "title": "Ice Age",
+      "releaseYear": 2002,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-425-release-year",
+    "prompt": "What year was Ice Age released?",
+    "answer": "2002",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 425,
+      "title": "Ice Age",
+      "releaseYear": 2002,
       "field": "release_date"
     }
   },
@@ -7882,6 +9041,83 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-453395-actor-character",
+    "prompt": "In Doctor Strange in the Multiverse of Madness, which actor plays Doctor Stephen Strange?",
+    "answer": "Benedict Cumberbatch",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 453395,
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "releaseYear": 2022,
+      "field": "credits.cast.character",
+      "personId": 71580
+    }
+  },
+  {
+    "id": "tmdb-453395-actor-character",
+    "prompt": "In Doctor Strange in the Multiverse of Madness, which actor plays America Chavez?",
+    "answer": "Xochitl Gomez",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 453395,
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "releaseYear": 2022,
+      "field": "credits.cast.character",
+      "personId": 1912381
+    }
+  },
+  {
+    "id": "tmdb-453395-cast-pair-title",
+    "prompt": "Which 2022 film stars Benedict Cumberbatch and Xochitl Gomez?",
+    "answer": "Doctor Strange in the Multiverse of Madness",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 453395,
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "releaseYear": 2022,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-453395-director",
+    "prompt": "Who directed the 2022 film Doctor Strange in the Multiverse of Madness?",
+    "answer": "Sam Raimi",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 453395,
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "releaseYear": 2022,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-453395-release-year",
+    "prompt": "What year was Doctor Strange in the Multiverse of Madness released?",
+    "answer": "2022",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 453395,
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "releaseYear": 2022,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-460465-actor-character",
     "prompt": "In Mortal Kombat, which actor plays Cole Young?",
     "answer": "Lewis Tan",
@@ -8051,6 +9287,98 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-49013-actor-character",
+    "prompt": "In Cars 2, which actor plays Mater?",
+    "answer": "Larry the Cable Guy",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 49013,
+      "title": "Cars 2",
+      "releaseYear": 2011,
+      "field": "credits.cast.character",
+      "personId": 15897
+    }
+  },
+  {
+    "id": "tmdb-49013-actor-character",
+    "prompt": "In Cars 2, which actor plays Lightning McQueen?",
+    "answer": "Owen Wilson",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 49013,
+      "title": "Cars 2",
+      "releaseYear": 2011,
+      "field": "credits.cast.character",
+      "personId": 887
+    }
+  },
+  {
+    "id": "tmdb-49013-cast-pair-title",
+    "prompt": "Which 2011 film stars Larry the Cable Guy and Owen Wilson?",
+    "answer": "Cars 2",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 49013,
+      "title": "Cars 2",
+      "releaseYear": 2011,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-49013-composer",
+    "prompt": "Who composed the music for Cars 2?",
+    "answer": "Michael Giacchino",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 49013,
+      "title": "Cars 2",
+      "releaseYear": 2011,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-49013-director",
+    "prompt": "Who directed the 2011 film Cars 2?",
+    "answer": "John Lasseter",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 49013,
+      "title": "Cars 2",
+      "releaseYear": 2011,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-49013-release-year",
+    "prompt": "What year was Cars 2 released?",
+    "answer": "2011",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 49013,
+      "title": "Cars 2",
+      "releaseYear": 2011,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-497-actor-character",
     "prompt": "In The Green Mile, which actor plays Paul Edgecomb?",
     "answer": "Tom Hanks",
@@ -8186,6 +9514,205 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 502356,
       "title": "The Super Mario Bros. Movie",
       "releaseYear": 2023,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-50619-director",
+    "prompt": "Who directed the 2011 film The Twilight Saga: Breaking Dawn - Part 1?",
+    "answer": "Bill Condon",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 50619,
+      "title": "The Twilight Saga: Breaking Dawn - Part 1",
+      "releaseYear": 2011,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-50619-release-year",
+    "prompt": "What year was The Twilight Saga: Breaking Dawn - Part 1 released?",
+    "answer": "2011",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 50619,
+      "title": "The Twilight Saga: Breaking Dawn - Part 1",
+      "releaseYear": 2011,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-519182-actor-character",
+    "prompt": "In Despicable Me 4, which actor plays Gru?",
+    "answer": "Steve Carell",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 519182,
+      "title": "Despicable Me 4",
+      "releaseYear": 2024,
+      "field": "credits.cast.character",
+      "personId": 4495
+    }
+  },
+  {
+    "id": "tmdb-519182-actor-character",
+    "prompt": "In Despicable Me 4, which actor plays Lucy?",
+    "answer": "Kristen Wiig",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 519182,
+      "title": "Despicable Me 4",
+      "releaseYear": 2024,
+      "field": "credits.cast.character",
+      "personId": 41091
+    }
+  },
+  {
+    "id": "tmdb-519182-cast-pair-title",
+    "prompt": "Which 2024 film stars Steve Carell and Kristen Wiig?",
+    "answer": "Despicable Me 4",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 519182,
+      "title": "Despicable Me 4",
+      "releaseYear": 2024,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-519182-composer",
+    "prompt": "Who composed the music for Despicable Me 4?",
+    "answer": "Heitor Pereira",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 519182,
+      "title": "Despicable Me 4",
+      "releaseYear": 2024,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-519182-director",
+    "prompt": "Who directed the 2024 film Despicable Me 4?",
+    "answer": "Chris Renaud",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 519182,
+      "title": "Despicable Me 4",
+      "releaseYear": 2024,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-519182-release-year",
+    "prompt": "What year was Despicable Me 4 released?",
+    "answer": "2024",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 519182,
+      "title": "Despicable Me 4",
+      "releaseYear": 2024,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-533533-actor-character",
+    "prompt": "In TRON: Ares, which actor plays Ares?",
+    "answer": "Jared Leto",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 533533,
+      "title": "TRON: Ares",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 7499
+    }
+  },
+  {
+    "id": "tmdb-533533-actor-character",
+    "prompt": "In TRON: Ares, which actor plays Eve Kim?",
+    "answer": "Greta Lee",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 533533,
+      "title": "TRON: Ares",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 1260481
+    }
+  },
+  {
+    "id": "tmdb-533533-cast-pair-title",
+    "prompt": "Which 2025 film stars Jared Leto and Greta Lee?",
+    "answer": "TRON: Ares",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 533533,
+      "title": "TRON: Ares",
+      "releaseYear": 2025,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-533533-director",
+    "prompt": "Who directed the 2025 film TRON: Ares?",
+    "answer": "Joachim Rønning",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 533533,
+      "title": "TRON: Ares",
+      "releaseYear": 2025,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-533533-release-year",
+    "prompt": "What year was TRON: Ares released?",
+    "answer": "2025",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 533533,
+      "title": "TRON: Ares",
+      "releaseYear": 2025,
       "field": "release_date"
     }
   },
@@ -8374,6 +9901,145 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-541671-actor-character",
+    "prompt": "In Ballerina, which actor plays Eve?",
+    "answer": "Ana de Armas",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 541671,
+      "title": "Ballerina",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 224513
+    }
+  },
+  {
+    "id": "tmdb-541671-actor-character",
+    "prompt": "In Ballerina, which actor plays John Wick?",
+    "answer": "Keanu Reeves",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 541671,
+      "title": "Ballerina",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 6384
+    }
+  },
+  {
+    "id": "tmdb-541671-cast-pair-title",
+    "prompt": "Which 2025 film stars Ana de Armas and Keanu Reeves?",
+    "answer": "Ballerina",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 541671,
+      "title": "Ballerina",
+      "releaseYear": 2025,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-541671-director",
+    "prompt": "Who directed the 2025 film Ballerina?",
+    "answer": "Len Wiseman",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 541671,
+      "title": "Ballerina",
+      "releaseYear": 2025,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-541671-release-year",
+    "prompt": "What year was Ballerina released?",
+    "answer": "2025",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 541671,
+      "title": "Ballerina",
+      "releaseYear": 2025,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-545611-actor-character",
+    "prompt": "In Everything Everywhere All at Once, which actor plays Evelyn Wang?",
+    "answer": "Michelle Yeoh",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 545611,
+      "title": "Everything Everywhere All at Once",
+      "releaseYear": 2022,
+      "field": "credits.cast.character",
+      "personId": 1620
+    }
+  },
+  {
+    "id": "tmdb-545611-actor-character",
+    "prompt": "In Everything Everywhere All at Once, which actor plays Joy Wang?",
+    "answer": "Stephanie Hsu",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 545611,
+      "title": "Everything Everywhere All at Once",
+      "releaseYear": 2022,
+      "field": "credits.cast.character",
+      "personId": 1381186
+    }
+  },
+  {
+    "id": "tmdb-545611-cast-pair-title",
+    "prompt": "Which 2022 film stars Michelle Yeoh and Stephanie Hsu?",
+    "answer": "Everything Everywhere All at Once",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 545611,
+      "title": "Everything Everywhere All at Once",
+      "releaseYear": 2022,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-545611-release-year",
+    "prompt": "What year was Everything Everywhere All at Once released?",
+    "answer": "2022",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 545611,
+      "title": "Everything Everywhere All at Once",
+      "releaseYear": 2022,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-550-actor-character",
     "prompt": "In Fight Club, which actor plays Narrator?",
     "answer": "Edward Norton",
@@ -8447,6 +10113,98 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 550,
       "title": "Fight Club",
       "releaseYear": 1999,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-552524-actor-character",
+    "prompt": "In Lilo & Stitch, which actor plays Lilo?",
+    "answer": "Maia Kealoha",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 552524,
+      "title": "Lilo & Stitch",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 3988423
+    }
+  },
+  {
+    "id": "tmdb-552524-actor-character",
+    "prompt": "In Lilo & Stitch, which actor plays Nani?",
+    "answer": "Sydney Agudong",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 552524,
+      "title": "Lilo & Stitch",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 3025125
+    }
+  },
+  {
+    "id": "tmdb-552524-cast-pair-title",
+    "prompt": "Which 2025 film stars Maia Kealoha and Sydney Agudong?",
+    "answer": "Lilo & Stitch",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 552524,
+      "title": "Lilo & Stitch",
+      "releaseYear": 2025,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-552524-composer",
+    "prompt": "Who composed the music for Lilo & Stitch?",
+    "answer": "Dan Romer",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 552524,
+      "title": "Lilo & Stitch",
+      "releaseYear": 2025,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-552524-director",
+    "prompt": "Who directed the 2025 film Lilo & Stitch?",
+    "answer": "Dean Fleischer Camp",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 552524,
+      "title": "Lilo & Stitch",
+      "releaseYear": 2025,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-552524-release-year",
+    "prompt": "What year was Lilo & Stitch released?",
+    "answer": "2025",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 552524,
+      "title": "Lilo & Stitch",
+      "releaseYear": 2025,
       "field": "release_date"
     }
   },
@@ -8528,6 +10286,237 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-559-actor-character",
+    "prompt": "In Spider-Man 3, which actor plays Spider-Man?",
+    "answer": "Tobey Maguire",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 559,
+      "title": "Spider-Man 3",
+      "releaseYear": 2007,
+      "field": "credits.cast.character",
+      "personId": 2219
+    }
+  },
+  {
+    "id": "tmdb-559-actor-character",
+    "prompt": "In Spider-Man 3, which actor plays Mary Jane Watson?",
+    "answer": "Kirsten Dunst",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 559,
+      "title": "Spider-Man 3",
+      "releaseYear": 2007,
+      "field": "credits.cast.character",
+      "personId": 205
+    }
+  },
+  {
+    "id": "tmdb-559-cast-pair-title",
+    "prompt": "Which 2007 film stars Tobey Maguire and Kirsten Dunst?",
+    "answer": "Spider-Man 3",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 559,
+      "title": "Spider-Man 3",
+      "releaseYear": 2007,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-559-director",
+    "prompt": "Who directed the 2007 film Spider-Man 3?",
+    "answer": "Sam Raimi",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 559,
+      "title": "Spider-Man 3",
+      "releaseYear": 2007,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-559-release-year",
+    "prompt": "What year was Spider-Man 3 released?",
+    "answer": "2007",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 559,
+      "title": "Spider-Man 3",
+      "releaseYear": 2007,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-561-actor-character",
+    "prompt": "In Constantine, which actor plays John Constantine?",
+    "answer": "Keanu Reeves",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 561,
+      "title": "Constantine",
+      "releaseYear": 2005,
+      "field": "credits.cast.character",
+      "personId": 6384
+    }
+  },
+  {
+    "id": "tmdb-561-actor-character",
+    "prompt": "In Constantine, which actor plays Angela Dodson?",
+    "answer": "Rachel Weisz",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 561,
+      "title": "Constantine",
+      "releaseYear": 2005,
+      "field": "credits.cast.character",
+      "personId": 3293
+    }
+  },
+  {
+    "id": "tmdb-561-cast-pair-title",
+    "prompt": "Which 2005 film stars Keanu Reeves and Rachel Weisz?",
+    "answer": "Constantine",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 561,
+      "title": "Constantine",
+      "releaseYear": 2005,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-561-director",
+    "prompt": "Who directed the 2005 film Constantine?",
+    "answer": "Francis Lawrence",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 561,
+      "title": "Constantine",
+      "releaseYear": 2005,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-561-release-year",
+    "prompt": "What year was Constantine released?",
+    "answer": "2005",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 561,
+      "title": "Constantine",
+      "releaseYear": 2005,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-564-actor-character",
+    "prompt": "In The Mummy, which actor plays Rick O'Connell?",
+    "answer": "Brendan Fraser",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 564,
+      "title": "The Mummy",
+      "releaseYear": 1999,
+      "field": "credits.cast.character",
+      "personId": 18269
+    }
+  },
+  {
+    "id": "tmdb-564-actor-character",
+    "prompt": "In The Mummy, which actor plays Evelyn Carnahan?",
+    "answer": "Rachel Weisz",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 564,
+      "title": "The Mummy",
+      "releaseYear": 1999,
+      "field": "credits.cast.character",
+      "personId": 3293
+    }
+  },
+  {
+    "id": "tmdb-564-cast-pair-title",
+    "prompt": "Which 1999 film stars Brendan Fraser and Rachel Weisz?",
+    "answer": "The Mummy",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 564,
+      "title": "The Mummy",
+      "releaseYear": 1999,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-564-director",
+    "prompt": "Who directed the 1999 film The Mummy?",
+    "answer": "Stephen Sommers",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 564,
+      "title": "The Mummy",
+      "releaseYear": 1999,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-564-release-year",
+    "prompt": "What year was The Mummy released?",
+    "answer": "1999",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 564,
+      "title": "The Mummy",
+      "releaseYear": 1999,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-569094-actor-character",
     "prompt": "In Spider-Man: Across the Spider-Verse, which actor plays Miles Morales?",
     "answer": "Shameik Moore",
@@ -8601,6 +10590,175 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 569094,
       "title": "Spider-Man: Across the Spider-Verse",
       "releaseYear": 2023,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-572802-actor-character",
+    "prompt": "In Aquaman and the Lost Kingdom, which actor plays Arthur?",
+    "answer": "Jason Momoa",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 572802,
+      "title": "Aquaman and the Lost Kingdom",
+      "releaseYear": 2023,
+      "field": "credits.cast.character",
+      "personId": 117642
+    }
+  },
+  {
+    "id": "tmdb-572802-actor-character",
+    "prompt": "In Aquaman and the Lost Kingdom, which actor plays Orm?",
+    "answer": "Patrick Wilson",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 572802,
+      "title": "Aquaman and the Lost Kingdom",
+      "releaseYear": 2023,
+      "field": "credits.cast.character",
+      "personId": 17178
+    }
+  },
+  {
+    "id": "tmdb-572802-cast-pair-title",
+    "prompt": "Which 2023 film stars Jason Momoa and Patrick Wilson?",
+    "answer": "Aquaman and the Lost Kingdom",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 572802,
+      "title": "Aquaman and the Lost Kingdom",
+      "releaseYear": 2023,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-572802-composer",
+    "prompt": "Who composed the music for Aquaman and the Lost Kingdom?",
+    "answer": "Rupert Gregson-Williams",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 572802,
+      "title": "Aquaman and the Lost Kingdom",
+      "releaseYear": 2023,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-572802-director",
+    "prompt": "Who directed the 2023 film Aquaman and the Lost Kingdom?",
+    "answer": "James Wan",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 572802,
+      "title": "Aquaman and the Lost Kingdom",
+      "releaseYear": 2023,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-572802-release-year",
+    "prompt": "What year was Aquaman and the Lost Kingdom released?",
+    "answer": "2023",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 572802,
+      "title": "Aquaman and the Lost Kingdom",
+      "releaseYear": 2023,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-574475-actor-character",
+    "prompt": "In Final Destination Bloodlines, which actor plays Stefani Reyes?",
+    "answer": "Kaitlyn Santa Juana",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 574475,
+      "title": "Final Destination Bloodlines",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 3480304
+    }
+  },
+  {
+    "id": "tmdb-574475-actor-character",
+    "prompt": "In Final Destination Bloodlines, which actor plays Charlie Reyes?",
+    "answer": "Teo Briones",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 574475,
+      "title": "Final Destination Bloodlines",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 1547148
+    }
+  },
+  {
+    "id": "tmdb-574475-cast-pair-title",
+    "prompt": "Which 2025 film stars Kaitlyn Santa Juana and Teo Briones?",
+    "answer": "Final Destination Bloodlines",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 574475,
+      "title": "Final Destination Bloodlines",
+      "releaseYear": 2025,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-574475-composer",
+    "prompt": "Who composed the music for Final Destination Bloodlines?",
+    "answer": "Tim Wynn",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 574475,
+      "title": "Final Destination Bloodlines",
+      "releaseYear": 2025,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-574475-release-year",
+    "prompt": "What year was Final Destination Bloodlines released?",
+    "answer": "2025",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 574475,
+      "title": "Final Destination Bloodlines",
+      "releaseYear": 2025,
       "field": "release_date"
     }
   },
@@ -8682,79 +10840,79 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-578-actor-character",
-    "prompt": "In Jaws, which actor plays Brody?",
-    "answer": "Roy Scheider",
+    "id": "tmdb-58-actor-character",
+    "prompt": "In Pirates of the Caribbean: Dead Man's Chest, which actor plays Jack Sparrow?",
+    "answer": "Johnny Depp",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 578,
-      "title": "Jaws",
-      "releaseYear": 1975,
+      "movieId": 58,
+      "title": "Pirates of the Caribbean: Dead Man's Chest",
+      "releaseYear": 2006,
       "field": "credits.cast.character",
-      "personId": 6355
+      "personId": 85
     }
   },
   {
-    "id": "tmdb-578-actor-character",
-    "prompt": "In Jaws, which actor plays Quint?",
-    "answer": "Robert Shaw",
+    "id": "tmdb-58-actor-character",
+    "prompt": "In Pirates of the Caribbean: Dead Man's Chest, which actor plays Will Turner?",
+    "answer": "Orlando Bloom",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 578,
-      "title": "Jaws",
-      "releaseYear": 1975,
+      "movieId": 58,
+      "title": "Pirates of the Caribbean: Dead Man's Chest",
+      "releaseYear": 2006,
       "field": "credits.cast.character",
-      "personId": 8606
+      "personId": 114
     }
   },
   {
-    "id": "tmdb-578-cast-pair-title",
-    "prompt": "Which 1975 film stars Roy Scheider and Robert Shaw?",
-    "answer": "Jaws",
+    "id": "tmdb-58-cast-pair-title",
+    "prompt": "Which 2006 film stars Johnny Depp and Orlando Bloom?",
+    "answer": "Pirates of the Caribbean: Dead Man's Chest",
     "category": "Movies",
     "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 578,
-      "title": "Jaws",
-      "releaseYear": 1975,
+      "movieId": 58,
+      "title": "Pirates of the Caribbean: Dead Man's Chest",
+      "releaseYear": 2006,
       "field": "credits.cast"
     }
   },
   {
-    "id": "tmdb-578-director",
-    "prompt": "Who directed the 1975 film Jaws?",
-    "answer": "Steven Spielberg",
+    "id": "tmdb-58-director",
+    "prompt": "Who directed the 2006 film Pirates of the Caribbean: Dead Man's Chest?",
+    "answer": "Gore Verbinski",
     "category": "Movies",
     "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 578,
-      "title": "Jaws",
-      "releaseYear": 1975,
+      "movieId": 58,
+      "title": "Pirates of the Caribbean: Dead Man's Chest",
+      "releaseYear": 2006,
       "field": "credits.crew.Director"
     }
   },
   {
-    "id": "tmdb-578-release-year",
-    "prompt": "What year was Jaws released?",
-    "answer": "1975",
+    "id": "tmdb-58-release-year",
+    "prompt": "What year was Pirates of the Caribbean: Dead Man's Chest released?",
+    "answer": "2006",
     "category": "Movies",
     "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 578,
-      "title": "Jaws",
-      "releaseYear": 1975,
+      "movieId": 58,
+      "title": "Pirates of the Caribbean: Dead Man's Chest",
+      "releaseYear": 2006,
       "field": "release_date"
     }
   },
@@ -8836,6 +10994,98 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-588228-actor-character",
+    "prompt": "In The Tomorrow War, which actor plays Dan Forester?",
+    "answer": "Chris Pratt",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 588228,
+      "title": "The Tomorrow War",
+      "releaseYear": 2021,
+      "field": "credits.cast.character",
+      "personId": 73457
+    }
+  },
+  {
+    "id": "tmdb-588228-actor-character",
+    "prompt": "In The Tomorrow War, which actor plays Colonel Muri Forester?",
+    "answer": "Yvonne Strahovski",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 588228,
+      "title": "The Tomorrow War",
+      "releaseYear": 2021,
+      "field": "credits.cast.character",
+      "personId": 63312
+    }
+  },
+  {
+    "id": "tmdb-588228-cast-pair-title",
+    "prompt": "Which 2021 film stars Chris Pratt and Yvonne Strahovski?",
+    "answer": "The Tomorrow War",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 588228,
+      "title": "The Tomorrow War",
+      "releaseYear": 2021,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-588228-composer",
+    "prompt": "Who composed the music for The Tomorrow War?",
+    "answer": "Lorne Balfe",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 588228,
+      "title": "The Tomorrow War",
+      "releaseYear": 2021,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-588228-director",
+    "prompt": "Who directed the 2021 film The Tomorrow War?",
+    "answer": "Chris McKay",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 588228,
+      "title": "The Tomorrow War",
+      "releaseYear": 2021,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-588228-release-year",
+    "prompt": "What year was The Tomorrow War released?",
+    "answer": "2021",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 588228,
+      "title": "The Tomorrow War",
+      "releaseYear": 2021,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-597-actor-character",
     "prompt": "In Titanic, which actor plays Jack Dawson?",
     "answer": "Leonardo DiCaprio",
@@ -8913,6 +11163,83 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-602-actor-character",
+    "prompt": "In Independence Day, which actor plays Capt. Steven Hiller?",
+    "answer": "Will Smith",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 602,
+      "title": "Independence Day",
+      "releaseYear": 1996,
+      "field": "credits.cast.character",
+      "personId": 2888
+    }
+  },
+  {
+    "id": "tmdb-602-actor-character",
+    "prompt": "In Independence Day, which actor plays President Thomas J. Whitmore?",
+    "answer": "Bill Pullman",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 602,
+      "title": "Independence Day",
+      "releaseYear": 1996,
+      "field": "credits.cast.character",
+      "personId": 8984
+    }
+  },
+  {
+    "id": "tmdb-602-cast-pair-title",
+    "prompt": "Which 1996 film stars Will Smith and Bill Pullman?",
+    "answer": "Independence Day",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 602,
+      "title": "Independence Day",
+      "releaseYear": 1996,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-602-director",
+    "prompt": "Who directed the 1996 film Independence Day?",
+    "answer": "Roland Emmerich",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 602,
+      "title": "Independence Day",
+      "releaseYear": 1996,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-602-release-year",
+    "prompt": "What year was Independence Day released?",
+    "answer": "1996",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 602,
+      "title": "Independence Day",
+      "releaseYear": 1996,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-603-actor-character",
     "prompt": "In The Matrix, which actor plays Neo?",
     "answer": "Keanu Reeves",
@@ -8971,6 +11298,175 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 603,
       "title": "The Matrix",
       "releaseYear": 1999,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-603692-actor-character",
+    "prompt": "In John Wick: Chapter 4, which actor plays John Wick?",
+    "answer": "Keanu Reeves",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 603692,
+      "title": "John Wick: Chapter 4",
+      "releaseYear": 2023,
+      "field": "credits.cast.character",
+      "personId": 6384
+    }
+  },
+  {
+    "id": "tmdb-603692-actor-character",
+    "prompt": "In John Wick: Chapter 4, which actor plays Caine?",
+    "answer": "Donnie Yen",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 603692,
+      "title": "John Wick: Chapter 4",
+      "releaseYear": 2023,
+      "field": "credits.cast.character",
+      "personId": 1341
+    }
+  },
+  {
+    "id": "tmdb-603692-cast-pair-title",
+    "prompt": "Which 2023 film stars Keanu Reeves and Donnie Yen?",
+    "answer": "John Wick: Chapter 4",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 603692,
+      "title": "John Wick: Chapter 4",
+      "releaseYear": 2023,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-603692-director",
+    "prompt": "Who directed the 2023 film John Wick: Chapter 4?",
+    "answer": "Chad Stahelski",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 603692,
+      "title": "John Wick: Chapter 4",
+      "releaseYear": 2023,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-603692-release-year",
+    "prompt": "What year was John Wick: Chapter 4 released?",
+    "answer": "2023",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 603692,
+      "title": "John Wick: Chapter 4",
+      "releaseYear": 2023,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-617126-actor-character",
+    "prompt": "In The Fantastic 4: First Steps, which actor plays Reed Richards?",
+    "answer": "Pedro Pascal",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 617126,
+      "title": "The Fantastic 4: First Steps",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 1253360
+    }
+  },
+  {
+    "id": "tmdb-617126-actor-character",
+    "prompt": "In The Fantastic 4: First Steps, which actor plays Sue Storm?",
+    "answer": "Vanessa Kirby",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 617126,
+      "title": "The Fantastic 4: First Steps",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 556356
+    }
+  },
+  {
+    "id": "tmdb-617126-cast-pair-title",
+    "prompt": "Which 2025 film stars Pedro Pascal and Vanessa Kirby?",
+    "answer": "The Fantastic 4: First Steps",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 617126,
+      "title": "The Fantastic 4: First Steps",
+      "releaseYear": 2025,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-617126-composer",
+    "prompt": "Who composed the music for The Fantastic 4: First Steps?",
+    "answer": "Michael Giacchino",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 617126,
+      "title": "The Fantastic 4: First Steps",
+      "releaseYear": 2025,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-617126-director",
+    "prompt": "Who directed the 2025 film The Fantastic 4: First Steps?",
+    "answer": "Matt Shakman",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 617126,
+      "title": "The Fantastic 4: First Steps",
+      "releaseYear": 2025,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-617126-release-year",
+    "prompt": "What year was The Fantastic 4: First Steps released?",
+    "answer": "2025",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 617126,
+      "title": "The Fantastic 4: First Steps",
+      "releaseYear": 2025,
       "field": "release_date"
     }
   },
@@ -9052,6 +11548,160 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-640-actor-character",
+    "prompt": "In Catch Me If You Can, which actor plays Frank Abagnale Jr.?",
+    "answer": "Leonardo DiCaprio",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 640,
+      "title": "Catch Me If You Can",
+      "releaseYear": 2002,
+      "field": "credits.cast.character",
+      "personId": 6193
+    }
+  },
+  {
+    "id": "tmdb-640-actor-character",
+    "prompt": "In Catch Me If You Can, which actor plays Carl Hanratty?",
+    "answer": "Tom Hanks",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 640,
+      "title": "Catch Me If You Can",
+      "releaseYear": 2002,
+      "field": "credits.cast.character",
+      "personId": 31
+    }
+  },
+  {
+    "id": "tmdb-640-cast-pair-title",
+    "prompt": "Which 2002 film stars Leonardo DiCaprio and Tom Hanks?",
+    "answer": "Catch Me If You Can",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 640,
+      "title": "Catch Me If You Can",
+      "releaseYear": 2002,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-640-director",
+    "prompt": "Who directed the 2002 film Catch Me If You Can?",
+    "answer": "Steven Spielberg",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 640,
+      "title": "Catch Me If You Can",
+      "releaseYear": 2002,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-640-release-year",
+    "prompt": "What year was Catch Me If You Can released?",
+    "answer": "2002",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 640,
+      "title": "Catch Me If You Can",
+      "releaseYear": 2002,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-652-actor-character",
+    "prompt": "In Troy, which actor plays Achilles?",
+    "answer": "Brad Pitt",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 652,
+      "title": "Troy",
+      "releaseYear": 2004,
+      "field": "credits.cast.character",
+      "personId": 287
+    }
+  },
+  {
+    "id": "tmdb-652-actor-character",
+    "prompt": "In Troy, which actor plays Paris?",
+    "answer": "Orlando Bloom",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 652,
+      "title": "Troy",
+      "releaseYear": 2004,
+      "field": "credits.cast.character",
+      "personId": 114
+    }
+  },
+  {
+    "id": "tmdb-652-cast-pair-title",
+    "prompt": "Which 2004 film stars Brad Pitt and Orlando Bloom?",
+    "answer": "Troy",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 652,
+      "title": "Troy",
+      "releaseYear": 2004,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-652-director",
+    "prompt": "Who directed the 2004 film Troy?",
+    "answer": "Wolfgang Petersen",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 652,
+      "title": "Troy",
+      "releaseYear": 2004,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-652-release-year",
+    "prompt": "What year was Troy released?",
+    "answer": "2004",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 652,
+      "title": "Troy",
+      "releaseYear": 2004,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-671-actor-character",
     "prompt": "In Harry Potter and the Philosopher's Stone, which actor plays Harry Potter?",
     "answer": "Daniel Radcliffe",
@@ -9125,6 +11775,237 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 671,
       "title": "Harry Potter and the Philosopher's Stone",
       "releaseYear": 2001,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-672-actor-character",
+    "prompt": "In Harry Potter and the Chamber of Secrets, which actor plays Harry Potter?",
+    "answer": "Daniel Radcliffe",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 672,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "releaseYear": 2002,
+      "field": "credits.cast.character",
+      "personId": 10980
+    }
+  },
+  {
+    "id": "tmdb-672-actor-character",
+    "prompt": "In Harry Potter and the Chamber of Secrets, which actor plays Ron Weasley?",
+    "answer": "Rupert Grint",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 672,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "releaseYear": 2002,
+      "field": "credits.cast.character",
+      "personId": 10989
+    }
+  },
+  {
+    "id": "tmdb-672-cast-pair-title",
+    "prompt": "Which 2002 film stars Daniel Radcliffe and Rupert Grint?",
+    "answer": "Harry Potter and the Chamber of Secrets",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 672,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "releaseYear": 2002,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-672-director",
+    "prompt": "Who directed the 2002 film Harry Potter and the Chamber of Secrets?",
+    "answer": "Chris Columbus",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 672,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "releaseYear": 2002,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-672-release-year",
+    "prompt": "What year was Harry Potter and the Chamber of Secrets released?",
+    "answer": "2002",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 672,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "releaseYear": 2002,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-673-actor-character",
+    "prompt": "In Harry Potter and the Prisoner of Azkaban, which actor plays Harry Potter?",
+    "answer": "Daniel Radcliffe",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 673,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "releaseYear": 2004,
+      "field": "credits.cast.character",
+      "personId": 10980
+    }
+  },
+  {
+    "id": "tmdb-673-actor-character",
+    "prompt": "In Harry Potter and the Prisoner of Azkaban, which actor plays Ron Weasley?",
+    "answer": "Rupert Grint",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 673,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "releaseYear": 2004,
+      "field": "credits.cast.character",
+      "personId": 10989
+    }
+  },
+  {
+    "id": "tmdb-673-cast-pair-title",
+    "prompt": "Which 2004 film stars Daniel Radcliffe and Rupert Grint?",
+    "answer": "Harry Potter and the Prisoner of Azkaban",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 673,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "releaseYear": 2004,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-673-director",
+    "prompt": "Who directed the 2004 film Harry Potter and the Prisoner of Azkaban?",
+    "answer": "Alfonso Cuarón",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 673,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "releaseYear": 2004,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-673-release-year",
+    "prompt": "What year was Harry Potter and the Prisoner of Azkaban released?",
+    "answer": "2004",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 673,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "releaseYear": 2004,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-674-actor-character",
+    "prompt": "In Harry Potter and the Goblet of Fire, which actor plays Harry Potter?",
+    "answer": "Daniel Radcliffe",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 674,
+      "title": "Harry Potter and the Goblet of Fire",
+      "releaseYear": 2005,
+      "field": "credits.cast.character",
+      "personId": 10980
+    }
+  },
+  {
+    "id": "tmdb-674-actor-character",
+    "prompt": "In Harry Potter and the Goblet of Fire, which actor plays Ron Weasley?",
+    "answer": "Rupert Grint",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 674,
+      "title": "Harry Potter and the Goblet of Fire",
+      "releaseYear": 2005,
+      "field": "credits.cast.character",
+      "personId": 10989
+    }
+  },
+  {
+    "id": "tmdb-674-cast-pair-title",
+    "prompt": "Which 2005 film stars Daniel Radcliffe and Rupert Grint?",
+    "answer": "Harry Potter and the Goblet of Fire",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 674,
+      "title": "Harry Potter and the Goblet of Fire",
+      "releaseYear": 2005,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-674-director",
+    "prompt": "Who directed the 2005 film Harry Potter and the Goblet of Fire?",
+    "answer": "Mike Newell",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 674,
+      "title": "Harry Potter and the Goblet of Fire",
+      "releaseYear": 2005,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-674-release-year",
+    "prompt": "What year was Harry Potter and the Goblet of Fire released?",
+    "answer": "2005",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 674,
+      "title": "Harry Potter and the Goblet of Fire",
+      "releaseYear": 2005,
       "field": "release_date"
     }
   },
@@ -9283,156 +12164,156 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-680493-actor-character",
-    "prompt": "In Return to Silent Hill, which actor plays James Sunderland?",
-    "answer": "Jeremy Irvine",
+    "id": "tmdb-68721-actor-character",
+    "prompt": "In Iron Man 3, which actor plays Tony Stark?",
+    "answer": "Robert Downey Jr.",
     "category": "Movies",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 680493,
-      "title": "Return to Silent Hill",
-      "releaseYear": 2026,
+      "movieId": 68721,
+      "title": "Iron Man 3",
+      "releaseYear": 2013,
       "field": "credits.cast.character",
-      "personId": 225692
+      "personId": 3223
     }
   },
   {
-    "id": "tmdb-680493-actor-character",
-    "prompt": "In Return to Silent Hill, which actor plays Mary Crane?",
-    "answer": "Hannah Emily Anderson",
+    "id": "tmdb-68721-actor-character",
+    "prompt": "In Iron Man 3, which actor plays Pepper Potts?",
+    "answer": "Gwyneth Paltrow",
     "category": "Movies",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 680493,
-      "title": "Return to Silent Hill",
-      "releaseYear": 2026,
+      "movieId": 68721,
+      "title": "Iron Man 3",
+      "releaseYear": 2013,
       "field": "credits.cast.character",
-      "personId": 1685904
+      "personId": 12052
     }
   },
   {
-    "id": "tmdb-680493-cast-pair-title",
-    "prompt": "Which 2026 film stars Jeremy Irvine and Hannah Emily Anderson?",
-    "answer": "Return to Silent Hill",
+    "id": "tmdb-68721-cast-pair-title",
+    "prompt": "Which 2013 film stars Robert Downey Jr. and Gwyneth Paltrow?",
+    "answer": "Iron Man 3",
     "category": "Movies",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 680493,
-      "title": "Return to Silent Hill",
-      "releaseYear": 2026,
+      "movieId": 68721,
+      "title": "Iron Man 3",
+      "releaseYear": 2013,
       "field": "credits.cast"
     }
   },
   {
-    "id": "tmdb-680493-composer",
-    "prompt": "Who composed the music for Return to Silent Hill?",
-    "answer": "Akira Yamaoka",
+    "id": "tmdb-68721-director",
+    "prompt": "Who directed the 2013 film Iron Man 3?",
+    "answer": "Shane Black",
     "category": "Movies",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 680493,
-      "title": "Return to Silent Hill",
-      "releaseYear": 2026,
-      "field": "credits.crew.Original Music Composer"
-    }
-  },
-  {
-    "id": "tmdb-680493-director",
-    "prompt": "Who directed the 2026 film Return to Silent Hill?",
-    "answer": "Christophe Gans",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 680493,
-      "title": "Return to Silent Hill",
-      "releaseYear": 2026,
+      "movieId": 68721,
+      "title": "Iron Man 3",
+      "releaseYear": 2013,
       "field": "credits.crew.Director"
     }
   },
   {
-    "id": "tmdb-680493-release-year",
-    "prompt": "What year was Return to Silent Hill released?",
-    "answer": "2026",
+    "id": "tmdb-68721-release-year",
+    "prompt": "What year was Iron Man 3 released?",
+    "answer": "2013",
     "category": "Movies",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 680493,
-      "title": "Return to Silent Hill",
-      "releaseYear": 2026,
+      "movieId": 68721,
+      "title": "Iron Man 3",
+      "releaseYear": 2013,
       "field": "release_date"
     }
   },
   {
-    "id": "tmdb-687163-actor-character",
-    "prompt": "In Project Hail Mary, which actor plays Ryland Grace?",
-    "answer": "Ryan Gosling",
+    "id": "tmdb-68726-actor-character",
+    "prompt": "In Pacific Rim, which actor plays Raleigh Becket?",
+    "answer": "Charlie Hunnam",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 687163,
-      "title": "Project Hail Mary",
-      "releaseYear": 2026,
+      "movieId": 68726,
+      "title": "Pacific Rim",
+      "releaseYear": 2013,
       "field": "credits.cast.character",
-      "personId": 30614
+      "personId": 56365
     }
   },
   {
-    "id": "tmdb-687163-actor-character",
-    "prompt": "In Project Hail Mary, which actor plays Eva Stratt?",
-    "answer": "Sandra Hüller",
+    "id": "tmdb-68726-actor-character",
+    "prompt": "In Pacific Rim, which actor plays Mako Mori?",
+    "answer": "Rinko Kikuchi",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 687163,
-      "title": "Project Hail Mary",
-      "releaseYear": 2026,
+      "movieId": 68726,
+      "title": "Pacific Rim",
+      "releaseYear": 2013,
       "field": "credits.cast.character",
-      "personId": 7152
+      "personId": 18054
     }
   },
   {
-    "id": "tmdb-687163-cast-pair-title",
-    "prompt": "Which 2026 film stars Ryan Gosling and Sandra Hüller?",
-    "answer": "Project Hail Mary",
+    "id": "tmdb-68726-cast-pair-title",
+    "prompt": "Which 2013 film stars Charlie Hunnam and Rinko Kikuchi?",
+    "answer": "Pacific Rim",
     "category": "Movies",
     "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 687163,
-      "title": "Project Hail Mary",
-      "releaseYear": 2026,
+      "movieId": 68726,
+      "title": "Pacific Rim",
+      "releaseYear": 2013,
       "field": "credits.cast"
     }
   },
   {
-    "id": "tmdb-687163-release-year",
-    "prompt": "What year was Project Hail Mary released?",
-    "answer": "2026",
+    "id": "tmdb-68726-director",
+    "prompt": "Who directed the 2013 film Pacific Rim?",
+    "answer": "Guillermo del Toro",
     "category": "Movies",
     "difficulty": "easy",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 687163,
-      "title": "Project Hail Mary",
-      "releaseYear": 2026,
+      "movieId": 68726,
+      "title": "Pacific Rim",
+      "releaseYear": 2013,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-68726-release-year",
+    "prompt": "What year was Pacific Rim released?",
+    "answer": "2013",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 68726,
+      "title": "Pacific Rim",
+      "releaseYear": 2013,
       "field": "release_date"
     }
   },
@@ -9525,6 +12406,83 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 693134,
       "title": "Dune: Part Two",
       "releaseYear": 2024,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-72190-actor-character",
+    "prompt": "In World War Z, which actor plays Gerry Lane?",
+    "answer": "Brad Pitt",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 72190,
+      "title": "World War Z",
+      "releaseYear": 2013,
+      "field": "credits.cast.character",
+      "personId": 287
+    }
+  },
+  {
+    "id": "tmdb-72190-actor-character",
+    "prompt": "In World War Z, which actor plays Karen Lane?",
+    "answer": "Mireille Enos",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 72190,
+      "title": "World War Z",
+      "releaseYear": 2013,
+      "field": "credits.cast.character",
+      "personId": 175826
+    }
+  },
+  {
+    "id": "tmdb-72190-cast-pair-title",
+    "prompt": "Which 2013 film stars Brad Pitt and Mireille Enos?",
+    "answer": "World War Z",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 72190,
+      "title": "World War Z",
+      "releaseYear": 2013,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-72190-director",
+    "prompt": "Who directed the 2013 film World War Z?",
+    "answer": "Marc Forster",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 72190,
+      "title": "World War Z",
+      "releaseYear": 2013,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-72190-release-year",
+    "prompt": "What year was World War Z released?",
+    "answer": "2013",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 72190,
+      "title": "World War Z",
+      "releaseYear": 2013,
       "field": "release_date"
     }
   },
@@ -9801,6 +12759,98 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 755898,
       "title": "War of the Worlds",
       "releaseYear": 2025,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-762509-actor-character",
+    "prompt": "In Mufasa: The Lion King, which actor plays Mufasa?",
+    "answer": "Aaron Pierre",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 762509,
+      "title": "Mufasa: The Lion King",
+      "releaseYear": 2024,
+      "field": "credits.cast.character",
+      "personId": 1763709
+    }
+  },
+  {
+    "id": "tmdb-762509-actor-character",
+    "prompt": "In Mufasa: The Lion King, which actor plays Taka?",
+    "answer": "Kelvin Harrison Jr.",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 762509,
+      "title": "Mufasa: The Lion King",
+      "releaseYear": 2024,
+      "field": "credits.cast.character",
+      "personId": 1344361
+    }
+  },
+  {
+    "id": "tmdb-762509-cast-pair-title",
+    "prompt": "Which 2024 film stars Aaron Pierre and Kelvin Harrison Jr.?",
+    "answer": "Mufasa: The Lion King",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 762509,
+      "title": "Mufasa: The Lion King",
+      "releaseYear": 2024,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-762509-composer",
+    "prompt": "Who composed the music for Mufasa: The Lion King?",
+    "answer": "Dave Metzger",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 762509,
+      "title": "Mufasa: The Lion King",
+      "releaseYear": 2024,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-762509-director",
+    "prompt": "Who directed the 2024 film Mufasa: The Lion King?",
+    "answer": "Barry Jenkins",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 762509,
+      "title": "Mufasa: The Lion King",
+      "releaseYear": 2024,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-762509-release-year",
+    "prompt": "What year was Mufasa: The Lion King released?",
+    "answer": "2024",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 762509,
+      "title": "Mufasa: The Lion King",
+      "releaseYear": 2024,
       "field": "release_date"
     }
   },
@@ -10113,6 +13163,190 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-798645-actor-character",
+    "prompt": "In The Running Man, which actor plays Ben Richards?",
+    "answer": "Glen Powell",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 798645,
+      "title": "The Running Man",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 83271
+    }
+  },
+  {
+    "id": "tmdb-798645-actor-character",
+    "prompt": "In The Running Man, which actor plays Molie Jernigan?",
+    "answer": "William H. Macy",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 798645,
+      "title": "The Running Man",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 3905
+    }
+  },
+  {
+    "id": "tmdb-798645-cast-pair-title",
+    "prompt": "Which 2025 film stars Glen Powell and William H. Macy?",
+    "answer": "The Running Man",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 798645,
+      "title": "The Running Man",
+      "releaseYear": 2025,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-798645-composer",
+    "prompt": "Who composed the music for The Running Man?",
+    "answer": "Steven Price",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 798645,
+      "title": "The Running Man",
+      "releaseYear": 2025,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-798645-director",
+    "prompt": "Who directed the 2025 film The Running Man?",
+    "answer": "Edgar Wright",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 798645,
+      "title": "The Running Man",
+      "releaseYear": 2025,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-798645-release-year",
+    "prompt": "What year was The Running Man released?",
+    "answer": "2025",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 798645,
+      "title": "The Running Man",
+      "releaseYear": 2025,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-801335-actor-character",
+    "prompt": "In Girl in the Basement, which actor plays Don?",
+    "answer": "Judd Nelson",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 801335,
+      "title": "Girl in the Basement",
+      "releaseYear": 2021,
+      "field": "credits.cast.character",
+      "personId": 21624
+    }
+  },
+  {
+    "id": "tmdb-801335-actor-character",
+    "prompt": "In Girl in the Basement, which actor plays Sara?",
+    "answer": "Stefanie Scott",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 801335,
+      "title": "Girl in the Basement",
+      "releaseYear": 2021,
+      "field": "credits.cast.character",
+      "personId": 106490
+    }
+  },
+  {
+    "id": "tmdb-801335-cast-pair-title",
+    "prompt": "Which 2021 film stars Judd Nelson and Stefanie Scott?",
+    "answer": "Girl in the Basement",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 801335,
+      "title": "Girl in the Basement",
+      "releaseYear": 2021,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-801335-composer",
+    "prompt": "Who composed the music for Girl in the Basement?",
+    "answer": "Ozzy Doniz",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 801335,
+      "title": "Girl in the Basement",
+      "releaseYear": 2021,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-801335-director",
+    "prompt": "Who directed the 2021 film Girl in the Basement?",
+    "answer": "Elisabeth Röhm",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 801335,
+      "title": "Girl in the Basement",
+      "releaseYear": 2021,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-801335-release-year",
+    "prompt": "What year was Girl in the Basement released?",
+    "answer": "2021",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 801335,
+      "title": "Girl in the Basement",
+      "releaseYear": 2021,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-803796-actor-character",
     "prompt": "In KPop Demon Hunters, which actor plays Rumi?",
     "answer": "Arden Cho",
@@ -10329,6 +13563,68 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-809-actor-character",
+    "prompt": "In Shrek 2, which actor plays Shrek?",
+    "answer": "Mike Myers",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 809,
+      "title": "Shrek 2",
+      "releaseYear": 2004,
+      "field": "credits.cast.character",
+      "personId": 12073
+    }
+  },
+  {
+    "id": "tmdb-809-actor-character",
+    "prompt": "In Shrek 2, which actor plays Donkey?",
+    "answer": "Eddie Murphy",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 809,
+      "title": "Shrek 2",
+      "releaseYear": 2004,
+      "field": "credits.cast.character",
+      "personId": 776
+    }
+  },
+  {
+    "id": "tmdb-809-cast-pair-title",
+    "prompt": "Which 2004 film stars Mike Myers and Eddie Murphy?",
+    "answer": "Shrek 2",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 809,
+      "title": "Shrek 2",
+      "releaseYear": 2004,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-809-release-year",
+    "prompt": "What year was Shrek 2 released?",
+    "answer": "2004",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 809,
+      "title": "Shrek 2",
+      "releaseYear": 2004,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-83533-actor-character",
     "prompt": "In Avatar: Fire and Ash, which actor plays Jake?",
     "answer": "Sam Worthington",
@@ -10406,94 +13702,340 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-840464-actor-character",
-    "prompt": "In Greenland 2: Migration, which actor plays John Garrity?",
-    "answer": "Gerard Butler",
+    "id": "tmdb-8355-actor-character",
+    "prompt": "In Ice Age: Dawn of the Dinosaurs, which actor plays Manny?",
+    "answer": "Ray Romano",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 840464,
-      "title": "Greenland 2: Migration",
-      "releaseYear": 2026,
+      "movieId": 8355,
+      "title": "Ice Age: Dawn of the Dinosaurs",
+      "releaseYear": 2009,
       "field": "credits.cast.character",
-      "personId": 17276
+      "personId": 15757
     }
   },
   {
-    "id": "tmdb-840464-actor-character",
-    "prompt": "In Greenland 2: Migration, which actor plays Allison Garrity?",
-    "answer": "Morena Baccarin",
+    "id": "tmdb-8355-actor-character",
+    "prompt": "In Ice Age: Dawn of the Dinosaurs, which actor plays Sid?",
+    "answer": "John Leguizamo",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 840464,
-      "title": "Greenland 2: Migration",
-      "releaseYear": 2026,
+      "movieId": 8355,
+      "title": "Ice Age: Dawn of the Dinosaurs",
+      "releaseYear": 2009,
       "field": "credits.cast.character",
-      "personId": 54882
+      "personId": 5723
     }
   },
   {
-    "id": "tmdb-840464-cast-pair-title",
-    "prompt": "Which 2026 film stars Gerard Butler and Morena Baccarin?",
-    "answer": "Greenland 2: Migration",
+    "id": "tmdb-8355-cast-pair-title",
+    "prompt": "Which 2009 film stars Ray Romano and John Leguizamo?",
+    "answer": "Ice Age: Dawn of the Dinosaurs",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 840464,
-      "title": "Greenland 2: Migration",
-      "releaseYear": 2026,
+      "movieId": 8355,
+      "title": "Ice Age: Dawn of the Dinosaurs",
+      "releaseYear": 2009,
       "field": "credits.cast"
     }
   },
   {
-    "id": "tmdb-840464-composer",
-    "prompt": "Who composed the music for Greenland 2: Migration?",
-    "answer": "David Buckley",
+    "id": "tmdb-8355-composer",
+    "prompt": "Who composed the music for Ice Age: Dawn of the Dinosaurs?",
+    "answer": "John Powell",
     "category": "Movies",
     "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 840464,
-      "title": "Greenland 2: Migration",
-      "releaseYear": 2026,
+      "movieId": 8355,
+      "title": "Ice Age: Dawn of the Dinosaurs",
+      "releaseYear": 2009,
       "field": "credits.crew.Original Music Composer"
     }
   },
   {
-    "id": "tmdb-840464-director",
-    "prompt": "Who directed the 2026 film Greenland 2: Migration?",
-    "answer": "Ric Roman Waugh",
+    "id": "tmdb-8355-director",
+    "prompt": "Who directed the 2009 film Ice Age: Dawn of the Dinosaurs?",
+    "answer": "Carlos Saldanha",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 840464,
-      "title": "Greenland 2: Migration",
-      "releaseYear": 2026,
+      "movieId": 8355,
+      "title": "Ice Age: Dawn of the Dinosaurs",
+      "releaseYear": 2009,
       "field": "credits.crew.Director"
     }
   },
   {
-    "id": "tmdb-840464-release-year",
-    "prompt": "What year was Greenland 2: Migration released?",
-    "answer": "2026",
+    "id": "tmdb-8355-release-year",
+    "prompt": "What year was Ice Age: Dawn of the Dinosaurs released?",
+    "answer": "2009",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 840464,
-      "title": "Greenland 2: Migration",
-      "releaseYear": 2026,
+      "movieId": 8355,
+      "title": "Ice Age: Dawn of the Dinosaurs",
+      "releaseYear": 2009,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-8358-actor-character",
+    "prompt": "In Cast Away, which actor plays Chuck Noland?",
+    "answer": "Tom Hanks",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 8358,
+      "title": "Cast Away",
+      "releaseYear": 2000,
+      "field": "credits.cast.character",
+      "personId": 31
+    }
+  },
+  {
+    "id": "tmdb-8358-actor-character",
+    "prompt": "In Cast Away, which actor plays Kelly Frears?",
+    "answer": "Helen Hunt",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 8358,
+      "title": "Cast Away",
+      "releaseYear": 2000,
+      "field": "credits.cast.character",
+      "personId": 9994
+    }
+  },
+  {
+    "id": "tmdb-8358-cast-pair-title",
+    "prompt": "Which 2000 film stars Tom Hanks and Helen Hunt?",
+    "answer": "Cast Away",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 8358,
+      "title": "Cast Away",
+      "releaseYear": 2000,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-8358-director",
+    "prompt": "Who directed the 2000 film Cast Away?",
+    "answer": "Robert Zemeckis",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 8358,
+      "title": "Cast Away",
+      "releaseYear": 2000,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-8358-release-year",
+    "prompt": "What year was Cast Away released?",
+    "answer": "2000",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 8358,
+      "title": "Cast Away",
+      "releaseYear": 2000,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-857-actor-character",
+    "prompt": "In Saving Private Ryan, which actor plays Captain Miller?",
+    "answer": "Tom Hanks",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 857,
+      "title": "Saving Private Ryan",
+      "releaseYear": 1998,
+      "field": "credits.cast.character",
+      "personId": 31
+    }
+  },
+  {
+    "id": "tmdb-857-actor-character",
+    "prompt": "In Saving Private Ryan, which actor plays Sergeant Horvath?",
+    "answer": "Tom Sizemore",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 857,
+      "title": "Saving Private Ryan",
+      "releaseYear": 1998,
+      "field": "credits.cast.character",
+      "personId": 3197
+    }
+  },
+  {
+    "id": "tmdb-857-cast-pair-title",
+    "prompt": "Which 1998 film stars Tom Hanks and Tom Sizemore?",
+    "answer": "Saving Private Ryan",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 857,
+      "title": "Saving Private Ryan",
+      "releaseYear": 1998,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-857-director",
+    "prompt": "Who directed the 1998 film Saving Private Ryan?",
+    "answer": "Steven Spielberg",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 857,
+      "title": "Saving Private Ryan",
+      "releaseYear": 1998,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-857-release-year",
+    "prompt": "What year was Saving Private Ryan released?",
+    "answer": "1998",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 857,
+      "title": "Saving Private Ryan",
+      "releaseYear": 1998,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-858024-actor-character",
+    "prompt": "In Hamnet, which actor plays Agnes?",
+    "answer": "Jessie Buckley",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 858024,
+      "title": "Hamnet",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 1498158
+    }
+  },
+  {
+    "id": "tmdb-858024-actor-character",
+    "prompt": "In Hamnet, which actor plays Will?",
+    "answer": "Paul Mescal",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 858024,
+      "title": "Hamnet",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 2326151
+    }
+  },
+  {
+    "id": "tmdb-858024-cast-pair-title",
+    "prompt": "Which 2025 film stars Jessie Buckley and Paul Mescal?",
+    "answer": "Hamnet",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 858024,
+      "title": "Hamnet",
+      "releaseYear": 2025,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-858024-composer",
+    "prompt": "Who composed the music for Hamnet?",
+    "answer": "Max Richter",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 858024,
+      "title": "Hamnet",
+      "releaseYear": 2025,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-858024-director",
+    "prompt": "Who directed the 2025 film Hamnet?",
+    "answer": "Chloé Zhao",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 858024,
+      "title": "Hamnet",
+      "releaseYear": 2025,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-858024-release-year",
+    "prompt": "What year was Hamnet released?",
+    "answer": "2025",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 858024,
+      "title": "Hamnet",
+      "releaseYear": 2025,
       "field": "release_date"
     }
   },
@@ -10791,79 +14333,79 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-875828-actor-character",
-    "prompt": "In Peaky Blinders: The Immortal Man, which actor plays Tommy Shelby?",
-    "answer": "Cillian Murphy",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 875828,
-      "title": "Peaky Blinders: The Immortal Man",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 2037
-    }
-  },
-  {
-    "id": "tmdb-875828-actor-character",
-    "prompt": "In Peaky Blinders: The Immortal Man, which actor plays Duke Shelby?",
-    "answer": "Barry Keoghan",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 875828,
-      "title": "Peaky Blinders: The Immortal Man",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 1290466
-    }
-  },
-  {
-    "id": "tmdb-875828-cast-pair-title",
-    "prompt": "Which 2026 film stars Cillian Murphy and Barry Keoghan?",
-    "answer": "Peaky Blinders: The Immortal Man",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 875828,
-      "title": "Peaky Blinders: The Immortal Man",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-875828-director",
-    "prompt": "Who directed the 2026 film Peaky Blinders: The Immortal Man?",
-    "answer": "Tom Harper",
-    "category": "Movies",
-    "difficulty": "hard",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 875828,
-      "title": "Peaky Blinders: The Immortal Man",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-875828-release-year",
-    "prompt": "What year was Peaky Blinders: The Immortal Man released?",
-    "answer": "2026",
+    "id": "tmdb-8966-actor-character",
+    "prompt": "In Twilight, which actor plays Bella Swan?",
+    "answer": "Kristen Stewart",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 875828,
-      "title": "Peaky Blinders: The Immortal Man",
-      "releaseYear": 2026,
+      "movieId": 8966,
+      "title": "Twilight",
+      "releaseYear": 2008,
+      "field": "credits.cast.character",
+      "personId": 37917
+    }
+  },
+  {
+    "id": "tmdb-8966-actor-character",
+    "prompt": "In Twilight, which actor plays Edward Cullen?",
+    "answer": "Robert Pattinson",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 8966,
+      "title": "Twilight",
+      "releaseYear": 2008,
+      "field": "credits.cast.character",
+      "personId": 11288
+    }
+  },
+  {
+    "id": "tmdb-8966-cast-pair-title",
+    "prompt": "Which 2008 film stars Kristen Stewart and Robert Pattinson?",
+    "answer": "Twilight",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 8966,
+      "title": "Twilight",
+      "releaseYear": 2008,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-8966-director",
+    "prompt": "Who directed the 2008 film Twilight?",
+    "answer": "Catherine Hardwicke",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 8966,
+      "title": "Twilight",
+      "releaseYear": 2008,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-8966-release-year",
+    "prompt": "What year was Twilight released?",
+    "answer": "2008",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 8966,
+      "title": "Twilight",
+      "releaseYear": 2008,
       "field": "release_date"
     }
   },
@@ -10960,79 +14502,94 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-931285-actor-character",
-    "prompt": "In Mortal Kombat II, which actor plays Johnny Cage?",
-    "answer": "Karl Urban",
+    "id": "tmdb-912649-actor-character",
+    "prompt": "In Venom: The Last Dance, which actor plays Eddie Brock?",
+    "answer": "Tom Hardy",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 931285,
-      "title": "Mortal Kombat II",
-      "releaseYear": 2026,
+      "movieId": 912649,
+      "title": "Venom: The Last Dance",
+      "releaseYear": 2024,
       "field": "credits.cast.character",
-      "personId": 1372
+      "personId": 2524
     }
   },
   {
-    "id": "tmdb-931285-actor-character",
-    "prompt": "In Mortal Kombat II, which actor plays Kitana?",
-    "answer": "Adeline Rudolph",
+    "id": "tmdb-912649-actor-character",
+    "prompt": "In Venom: The Last Dance, which actor plays Strickland?",
+    "answer": "Chiwetel Ejiofor",
     "category": "Movies",
     "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 931285,
-      "title": "Mortal Kombat II",
-      "releaseYear": 2026,
+      "movieId": 912649,
+      "title": "Venom: The Last Dance",
+      "releaseYear": 2024,
       "field": "credits.cast.character",
-      "personId": 2168270
+      "personId": 5294
     }
   },
   {
-    "id": "tmdb-931285-cast-pair-title",
-    "prompt": "Which 2026 film stars Karl Urban and Adeline Rudolph?",
-    "answer": "Mortal Kombat II",
+    "id": "tmdb-912649-cast-pair-title",
+    "prompt": "Which 2024 film stars Tom Hardy and Chiwetel Ejiofor?",
+    "answer": "Venom: The Last Dance",
     "category": "Movies",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 931285,
-      "title": "Mortal Kombat II",
-      "releaseYear": 2026,
+      "movieId": 912649,
+      "title": "Venom: The Last Dance",
+      "releaseYear": 2024,
       "field": "credits.cast"
     }
   },
   {
-    "id": "tmdb-931285-director",
-    "prompt": "Who directed the 2026 film Mortal Kombat II?",
-    "answer": "Simon McQuoid",
+    "id": "tmdb-912649-composer",
+    "prompt": "Who composed the music for Venom: The Last Dance?",
+    "answer": "Dan Deacon",
     "category": "Movies",
-    "difficulty": "easy",
+    "difficulty": "hard",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 931285,
-      "title": "Mortal Kombat II",
-      "releaseYear": 2026,
+      "movieId": 912649,
+      "title": "Venom: The Last Dance",
+      "releaseYear": 2024,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-912649-director",
+    "prompt": "Who directed the 2024 film Venom: The Last Dance?",
+    "answer": "Kelly Marcel",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 912649,
+      "title": "Venom: The Last Dance",
+      "releaseYear": 2024,
       "field": "credits.crew.Director"
     }
   },
   {
-    "id": "tmdb-931285-release-year",
-    "prompt": "What year was Mortal Kombat II released?",
-    "answer": "2026",
+    "id": "tmdb-912649-release-year",
+    "prompt": "What year was Venom: The Last Dance released?",
+    "answer": "2024",
     "category": "Movies",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "verified": true,
     "source": {
       "provider": "tmdb",
-      "movieId": 931285,
-      "title": "Mortal Kombat II",
-      "releaseYear": 2026,
+      "movieId": 912649,
+      "title": "Venom: The Last Dance",
+      "releaseYear": 2024,
       "field": "release_date"
     }
   },
@@ -11129,83 +14686,6 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
-    "id": "tmdb-936075-actor-character",
-    "prompt": "In Michael, which actor plays Michael Jackson?",
-    "answer": "Jaafar Jackson",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 936075,
-      "title": "Michael",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 3898497
-    }
-  },
-  {
-    "id": "tmdb-936075-actor-character",
-    "prompt": "In Michael, which actor plays Joseph Jackson?",
-    "answer": "Colman Domingo",
-    "category": "Movies",
-    "difficulty": "medium",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 936075,
-      "title": "Michael",
-      "releaseYear": 2026,
-      "field": "credits.cast.character",
-      "personId": 91671
-    }
-  },
-  {
-    "id": "tmdb-936075-cast-pair-title",
-    "prompt": "Which 2026 film stars Jaafar Jackson and Colman Domingo?",
-    "answer": "Michael",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 936075,
-      "title": "Michael",
-      "releaseYear": 2026,
-      "field": "credits.cast"
-    }
-  },
-  {
-    "id": "tmdb-936075-director",
-    "prompt": "Who directed the 2026 film Michael?",
-    "answer": "Antoine Fuqua",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 936075,
-      "title": "Michael",
-      "releaseYear": 2026,
-      "field": "credits.crew.Director"
-    }
-  },
-  {
-    "id": "tmdb-936075-release-year",
-    "prompt": "What year was Michael released?",
-    "answer": "2026",
-    "category": "Movies",
-    "difficulty": "easy",
-    "verified": true,
-    "source": {
-      "provider": "tmdb",
-      "movieId": 936075,
-      "title": "Michael",
-      "releaseYear": 2026,
-      "field": "release_date"
-    }
-  },
-  {
     "id": "tmdb-939243-actor-character",
     "prompt": "In Sonic the Hedgehog 3, which actor plays Sonic?",
     "answer": "Ben Schwartz",
@@ -11294,6 +14774,68 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 939243,
       "title": "Sonic the Hedgehog 3",
       "releaseYear": 2024,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-9502-actor-character",
+    "prompt": "In Kung Fu Panda, which actor plays Po?",
+    "answer": "Jack Black",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 9502,
+      "title": "Kung Fu Panda",
+      "releaseYear": 2008,
+      "field": "credits.cast.character",
+      "personId": 70851
+    }
+  },
+  {
+    "id": "tmdb-9502-actor-character",
+    "prompt": "In Kung Fu Panda, which actor plays Master Shifu?",
+    "answer": "Dustin Hoffman",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 9502,
+      "title": "Kung Fu Panda",
+      "releaseYear": 2008,
+      "field": "credits.cast.character",
+      "personId": 4483
+    }
+  },
+  {
+    "id": "tmdb-9502-cast-pair-title",
+    "prompt": "Which 2008 film stars Jack Black and Dustin Hoffman?",
+    "answer": "Kung Fu Panda",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 9502,
+      "title": "Kung Fu Panda",
+      "releaseYear": 2008,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-9502-release-year",
+    "prompt": "What year was Kung Fu Panda released?",
+    "answer": "2008",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 9502,
+      "title": "Kung Fu Panda",
+      "releaseYear": 2008,
       "field": "release_date"
     }
   },
@@ -11390,6 +14932,237 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
     }
   },
   {
+    "id": "tmdb-950396-actor-character",
+    "prompt": "In The Gorge, which actor plays Levi?",
+    "answer": "Miles Teller",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 950396,
+      "title": "The Gorge",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 996701
+    }
+  },
+  {
+    "id": "tmdb-950396-actor-character",
+    "prompt": "In The Gorge, which actor plays Drasa?",
+    "answer": "Anya Taylor-Joy",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 950396,
+      "title": "The Gorge",
+      "releaseYear": 2025,
+      "field": "credits.cast.character",
+      "personId": 1397778
+    }
+  },
+  {
+    "id": "tmdb-950396-cast-pair-title",
+    "prompt": "Which 2025 film stars Miles Teller and Anya Taylor-Joy?",
+    "answer": "The Gorge",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 950396,
+      "title": "The Gorge",
+      "releaseYear": 2025,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-950396-director",
+    "prompt": "Who directed the 2025 film The Gorge?",
+    "answer": "Scott Derrickson",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 950396,
+      "title": "The Gorge",
+      "releaseYear": 2025,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-950396-release-year",
+    "prompt": "What year was The Gorge released?",
+    "answer": "2025",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 950396,
+      "title": "The Gorge",
+      "releaseYear": 2025,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-953-actor-character",
+    "prompt": "In Madagascar, which actor plays Alex?",
+    "answer": "Ben Stiller",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 953,
+      "title": "Madagascar",
+      "releaseYear": 2005,
+      "field": "credits.cast.character",
+      "personId": 7399
+    }
+  },
+  {
+    "id": "tmdb-953-actor-character",
+    "prompt": "In Madagascar, which actor plays Marty?",
+    "answer": "Chris Rock",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 953,
+      "title": "Madagascar",
+      "releaseYear": 2005,
+      "field": "credits.cast.character",
+      "personId": 2632
+    }
+  },
+  {
+    "id": "tmdb-953-cast-pair-title",
+    "prompt": "Which 2005 film stars Ben Stiller and Chris Rock?",
+    "answer": "Madagascar",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 953,
+      "title": "Madagascar",
+      "releaseYear": 2005,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-953-release-year",
+    "prompt": "What year was Madagascar released?",
+    "answer": "2005",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 953,
+      "title": "Madagascar",
+      "releaseYear": 2005,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-976573-actor-character",
+    "prompt": "In Elemental, which actor plays Ember?",
+    "answer": "Leah Lewis",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 976573,
+      "title": "Elemental",
+      "releaseYear": 2023,
+      "field": "credits.cast.character",
+      "personId": 1087262
+    }
+  },
+  {
+    "id": "tmdb-976573-actor-character",
+    "prompt": "In Elemental, which actor plays Wade?",
+    "answer": "Mamoudou Athie",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 976573,
+      "title": "Elemental",
+      "releaseYear": 2023,
+      "field": "credits.cast.character",
+      "personId": 1639848
+    }
+  },
+  {
+    "id": "tmdb-976573-cast-pair-title",
+    "prompt": "Which 2023 film stars Leah Lewis and Mamoudou Athie?",
+    "answer": "Elemental",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 976573,
+      "title": "Elemental",
+      "releaseYear": 2023,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-976573-composer",
+    "prompt": "Who composed the music for Elemental?",
+    "answer": "Thomas Newman",
+    "category": "Movies",
+    "difficulty": "hard",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 976573,
+      "title": "Elemental",
+      "releaseYear": 2023,
+      "field": "credits.crew.Original Music Composer"
+    }
+  },
+  {
+    "id": "tmdb-976573-director",
+    "prompt": "Who directed the 2023 film Elemental?",
+    "answer": "Peter Sohn",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 976573,
+      "title": "Elemental",
+      "releaseYear": 2023,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-976573-release-year",
+    "prompt": "What year was Elemental released?",
+    "answer": "2023",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 976573,
+      "title": "Elemental",
+      "releaseYear": 2023,
+      "field": "release_date"
+    }
+  },
+  {
     "id": "tmdb-98-actor-character",
     "prompt": "In Gladiator, which actor plays Maximus?",
     "answer": "Russell Crowe",
@@ -11463,6 +15236,83 @@ export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
       "movieId": 98,
       "title": "Gladiator",
       "releaseYear": 2000,
+      "field": "release_date"
+    }
+  },
+  {
+    "id": "tmdb-9806-actor-character",
+    "prompt": "In The Incredibles, which actor plays Bob Parr?",
+    "answer": "Craig T. Nelson",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 9806,
+      "title": "The Incredibles",
+      "releaseYear": 2004,
+      "field": "credits.cast.character",
+      "personId": 8977
+    }
+  },
+  {
+    "id": "tmdb-9806-actor-character",
+    "prompt": "In The Incredibles, which actor plays Helen Parr?",
+    "answer": "Holly Hunter",
+    "category": "Movies",
+    "difficulty": "medium",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 9806,
+      "title": "The Incredibles",
+      "releaseYear": 2004,
+      "field": "credits.cast.character",
+      "personId": 18686
+    }
+  },
+  {
+    "id": "tmdb-9806-cast-pair-title",
+    "prompt": "Which 2004 film stars Craig T. Nelson and Holly Hunter?",
+    "answer": "The Incredibles",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 9806,
+      "title": "The Incredibles",
+      "releaseYear": 2004,
+      "field": "credits.cast"
+    }
+  },
+  {
+    "id": "tmdb-9806-director",
+    "prompt": "Who directed the 2004 film The Incredibles?",
+    "answer": "Brad Bird",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 9806,
+      "title": "The Incredibles",
+      "releaseYear": 2004,
+      "field": "credits.crew.Director"
+    }
+  },
+  {
+    "id": "tmdb-9806-release-year",
+    "prompt": "What year was The Incredibles released?",
+    "answer": "2004",
+    "category": "Movies",
+    "difficulty": "easy",
+    "verified": true,
+    "source": {
+      "provider": "tmdb",
+      "movieId": 9806,
+      "title": "The Incredibles",
+      "releaseYear": 2004,
       "field": "release_date"
     }
   },

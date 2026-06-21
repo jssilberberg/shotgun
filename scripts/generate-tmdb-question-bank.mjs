@@ -10,6 +10,8 @@ const TARGET_COUNT = numberFromEnv("QUESTION_BANK_TARGET", 750);
 const DISCOVER_PAGES = numberFromEnv("TMDB_DISCOVER_PAGES", 20);
 const REQUEST_DELAY_MS = numberFromEnv("TMDB_REQUEST_DELAY_MS", 260);
 const MIN_VOTE_COUNT = numberFromEnv("TMDB_MIN_VOTE_COUNT", 500);
+const RELEASE_YEAR_MIN = numberFromEnv("TMDB_RELEASE_YEAR_MIN", 1990);
+const RELEASE_YEAR_MAX = numberFromEnv("TMDB_RELEASE_YEAR_MAX", 2025);
 const LANGUAGE = process.env.TMDB_LANGUAGE ?? "en-US";
 
 if (!TMDB_API_KEY) {
@@ -28,6 +30,8 @@ for (let page = 1; page <= DISCOVER_PAGES && questionMap.size < TARGET_COUNT; pa
     page: String(page),
     sort_by: "popularity.desc",
     "vote_count.gte": String(MIN_VOTE_COUNT),
+    "primary_release_date.gte": `${RELEASE_YEAR_MIN}-01-01`,
+    "primary_release_date.lte": `${RELEASE_YEAR_MAX}-12-31`,
     with_original_language: "en"
   });
 
