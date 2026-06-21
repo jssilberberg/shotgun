@@ -1,0 +1,11 @@
+{
+  "name": "@shotgun/shared",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "node --check src/index.ts && node --check src/engine/gameEngine.ts && node --check src/grading/localDemoGrader.ts && node --check src/grading/mockGrader.ts && node --check src/questions/questionBank.ts && node --check src/questions/generatedBank.ts",
+    "lint": "node --check src/index.ts && node --check src/engine/gameEngine.ts && node --check src/grading/localDemoGrader.ts && node --check src/grading/mockGrader.ts && node --check src/questions/questionBank.ts && node --check src/questions/generatedBank.ts",
+    "test": "node --test"
+  }
+}

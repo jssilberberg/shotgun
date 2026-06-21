@@ -145,10 +145,13 @@ RESOLVE
 For an LLM trivia game, the host both **writing** and **grading** questions is the single biggest trust risk: if the model is confidently wrong about its own answer key, it will mark a correct player wrong and players may not know to challenge it. Requirements:
 
 - **Separate generation from grading state.** The correct answer is fixed at question-creation time and passed to the grader as ground truth; the grader does not re-derive it under social pressure from a player's answer.
-- **Verification before serving (preferred).** Questions come from a **vetted question bank**, or are model-generated then **self-checked** (e.g., a verification pass, or tool/web lookup) before being presented. Unverifiable questions are discarded.
+- **Data-grounded primary source.** The primary source is `TmdbMovieSource`, which builds movie questions from TMDB structured data using templates such as director, release year, cast-by-character, and Best Picture by year. The answer comes from the source data, not from a model.
+- **Provider selection and fallback.** The server selects a source through `createQuestionProvider` and `QUESTION_SOURCE` behind the `QuestionProvider` interface. Supported sources are `static`, `generated`, and `tmdb`. The static vetted bank remains the fallback when the TMDB key is missing or TMDB is unreachable.
+- **Difficulty is data-derived.** `TriviaQuestion` includes `difficulty: "easy" | "medium" | "hard"`. Difficulty is derived from data filters, not a model rating: easy favors high-popularity movies plus lead role/director questions; hard favors low-popularity titles, supporting cast, character names, exact years, or grosses.
+- **Recalibration hook.** `recordQuestionResult` logs per-question success rate for later empirical difficulty tuning. Difficulty is not yet wired into gameplay, and recorded results are not yet read back; both are future work.
 - **Generous, deferential ruling.** The grader accepts synonyms, partial credit, and phonetic/spoken approximations, and when a player **challenges** a ruling, the host defers quickly rather than digging in. The override buttons are the final backstop.
 - **Avoid ambiguous/contested questions.** Prefer questions with a single unambiguous answer; avoid "most/best/-est" framings prone to dispute.
-- **Difficulty + category honesty.** Generated questions should actually match the selected category and a reasonable difficulty, with no answer leaking into the prompt.
+- **Generated source is optional.** Generated questions must still match the selected category and difficulty, with no answer leaking into the prompt, and must be verified before serving.
 
 ---
 
