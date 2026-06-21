@@ -37,11 +37,11 @@ export function useSpeechController({
 }): SpeechController {
   const port = useMemo<SpeechPort>(() => createSpeechPort(), []);
   const [status, setStatus] = useState<SpeechStatus>(() => port.getStatus?.() ?? DEFAULT_STATUS);
-  const [isHandsFreeEnabled, setIsHandsFreeEnabled] = useState(false);
+  const [isHandsFreeEnabled, setIsHandsFreeEnabled] = useState(true);
   const lastSpokenText = useRef<string | null>(null);
   const emitRef = useRef(emit);
   const setErrorRef = useRef(setError);
-  const handsFreeRef = useRef(false);
+  const handsFreeRef = useRef(true);
   const canPassRef = useRef(canPass);
   const noSpeechRef = useRef<{ playerId: PlayerId; count: number } | null>(null);
 

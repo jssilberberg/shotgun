@@ -82,6 +82,37 @@ export function App() {
     setError
   });
 
+  const isSpeakingRef = useRef(false);
+  useEffect(() => {
+    isSpeakingRef.current = speech.status.isSpeaking;
+  }, [speech.status.isSpeaking]);
+
+  // Auto-advance: once a question resolves (answered correctly, or both players
+  // missed), let the host finish the reveal line, then move to the next question.
+  // Skips the terminal "complete" phase. Cancels if the state changes first.
+  useEffect(() => {
+    if (!state || state.phase !== "resolved") {
+      return;
+    }
+
+    let cancelled = false;
+    let timer = window.setTimeout(function advanceWhenQuiet() {
+      if (cancelled) {
+        return;
+      }
+      if (isSpeakingRef.current) {
+        timer = window.setTimeout(advanceWhenQuiet, 300);
+        return;
+      }
+      void emit({ type: "nextQuestion" });
+    }, 1500);
+
+    return () => {
+      cancelled = true;
+      window.clearTimeout(timer);
+    };
+  }, [state?.phase, state?.resolution?.questionNumber, emit]);
+
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!state || !answer.trim()) {
