@@ -98,7 +98,7 @@ shotgun/
       index.ts
 ```
 
-The `shared/` package is the single source of truth for the client/server contract. Keep it minimal: `GameState`, player/question/settings types, game event types, and API request/response types only. Do not put engine logic, UI types, provider-specific types, or browser-only/server-only details in `shared/`.
+The `shared/` package holds both the client/server contract types **and** the deterministic game engine — the single source of truth run by the client and exercised by the server tests. It contains: the contract types (`GameState`, player/question/settings types, events, API request/response), the engine (`src/engine`), the graders that are safe to run anywhere (`src/grading/Grader.ts`, `localDemoGrader.ts`, `mockGrader.ts`), and the question bank (`src/questions/generatedBank.ts`, `questionBank.ts`). Keep UI-only, provider-specific (TMDB/LLM SDK), and Node/server-only code out of `shared/`. The LLM grader and providers stay server-side.
 
 ## Commands
 
@@ -122,10 +122,10 @@ Use npm workspaces from the repo root.
 
 ## Hard Constraints
 
-- The server owns all game state: whose turn, phase, score, question number, current question, hints, settings, and transition history needed for the current game.
-- The client never computes game logic. It only renders server state and emits typed events.
-- Client/server communication uses the shared contract types from `shared/`.
-- The LLM is always accessed through an interface. Never call a provider SDK directly from feature code.
+- This is a single-shared-device game, so it is client-authoritative: the browser owns game state (whose turn, phase, score, question number, current question, hints, settings) and runs the deterministic engine directly. (Revised from the original server-authoritative design — serverless can't hold reliable in-memory state, and one device means there is no cross-client to sync.)
+- The deterministic engine in `shared/src/engine` is the single source of truth. The client imports and runs it; the server tests exercise the same code, so what ships is what's tested. Do not fork or reimplement the engine.
+- The only server-side runtime piece is the stateless `/api/grade` function (LLM grading), which keeps the API key off the client. It holds no game state.
+- The LLM is always accessed through an interface (`Grader`). Never call a provider SDK directly from feature code.
 - Models are configured, not hard-coded. The abstraction must allow different models for ruling/banter and question generation/verification.
 - Browser speech APIs are always accessed through interfaces. Never call Web Speech recognition or synthesis directly from feature components.
 - API keys are server-side only and must never be shipped to the client.

@@ -1,6 +1,5 @@
-import type { GameState, PlayerId } from "../../../shared/src/index.ts";
+import type { GameState, GradeContext, GradeResult, Grader, PlayerId } from "../../../shared/src/index.ts";
 import type { LlmClient, LlmMessage } from "../llm/LlmClient.ts";
-import type { GradeContext, GradeResult, Grader } from "./Grader.ts";
 import { parseHostGradeResult, type HostGradeResult } from "./hostSchema.ts";
 
 export interface LlmHostGraderOptions {

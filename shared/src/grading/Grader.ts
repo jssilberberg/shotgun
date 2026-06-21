@@ -1,4 +1,4 @@
-import type { GameState, GradeRuling, PlayerId, TriviaQuestion } from "../../../shared/src/index.ts";
+import type { GameState, GradeRuling, PlayerId, TriviaQuestion } from "../game.ts";
 
 export interface GradeContext {
   playerId: PlayerId;

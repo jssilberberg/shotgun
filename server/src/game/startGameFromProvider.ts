@@ -1,5 +1,4 @@
-import type { Difficulty, GameState } from "../../../shared/src/index.ts";
-import { GameEngine } from "../engine/gameEngine.ts";
+import type { Difficulty, GameEngine, GameState } from "../../../shared/src/index.ts";
 import type { QuestionProvider } from "../questions/QuestionProvider.ts";
 
 export interface ProviderStartGameOptions {

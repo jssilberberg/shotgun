@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "node src/server.ts",
     "test": "node --test test/gameEngine.test.ts test/llmHostGrader.test.ts test/questionProvider.test.ts test/configEnv.test.ts",
-    "build": "node --check src/app.ts && node --check src/server.ts && node --check src/engine/gameEngine.ts",
-    "lint": "node --check src/app.ts && node --check src/server.ts && node --check src/engine/gameEngine.ts && node --check test/gameEngine.test.ts && node --check test/llmHostGrader.test.ts && node --check test/questionProvider.test.ts && node --check test/configEnv.test.ts"
+    "build": "node --check src/app.ts && node --check src/server.ts",
+    "lint": "node --check src/app.ts && node --check src/server.ts && node --check test/gameEngine.test.ts && node --check test/llmHostGrader.test.ts && node --check test/questionProvider.test.ts && node --check test/configEnv.test.ts"
   },
   "dependencies": {
     "express": "^4.19.2"

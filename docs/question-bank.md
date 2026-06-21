@@ -1,6 +1,8 @@
 # Static movie question bank
 
-This project uses `serverless/questions.generated.js` as the production-safe question bank.
+This project ships `shared/src/questions/generatedBank.ts` as the production-safe question bank.
+The client imports it (via `getQuestions` in `shared/src/questions/questionBank.ts`) and runs the
+game engine in the browser, so no TMDB API key is needed at runtime.
 
 To generate a larger bank from TMDB, run this locally from the repo root:
 
@@ -19,21 +21,19 @@ TMDB_API_KEY=your_key_here \
 node scripts/generate-tmdb-question-bank.mjs
 ```
 
-The generator writes a JavaScript module at:
+The generator writes a TypeScript module at:
 
 ```txt
-serverless/questions.generated.js
+shared/src/questions/generatedBank.ts
 ```
 
 Commit that generated file after reviewing it:
 
 ```bash
-git add serverless/questions.generated.js
+git add shared/src/questions/generatedBank.ts
 git commit -m "Generate TMDB movie question bank"
 git push
 ```
-
-The live app imports that generated module through `serverless/shotgunGame.js`, so no TMDB API key is needed at runtime.
 
 ## Question templates currently generated
 

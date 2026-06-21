@@ -1,9 +1,8 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import type { Difficulty, PlayerId, TriviaQuestion } from "../../shared/src/index.ts";
-import { buildQuestionOrder, GameEngine } from "../src/engine/gameEngine.ts";
+import { buildQuestionOrder, GameEngine, MockGrader } from "../../shared/src/index.ts";
 import { startGameFromProvider } from "../src/game/startGameFromProvider.ts";
-import { MockGrader } from "../src/grading/mockGrader.ts";
 import type { QuestionProvider, QuestionQuery } from "../src/questions/QuestionProvider.ts";
 
 const questions: TriviaQuestion[] = [

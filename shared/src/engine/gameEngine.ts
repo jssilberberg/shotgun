@@ -1,17 +1,14 @@
+import type { GameEvent, PassEvent, RequestHintEvent, SubmitAnswerEvent } from "../events.ts";
 import type {
-  GameEvent,
   GameSettings,
   GameState,
   GradeRuling,
   ManualAward,
-  PassEvent,
   Player,
   PlayerId,
-  RequestHintEvent,
   ResolutionReason,
-  SubmitAnswerEvent,
   TriviaQuestion
-} from "../../../shared/src/index.ts";
+} from "../game.ts";
 import type { GradeResult, Grader } from "../grading/Grader.ts";
 
 export type Rng = () => number;

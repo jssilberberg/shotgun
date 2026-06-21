@@ -1,4 +1,10 @@
-export const QUESTIONS = [
+import type { TriviaQuestion } from "../game.ts";
+
+export type GeneratedQuestion = TriviaQuestion & {
+  source?: { provider: string; [key: string]: unknown };
+};
+
+export const GENERATED_QUESTIONS: GeneratedQuestion[] = [
   {
     id: "movie-001",
     prompt: "What 1975 movie made audiences afraid to go back in the water?",

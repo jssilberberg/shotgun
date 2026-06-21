@@ -1,4 +1,4 @@
-import type { GradeRuling } from "../../../shared/src/index.ts";
+import type { GradeRuling } from "../game.ts";
 import type { GradeContext, GradeResult, Grader } from "./Grader.ts";
 
 export class MockGrader implements Grader {
