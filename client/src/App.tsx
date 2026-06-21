@@ -74,8 +74,12 @@ export function App() {
     activePlayerId: state?.onTheClockPlayerId ?? null,
     // Keep listening once a question resolves so "next"/"reveal" work hands-free.
     // Spoken answers in the resolved phase are ignored server-side. The mic goes
-    // off at game over (the closing banter still speaks).
-    canListen: state !== null && state.phase !== "complete",
+    // off at game over (the closing banter still speaks). It also pauses while an
+    // event is processing (isBusy): otherwise, right after a voice answer the mic
+    // would briefly re-open for the player who just answered (the turn hasn't
+    // flipped yet), and that stale session would hijack the steal — so the
+    // stealer's answer never registers.
+    canListen: state !== null && state.phase !== "complete" && !isBusy,
     // Silence only becomes a pass while a player is actually on the clock.
     canPass: state?.phase === "primary" || state?.phase === "steal",
     emit,
